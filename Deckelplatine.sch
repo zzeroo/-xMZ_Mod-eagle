@@ -17627,62 +17627,6 @@ Source: www.vishay.com .. rwm.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="fuse-schurter">
-<packages>
-<package name="3101.0040">
-<wire x1="5.3" y1="-6.25" x2="-5.3" y2="-6.25" width="0.127" layer="21"/>
-<wire x1="-5.3" y1="-6.25" x2="-6.25" y2="-5.3" width="0.127" layer="21" curve="-90"/>
-<wire x1="-6.25" y1="-5.3" x2="-6.25" y2="5.3" width="0.127" layer="21"/>
-<wire x1="-6.25" y1="5.3" x2="-5.3" y2="6.25" width="0.127" layer="21" curve="-90"/>
-<wire x1="-5.3" y1="6.25" x2="5.3" y2="6.25" width="0.127" layer="21"/>
-<wire x1="5.3" y1="6.25" x2="6.25" y2="5.3" width="0.127" layer="21" curve="-90"/>
-<wire x1="6.25" y1="5.3" x2="6.25" y2="-5.3" width="0.127" layer="21"/>
-<wire x1="6.25" y1="-5.3" x2="5.3" y2="-6.25" width="0.127" layer="21" curve="-90"/>
-<pad name="1" x="-2.5" y="3.81" drill="1.3" shape="long"/>
-<pad name="2" x="2.5" y="4" drill="1.3" shape="long"/>
-<pad name="3" x="-2.5" y="-3.5" drill="1.3" shape="long"/>
-<pad name="4" x="2.5" y="-3.5" drill="1.3" shape="long"/>
-<circle x="0" y="0" radius="6.25" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="5.85" width="0.05" layer="21"/>
-<wire x1="-3" y1="0.9" x2="3" y2="0.9" width="0.127" layer="21"/>
-<wire x1="3" y1="0.9" x2="3" y2="-0.9" width="0.127" layer="21"/>
-<wire x1="3" y1="-0.9" x2="-3" y2="-0.9" width="0.127" layer="21"/>
-<wire x1="-3" y1="-0.9" x2="-3" y2="0.9" width="0.127" layer="21"/>
-<text x="-6" y="6.5" size="1.27" layer="25">&gt;Name</text>
-<text x="-6" y="-7.5" size="1.27" layer="27">&gt;Value</text>
-</package>
-</packages>
-<symbols>
-<symbol name="3101.0040">
-<wire x1="-3.58" y1="1.04" x2="-3.58" y2="-1.04" width="0.254" layer="94"/>
-<wire x1="3.58" y1="1.04" x2="3.58" y2="-1.04" width="0.254" layer="94"/>
-<wire x1="-3.58" y1="1.04" x2="3.58" y2="1.04" width="0.254" layer="94"/>
-<wire x1="-3.58" y1="-1.04" x2="3.58" y2="-1.04" width="0.254" layer="94"/>
-<text x="-3.5" y="1.5" size="1.27" layer="95">&gt;Name</text>
-<text x="-3.5" y="-2.5" size="1.27" layer="96">&gt;Value</text>
-<pin name="P$1" x="-5.08" y="0" visible="off" length="middle" direction="pas"/>
-<pin name="P$2" x="5.08" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="FPG4-3101.0040" prefix="F">
-<gates>
-<gate name="G$1" symbol="3101.0040" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="3101.0040">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="testpad">
 <description>&lt;b&gt;Test Pins/Pads&lt;/b&gt;&lt;p&gt;
 Cream on SMD OFF.&lt;br&gt;
@@ -18374,6 +18318,89 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="fuse-littlefuse">
+<packages>
+<package name="01110005MR">
+<description>&lt;h1&gt;Fuse Holder&lt;/h1&gt;
+&lt;h2&gt;For 5mm Diameter Fuses Automatic Insertion Type&lt;/h2&gt;
+&lt;h3&gt;From  Littelfuse&lt;/h3&gt;
+
+&lt;p&gt;
+CatalogNumber: &lt;b&gt;0111 0005MR&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href="http://de.farnell.com/webapp/wcs/stores/servlet/Search?catalogId=15001&amp;langId=-3&amp;storeId=10161&amp;gs=true&amp;st=0111%200005MR"&gt;Farnell&lt;/a&gt;
+&lt;/p&gt;</description>
+<pad name="1A" x="-10" y="0" drill="1.1" diameter="2.54" shape="long" rot="R90"/>
+<pad name="1B" x="-5" y="0" drill="1.1" diameter="2.54" shape="long" rot="R90"/>
+<pad name="2B" x="5" y="0" drill="1.1" diameter="2.54" shape="long" rot="R90"/>
+<pad name="2A" x="10" y="0" drill="1.1" diameter="2.54" shape="long" rot="R90"/>
+<wire x1="4.85" y1="3" x2="4.85" y2="-3" width="0.05" layer="21"/>
+<wire x1="4.85" y1="-3" x2="10.15" y2="-3" width="0.05" layer="21"/>
+<wire x1="10.15" y1="-3" x2="10.15" y2="3" width="0.05" layer="21"/>
+<wire x1="10.15" y1="3" x2="4.85" y2="3" width="0.05" layer="21"/>
+<wire x1="-10.15" y1="3" x2="-10.15" y2="-3" width="0.05" layer="21"/>
+<wire x1="-10.15" y1="-3" x2="-4.85" y2="-3" width="0.05" layer="21"/>
+<wire x1="-4.85" y1="-3" x2="-4.85" y2="3" width="0.05" layer="21"/>
+<wire x1="-4.85" y1="3" x2="-10.15" y2="3" width="0.05" layer="21"/>
+<wire x1="-10" y1="2.5" x2="-10" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-10" y1="-2.5" x2="10" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="10" y1="-2.5" x2="10" y2="2.5" width="0.127" layer="21"/>
+<wire x1="10" y1="2.5" x2="-10" y2="2.5" width="0.127" layer="21"/>
+<text x="-4.31" y="3.175" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-4.31" y="-5.08" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="FUSED">
+<wire x1="-3.81" y1="-0.762" x2="3.81" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0.762" x2="-3.81" y2="0.762" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-0.762" x2="3.81" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0.762" x2="-3.81" y2="-0.762" width="0.254" layer="94"/>
+<text x="-3.81" y="1.397" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-2.921" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="1A" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2A" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2B" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="01110005MR">
+<description>&lt;h1&gt;Fuse Holder&lt;/h1&gt;
+&lt;h2&gt;For 5mm Diameter Fuses Automatic Insertion Type&lt;/h2&gt;
+&lt;h3&gt;From  Littelfuse&lt;/h3&gt;
+
+&lt;p&gt;
+CatalogNumber: &lt;b&gt;0111 0005MR&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href="http://de.farnell.com/webapp/wcs/stores/servlet/Search?catalogId=15001&amp;langId=-3&amp;storeId=10161&amp;gs=true&amp;st=0111%200005MR"&gt;Farnell&lt;/a&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FUSED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="01110005MR">
+<connects>
+<connect gate="G$1" pin="1A" pad="1A"/>
+<connect gate="G$1" pin="1B" pad="1B"/>
+<connect gate="G$1" pin="2A" pad="2A"/>
+<connect gate="G$1" pin="2B" pad="2B"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="OC_FARNELL" value="1155771" constant="no"/>
+<attribute name="OC_FARNELL_ALTERNATIVE" value="01110005MR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="Stefan Müller"/>
@@ -18381,7 +18408,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 <attribute name="PROJEKTNAME" value="xMZ_Mod Touch"/>
 <attribute name="REV" value="A"/>
-<attribute name="VERSION" value="0.1"/>
+<attribute name="VERSION" value="0.1.0"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -18753,7 +18780,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
 <part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
 <part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
-<part name="F1" library="fuse-schurter" deviceset="FPG4-3101.0040" device=""/>
+<part name="F1" library="fuse-littlefuse" deviceset="01110005MR" device=""/>
 <part name="TP1" library="testpad" deviceset="TPS" device="B1,27" value="TPSB1,27"/>
 <part name="TP2" library="testpad" deviceset="TPS" device="B1,27" value="TPSB1,27"/>
 </parts>
@@ -20359,9 +20386,12 @@ des Banana Pro!</text>
 </net>
 <net name="ACCU+" class="0">
 <segment>
-<pinref part="F1" gate="G$1" pin="P$1"/>
+<pinref part="F1" gate="G$1" pin="1A"/>
 <wire x1="66.04" y1="172.72" x2="60.96" y2="172.72" width="0.1524" layer="91"/>
 <label x="60.96" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="F1" gate="G$1" pin="1B"/>
+<wire x1="66.04" y1="172.72" x2="68.58" y2="172.72" width="0.1524" layer="91"/>
+<junction x="66.04" y="172.72"/>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="P4.2"/>
@@ -20377,12 +20407,15 @@ des Banana Pro!</text>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="172.72" x2="81.28" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="172.72" x2="81.28" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="F1" gate="G$1" pin="P$2"/>
+<pinref part="F1" gate="G$1" pin="2A"/>
 <wire x1="76.2" y1="172.72" x2="81.28" y2="172.72" width="0.1524" layer="91"/>
 <junction x="81.28" y="172.72"/>
 <wire x1="81.28" y1="172.72" x2="81.28" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="144.78" x2="86.36" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="F1" gate="G$1" pin="2B"/>
+<wire x1="76.2" y1="172.72" x2="73.66" y2="172.72" width="0.1524" layer="91"/>
+<junction x="76.2" y="172.72"/>
 </segment>
 </net>
 <net name="N$4" class="0">
