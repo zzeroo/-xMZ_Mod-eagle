@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,16 +53,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -11984,6 +11984,35 @@ Special BOM entry-only specifier field.</description>
 <text x="-6.5" y="7" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="-6.4544" y="-8.135" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
 </package>
+<package name="SM_RADIAL_10MM">
+<description>Size Code F8</description>
+<smd name="1" x="-2.921" y="0" dx="4.4" dy="1.9" layer="1"/>
+<smd name="2" x="2.921" y="0" dx="4.4" dy="1.9" layer="1"/>
+<wire x1="5.15" y1="0.889" x2="5.15" y2="5.5" width="0.1524" layer="21"/>
+<wire x1="-5.15" y1="-0.889" x2="-5.15" y2="-2.1336" width="0.1524" layer="21"/>
+<wire x1="-5.15" y1="-2.1336" x2="-5.15" y2="-5.5" width="0.1524" layer="21"/>
+<wire x1="-5.15" y1="2.1336" x2="-2.1336" y2="5.5" width="0.1524" layer="21"/>
+<wire x1="-5.15" y1="-2.1336" x2="-2.1336" y2="-5.5" width="0.1524" layer="21"/>
+<wire x1="-5.15" y1="-5.5" x2="-2.1336" y2="-5.5" width="0.1524" layer="21"/>
+<wire x1="-2.1336" y1="-5.5" x2="5.15" y2="-5.5" width="0.1524" layer="21"/>
+<wire x1="5.15" y1="-5.5" x2="5.15" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="5.15" y1="5.5" x2="-2.1336" y2="5.5" width="0.1524" layer="21"/>
+<wire x1="-2.1336" y1="5.5" x2="-5.15" y2="5.5" width="0.1524" layer="21"/>
+<wire x1="-5.15" y1="5.5" x2="-5.15" y2="2.1336" width="0.1524" layer="21"/>
+<wire x1="-5.15" y1="2.1336" x2="-5.15" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-5.15" y1="2.1336" x2="-2.1336" y2="5.5" width="0.1524" layer="25"/>
+<wire x1="-5.15" y1="-2.1336" x2="-2.1336" y2="-5.5" width="0.1524" layer="25"/>
+<wire x1="-5.15" y1="-5.5" x2="-2.1336" y2="-5.5" width="0.1524" layer="25"/>
+<wire x1="-2.1336" y1="-5.5" x2="5.15" y2="-5.5" width="0.1524" layer="25"/>
+<wire x1="5.15" y1="-5.5" x2="5.15" y2="5.5" width="0.1524" layer="25"/>
+<wire x1="5.15" y1="5.5" x2="-2.1336" y2="5.5" width="0.1524" layer="25"/>
+<wire x1="-2.1336" y1="5.5" x2="-5.15" y2="5.5" width="0.1524" layer="25"/>
+<wire x1="-5.15" y1="5.5" x2="-5.15" y2="2.1336" width="0.1524" layer="25"/>
+<text x="-5" y="6" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-5" y="-7" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
+<wire x1="-5.15" y1="2.1336" x2="-5.15" y2="-2.1336" width="0.1524" layer="25"/>
+<wire x1="-5.15" y1="-2.1336" x2="-5.15" y2="-5.5" width="0.1524" layer="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="WB_CAPACITOR">
@@ -11999,8 +12028,8 @@ Special BOM entry-only specifier field.</description>
 <symbol name="WB_CAP_POLARIZED">
 <pin name="+" x="4.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <pin name="-" x="-3.12" y="0" visible="off" length="short" direction="pas"/>
-<text x="-3.9958" y="2.5104" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
-<text x="-3.6642" y="-4.5414" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
+<text x="-3.9958" y="2.5104" size="1.778" layer="95" rot="SR0">&gt;NAME</text>
+<text x="-3.6642" y="-4.5414" size="1.778" layer="96" rot="SR0">&gt;VALUE</text>
 <wire x1="0.5" y1="-2" x2="0.5" y2="2" width="0.254" layer="94"/>
 <wire x1="0.5" y1="2" x2="2" y2="2" width="0.254" layer="94"/>
 <wire x1="2" y1="2" x2="2" y2="-2" width="0.254" layer="94"/>
@@ -12044,8 +12073,8 @@ Special BOM entry-only specifier field.</description>
 <wire x1="-2.54" y1="-0.1778" x2="-2.54" y2="0" width="0" layer="94" curve="-53"/>
 <wire x1="0" y1="-0.1778" x2="0" y2="0" width="0" layer="94" curve="-53"/>
 <wire x1="2.54" y1="-0.1778" x2="2.54" y2="0" width="0" layer="94" curve="-53"/>
-<text x="-7.2244" y="2.6736" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
-<text x="-7.1642" y="-3.5414" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
+<text x="-7.2244" y="2.6736" size="1.778" layer="95" rot="SR0">&gt;NAME</text>
+<text x="-7.1642" y="-3.5414" size="1.778" layer="96" rot="SR0">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -12115,6 +12144,15 @@ Special BOM entry-only specifier field.</description>
 <attribute name="VDC" value="16.0" constant="no"/>
 <attribute name="VENDOR" value="Panasonic" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="SM_RADIAL_10MM" package="SM_RADIAL_10MM">
+<connects>
+<connect gate="A" pin="+" pad="1"/>
+<connect gate="A" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -18631,38 +18669,34 @@ CatalogNumber: &lt;b&gt;0111 0005MR&lt;/b&gt;
 </part>
 <part name="U1" library="NATIONAL SEMICONDUCTOR" deviceset="LM2676" device="S">
 <attribute name="MF" value="TEXAS INSTRUMENTS"/>
-<attribute name="MPN" value="LM2676S-5.0/NOPB"/>
-<attribute name="OC_FARNELL" value="1564684"/>
-<attribute name="PARTNO" value="LM 2676 S5,0"/>
+<attribute name="MPN" value="LM2676SX-5.0/NOPB"/>
+<attribute name="OC_FARNELL" value="2435897"/>
 </part>
-<part name="C4" library="AcceleratedDesigns_Lib" deviceset="08053C104KAT2A" device="" value="0.1uF">
-<attribute name="MF" value="KEMET"/>
-<attribute name="MPN" value="T495X475M050ATE300"/>
-<attribute name="OC_FARNELL" value="1692407"/>
-<attribute name="PARTNO" value="X7R-G1210 4,7"/>
+<part name="C4" library="AcceleratedDesigns_Lib" deviceset="08053C104KAT2A" device="" value="100.0 nF">
+<attribute name="MF" value="AVX"/>
+<attribute name="MPN" value="08053C104KAT2A"/>
+<attribute name="OC_FARNELL" value="1740665"/>
 </part>
 <part name="C5" library="AcceleratedDesigns_Lib" deviceset="GRM216R71H103KA01D" device="" value="0.01uF">
-<attribute name="MF" value="AVX"/>
-<attribute name="MPN" value="0402YC103KAT2A"/>
-<attribute name="OC_FARNELL" value="1327662"/>
-<attribute name="PARTNO" value="X7R-G0805 10N"/>
+<attribute name="MF" value="MURATA"/>
+<attribute name="MPN" value="GRM216R71H103KA01D"/>
+<attribute name="OC_FARNELL" value="1828948"/>
 </part>
-<part name="C6" library="AcceleratedDesigns_Lib" deviceset="16SVP180M" device="" value="100uF 16v">
+<part name="C6" library="AcceleratedDesigns_Lib" deviceset="16SVP180M" device="SM_RADIAL_10MM" value="180.0 uF">
 <attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
-<attribute name="MPN" value="EEEFT1V561AP"/>
-<attribute name="OC_FARNELL" value="1868420"/>
+<attribute name="MPN" value="16SVP180MX"/>
+<attribute name="OC_FARNELL" value="2354685"/>
 <attribute name="PARTNO" value="RAD FC 560/35"/>
 </part>
 <part name="L1" library="AcceleratedDesigns_Lib" deviceset="SRR1280-150M" device="">
-<attribute name="MF" value="COILCRAFT"/>
-<attribute name="MPN" value="DO5022P-333MLD"/>
-<attribute name="OC_FARNELL" value="2287334"/>
+<attribute name="MF" value="BOURNS"/>
+<attribute name="MPN" value="SRR1280-150M"/>
+<attribute name="OC_FARNELL" value="2336471"/>
 </part>
-<part name="C2" library="AcceleratedDesigns_Lib" deviceset="GRM21BR61E475MA12L" device="" value="0.1uF">
-<attribute name="MF" value="KEMET"/>
-<attribute name="MPN" value="T495X475M050ATE300"/>
-<attribute name="OC_FARNELL" value="1692407"/>
-<attribute name="PARTNO" value="X7R-G1210 4,7"/>
+<part name="C2" library="AcceleratedDesigns_Lib" deviceset="GRM21BR61E475MA12L" device="" value="4.7 uF">
+<attribute name="MF" value="MURATA"/>
+<attribute name="MPN" value="GRM21BR61E475MA12L"/>
+<attribute name="OC_FARNELL" value="2362111"/>
 </part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
@@ -18700,11 +18734,10 @@ CatalogNumber: &lt;b&gt;0111 0005MR&lt;/b&gt;
 <attribute name="OC_FARNELL" value="2112833"/>
 <attribute name="PARTNO" value="SMD TAN.0,1/35"/>
 </part>
-<part name="C1" library="AcceleratedDesigns_Lib" deviceset="GRM21BR61E475MA12L" device="" value="0.1uF">
-<attribute name="MF" value="KEMET"/>
-<attribute name="MPN" value="T495X475M050ATE300"/>
-<attribute name="OC_FARNELL" value="1692407"/>
-<attribute name="PARTNO" value="X7R-G1210 4,7"/>
+<part name="C1" library="AcceleratedDesigns_Lib" deviceset="GRM21BR61E475MA12L" device="" value="4.7 uF">
+<attribute name="MF" value="MURATA"/>
+<attribute name="MPN" value="GRM21BR61E475MA12L"/>
+<attribute name="OC_FARNELL" value="2362111"/>
 </part>
 <part name="J1" library="RA-GAS Projekte LTD" deviceset="52808-2570" device="">
 <attribute name="MF" value="MOLEX"/>
@@ -18721,8 +18754,17 @@ CatalogNumber: &lt;b&gt;0111 0005MR&lt;/b&gt;
 <attribute name="MPN" value="233-502."/>
 <attribute name="OC_FARNELL" value="1777096"/>
 </part>
-<part name="BOM-PART1" library="bom" deviceset="BOM-PART" device=""/>
-<part name="BOM-PART2" library="bom" deviceset="BOM-PART" device=""/>
+<part name="STECKVERBINDERGEHÄUSE" library="bom" deviceset="BOM-PART" device="">
+<attribute name="DESC" value="XHP-2  STECKVERBINDERGEHÄUSE, 2POL"/>
+<attribute name="OC_FARNELL" value="1516264"/>
+<attribute name="PARTNO" value="1516264"/>
+</part>
+<part name="CRIMPKONTAKTE" library="bom" deviceset="BOM-PART" device="">
+<attribute name="DESC" value="CRIMPKONTAKTE SERIE XH 0.08MM2-0.33MM2 "/>
+<attribute name="OC_FARNELL" value="1516301"/>
+<attribute name="PARTNO" value="CRIMPKONTAKTE"/>
+<attribute name="QTY" value="2"/>
+</part>
 <part name="D2" library="AcceleratedDesigns_Lib" deviceset="B340LB-13-F" device="" value="450mV">
 <attribute name="MF" value="DIODES INC."/>
 <attribute name="MPN" value="B340LB-13-F"/>
@@ -18776,13 +18818,40 @@ CatalogNumber: &lt;b&gt;0111 0005MR&lt;/b&gt;
 <attribute name="MPN" value="LL4005G"/>
 <attribute name="OC_FARNELL" value="1625106"/>
 </part>
-<part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
-<part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
-<part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
-<part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
-<part name="F1" library="fuse-littlefuse" deviceset="01110005MR" device=""/>
-<part name="TP1" library="testpad" deviceset="TPS" device="B1,27" value="TPSB1,27"/>
-<part name="TP2" library="testpad" deviceset="TPS" device="B1,27" value="TPSB1,27"/>
+<part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.3">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.3">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.3">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.3">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="F1" library="fuse-littlefuse" deviceset="01110005MR" device="">
+<attribute name="MF" value="LITTELFUSE"/>
+<attribute name="MPN" value="01110005MR"/>
+</part>
+<part name="TP1" library="testpad" deviceset="TPS" device="B1,27" value="TPSB1,27">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP2" library="testpad" deviceset="TPS" device="B1,27" value="TPSB1,27">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -18796,8 +18865,6 @@ CatalogNumber: &lt;b&gt;0111 0005MR&lt;/b&gt;
 <text x="350.52" y="228.6" size="2.54" layer="94" font="vector">Connector LED</text>
 <text x="274.32" y="243.84" size="2.54" layer="94" font="vector">Controll LED</text>
 <text x="271.78" y="119.38" size="2.54" layer="94" font="vector">Controll Relais</text>
-<text x="347.98" y="142.24" size="1.778" layer="97">TODO: Connector finden</text>
-<text x="332.74" y="78.74" size="1.778" layer="97">TODO: Connector finden</text>
 <text x="12.7" y="238.76" size="2.54" layer="94" font="vector">Connector 12VDC &amp; ACCU</text>
 <text x="48.26" y="180.34" size="2.1844" layer="94" ratio="12">UPS Supply</text>
 <text x="115.57" y="159.512" size="1.778" layer="94" ratio="10">Battery Monitor</text>
@@ -18805,7 +18872,7 @@ CatalogNumber: &lt;b&gt;0111 0005MR&lt;/b&gt;
 <text x="73.66" y="246.38" size="2.1844" layer="94" ratio="12">Primary Supply</text>
 <text x="160.02" y="246.38" size="2.1844" layer="94" ratio="12">Logic Supply</text>
 <text x="12.7" y="203.2" size="2.032" layer="94" font="vector">Connector Banana Pro Power SATA</text>
-<text x="68.58" y="177.8" size="1.778" layer="91">630mA t</text>
+<text x="68.58" y="177.8" size="1.778" layer="91">630mA</text>
 <text x="12.5984" y="224.4852" size="1.016" layer="94" font="vector">ACCU-</text>
 <text x="101.8286" y="142.8242" size="0.889" layer="94">B</text>
 <text x="108.204" y="147.8026" size="0.889" layer="94">C</text>
@@ -19044,7 +19111,6 @@ des Banana Pro!</text>
 <instance part="IC6" gate="P" x="254" y="149.86"/>
 <instance part="IC5" gate="P" x="254" y="185.42"/>
 <instance part="U1" gate="G$1" x="172.72" y="228.6">
-<attribute name="PARTNO" x="172.72" y="228.6" size="1.778" layer="96" display="off"/>
 <attribute name="OC_FARNELL" x="172.72" y="228.6" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="172.72" y="228.6" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="172.72" y="228.6" size="1.778" layer="96" display="off"/>
@@ -19055,7 +19121,6 @@ des Banana Pro!</text>
 <attribute name="OC_FARNELL" x="152.4" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="152.4" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="152.4" y="218.44" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="152.4" y="218.44" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="C5" gate="A" x="203.2" y="228.6" smashed="yes" rot="MR90">
 <attribute name="NAME" x="203.581" y="230.124" size="1.778" layer="95" rot="MR90"/>
@@ -19063,7 +19128,6 @@ des Banana Pro!</text>
 <attribute name="OC_FARNELL" x="203.2" y="228.6" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MF" x="203.2" y="228.6" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="203.2" y="228.6" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="PARTNO" x="203.2" y="228.6" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="C6" gate="A" x="226.06" y="217.17" rot="R90">
 <attribute name="PARTNO" x="226.06" y="217.17" size="1.778" layer="96" rot="R90" display="off"/>
@@ -19082,7 +19146,6 @@ des Banana Pro!</text>
 <attribute name="OC_FARNELL" x="147.32" y="226.06" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="147.32" y="226.06" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="147.32" y="226.06" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="147.32" y="226.06" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND8" gate="1" x="254" y="210.82" smashed="yes">
 <attribute name="VALUE" x="251.46" y="208.28" size="1.778" layer="96"/>
@@ -19148,7 +19211,6 @@ des Banana Pro!</text>
 <attribute name="OC_FARNELL" x="137.16" y="226.06" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="137.16" y="226.06" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="137.16" y="226.06" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="137.16" y="226.06" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="J1" gate="J1" x="365.76" y="187.96">
 <attribute name="OC_FARNELL" x="365.76" y="187.96" size="1.27" layer="96" display="off"/>
@@ -19165,8 +19227,12 @@ des Banana Pro!</text>
 <attribute name="MF" x="27.94" y="195.58" size="1.27" layer="96" display="off"/>
 <attribute name="MPN" x="27.94" y="195.58" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="BOM-PART1" gate="G$1" x="12.7" y="33.02"/>
-<instance part="BOM-PART2" gate="G$1" x="12.7" y="20.32"/>
+<instance part="STECKVERBINDERGEHÄUSE" gate="G$1" x="12.7" y="40.64">
+<attribute name="OC_FARNELL" x="12.7" y="40.64" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="CRIMPKONTAKTE" gate="G$1" x="12.7" y="25.4">
+<attribute name="OC_FARNELL" x="12.7" y="25.4" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="D2" gate="A" x="205.74" y="216.25" smashed="yes">
 <attribute name="NAME" x="204.47" y="213.71" size="2" layer="95" rot="R90"/>
 <attribute name="VALUE" x="209.042" y="213.71" size="2" layer="96" rot="R90"/>
@@ -19238,13 +19304,40 @@ des Banana Pro!</text>
 <attribute name="MF" x="88.9" y="180.34" size="1.27" layer="96" display="off"/>
 <attribute name="MPN" x="88.9" y="180.34" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="H1" gate="G$1" x="45.72" y="38.1"/>
-<instance part="H2" gate="G$1" x="45.72" y="30.48"/>
-<instance part="H3" gate="G$1" x="45.72" y="22.86"/>
-<instance part="H4" gate="G$1" x="45.72" y="15.24"/>
-<instance part="F1" gate="G$1" x="71.12" y="172.72"/>
-<instance part="TP1" gate="G$1" x="78.74" y="38.1"/>
-<instance part="TP2" gate="G$1" x="78.74" y="27.94"/>
+<instance part="H1" gate="G$1" x="66.04" y="43.18">
+<attribute name="OC_FARNELL" x="66.04" y="43.18" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="66.04" y="43.18" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="66.04" y="43.18" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="H2" gate="G$1" x="66.04" y="35.56">
+<attribute name="OC_FARNELL" x="66.04" y="35.56" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="66.04" y="35.56" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="66.04" y="35.56" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="H3" gate="G$1" x="66.04" y="27.94">
+<attribute name="OC_FARNELL" x="66.04" y="27.94" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="66.04" y="27.94" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="66.04" y="27.94" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="H4" gate="G$1" x="66.04" y="20.32">
+<attribute name="OC_FARNELL" x="66.04" y="20.32" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="66.04" y="20.32" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="66.04" y="20.32" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="F1" gate="G$1" x="71.12" y="172.72">
+<attribute name="MF" x="71.12" y="172.72" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="71.12" y="172.72" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="TP1" gate="G$1" x="99.06" y="43.18">
+<attribute name="OC_FARNELL" x="99.06" y="43.18" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="99.06" y="43.18" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="99.06" y="43.18" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="TP2" gate="G$1" x="99.06" y="33.02">
+<attribute name="OC_FARNELL" x="99.06" y="33.02" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="99.06" y="33.02" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="99.06" y="33.02" size="1.27" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19434,6 +19527,11 @@ des Banana Pro!</text>
 <pinref part="JP1" gate="A" pin="40"/>
 <wire x1="40.64" y1="58.42" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
 <label x="48.26" y="58.42" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="10"/>
+<wire x1="40.64" y1="96.52" x2="48.26" y2="96.52" width="0.1524" layer="91"/>
+<label x="48.26" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -19726,9 +19824,8 @@ des Banana Pro!</text>
 <label x="125.7046" y="107.4166" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="10"/>
-<wire x1="40.64" y1="96.52" x2="48.26" y2="96.52" width="0.1524" layer="91"/>
-<label x="48.26" y="96.52" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="12"/>
+<wire x1="40.64" y1="93.98" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
 <label x="48.26" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -20375,8 +20472,8 @@ des Banana Pro!</text>
 </segment>
 <segment>
 <pinref part="TP1" gate="G$1" pin="PP"/>
-<wire x1="78.74" y1="35.56" x2="83.82" y2="35.56" width="0.1524" layer="91"/>
-<label x="83.82" y="35.56" size="1.27" layer="95" xref="yes"/>
+<wire x1="99.06" y1="40.64" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
+<label x="104.14" y="40.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="15"/>
@@ -20443,19 +20540,13 @@ des Banana Pro!</text>
 </segment>
 <segment>
 <pinref part="TP2" gate="G$1" pin="PP"/>
-<wire x1="78.74" y1="25.4" x2="83.82" y2="25.4" width="0.1524" layer="91"/>
-<label x="83.82" y="25.4" size="1.27" layer="95" xref="yes"/>
+<wire x1="99.06" y1="30.48" x2="104.14" y2="30.48" width="0.1524" layer="91"/>
+<label x="104.14" y="30.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="17"/>
 <wire x1="33.02" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
 <label x="25.4" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$1415" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="12"/>
-<wire x1="40.64" y1="93.98" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
