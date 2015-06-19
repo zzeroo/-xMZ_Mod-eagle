@@ -11911,8 +11911,8 @@ Special BOM entry-only specifier field.</description>
 <text x="-4.5" y="-6" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="SMB">
-<smd name="1" x="-2.0447" y="0" dx="1.8034" dy="2.0574" layer="1"/>
-<smd name="2" x="2.0447" y="0" dx="1.8034" dy="2.0574" layer="1"/>
+<smd name="C" x="-2.0447" y="0" dx="1.8034" dy="2.0574" layer="1"/>
+<smd name="A" x="2.0447" y="0" dx="1.8034" dy="2.0574" layer="1"/>
 <wire x1="-2.3368" y1="-1.016" x2="-2.3368" y2="-0.9906" width="0.1524" layer="25"/>
 <wire x1="-2.3368" y1="-0.9906" x2="-2.3368" y2="0.9906" width="0.1524" layer="25"/>
 <wire x1="-2.3368" y1="0.9906" x2="-2.3368" y2="1.016" width="0.1524" layer="25"/>
@@ -11989,20 +11989,20 @@ OC Farnell: 	2288501</description>
 </package>
 <package name="SM_RADIAL_10MM">
 <description>Size Code F8</description>
-<smd name="1" x="-2.921" y="0" dx="4.4" dy="1.9" layer="1"/>
-<smd name="2" x="2.921" y="0" dx="4.4" dy="1.9" layer="1"/>
-<wire x1="5.15" y1="0.889" x2="5.15" y2="5.5" width="0.1524" layer="21"/>
-<wire x1="-5.15" y1="-0.889" x2="-5.15" y2="-2.1336" width="0.1524" layer="21"/>
+<smd name="1" x="-4.35" y="0" dx="4.4" dy="1.9" layer="1"/>
+<smd name="2" x="4.35" y="0" dx="4.4" dy="1.9" layer="1"/>
+<wire x1="5.15" y1="1.3" x2="5.15" y2="5.5" width="0.1524" layer="21"/>
+<wire x1="-5.15" y1="-1.3" x2="-5.15" y2="-2.1336" width="0.1524" layer="21"/>
 <wire x1="-5.15" y1="-2.1336" x2="-5.15" y2="-5.5" width="0.1524" layer="21"/>
 <wire x1="-5.15" y1="2.1336" x2="-2.1336" y2="5.5" width="0.1524" layer="21"/>
 <wire x1="-5.15" y1="-2.1336" x2="-2.1336" y2="-5.5" width="0.1524" layer="21"/>
 <wire x1="-5.15" y1="-5.5" x2="-2.1336" y2="-5.5" width="0.1524" layer="21"/>
 <wire x1="-2.1336" y1="-5.5" x2="5.15" y2="-5.5" width="0.1524" layer="21"/>
-<wire x1="5.15" y1="-5.5" x2="5.15" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="5.15" y1="-5.5" x2="5.15" y2="-1.3" width="0.1524" layer="21"/>
 <wire x1="5.15" y1="5.5" x2="-2.1336" y2="5.5" width="0.1524" layer="21"/>
 <wire x1="-2.1336" y1="5.5" x2="-5.15" y2="5.5" width="0.1524" layer="21"/>
 <wire x1="-5.15" y1="5.5" x2="-5.15" y2="2.1336" width="0.1524" layer="21"/>
-<wire x1="-5.15" y1="2.1336" x2="-5.15" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-5.15" y1="2.1336" x2="-5.15" y2="1.3" width="0.1524" layer="21"/>
 <wire x1="-5.15" y1="2.1336" x2="-2.1336" y2="5.5" width="0.1524" layer="25"/>
 <wire x1="-5.15" y1="-2.1336" x2="-2.1336" y2="-5.5" width="0.1524" layer="25"/>
 <wire x1="-5.15" y1="-5.5" x2="-2.1336" y2="-5.5" width="0.1524" layer="25"/>
@@ -12041,7 +12041,7 @@ OC Farnell: 	2288501</description>
 </symbol>
 <symbol name="WB_DIODE_SCHOTTKY">
 <pin name="A" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="K" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="C" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 <wire x1="1.27" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="1.905" x2="1.27" y2="1.27" width="0.254" layer="94"/>
@@ -12167,8 +12167,8 @@ OC Farnell: 	2288501</description>
 <devices>
 <device name="" package="SMB">
 <connects>
-<connect gate="A" pin="A" pad="2"/>
-<connect gate="A" pin="K" pad="1"/>
+<connect gate="A" pin="A" pad="A"/>
+<connect gate="A" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name="">
@@ -18673,7 +18673,7 @@ CatalogNumber: &lt;b&gt;0111 0005MR&lt;/b&gt;
 <part name="U1" library="NATIONAL SEMICONDUCTOR" deviceset="LM2676" device="S">
 <attribute name="MF" value="TEXAS INSTRUMENTS"/>
 <attribute name="MPN" value="LM2676SX-5.0/NOPB"/>
-<attribute name="OC_FARNELL" value="2435897"/>
+<attribute name="OC_FARNELL" value="1564684"/>
 </part>
 <part name="C4" library="AcceleratedDesigns_Lib" deviceset="08053C104KAT2A" device="" value="100.0 nF">
 <attribute name="MF" value="AVX"/>
@@ -19287,10 +19287,10 @@ des Banana Pro!</text>
 <instance part="GND2" gate="1" x="104.14" y="195.58" smashed="yes">
 <attribute name="VALUE" x="101.6" y="193.04" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="G$1" x="68.58" y="233.68" rot="R90">
-<attribute name="OC_FARNELL" x="68.58" y="233.68" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="68.58" y="233.68" size="1.27" layer="96" display="off"/>
-<attribute name="MPN" x="68.58" y="233.68" size="1.27" layer="96" display="off"/>
+<instance part="D1" gate="G$1" x="68.58" y="233.68" rot="R270">
+<attribute name="OC_FARNELL" x="68.58" y="233.68" size="1.27" layer="96" rot="R270" display="off"/>
+<attribute name="MF" x="68.58" y="233.68" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="68.58" y="233.68" size="1.27" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R4" gate="G$1" x="91.44" y="172.72" smashed="yes">
 <attribute name="NAME" x="89.916" y="174.5996" size="1.778" layer="95"/>
@@ -20078,7 +20078,7 @@ des Banana Pro!</text>
 <wire x1="297.18" y1="88.9" x2="297.18" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED_SER" class="0">
+<net name="LED_DS" class="0">
 <segment>
 <pinref part="IC4" gate="A" pin="SER"/>
 <wire x1="279.4" y1="236.22" x2="274.32" y2="236.22" width="0.1524" layer="91"/>
@@ -20090,7 +20090,7 @@ des Banana Pro!</text>
 <label x="25.4" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LED_SCK" class="0">
+<net name="LED_SH_CP" class="0">
 <segment>
 <pinref part="IC4" gate="A" pin="SCK"/>
 <wire x1="279.4" y1="231.14" x2="274.32" y2="231.14" width="0.1524" layer="91"/>
@@ -20112,7 +20112,7 @@ des Banana Pro!</text>
 <label x="25.4" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LED_RCK" class="0">
+<net name="LED_ST_CP" class="0">
 <segment>
 <pinref part="IC4" gate="A" pin="RCK"/>
 <wire x1="279.4" y1="223.52" x2="274.32" y2="223.52" width="0.1524" layer="91"/>
@@ -20134,7 +20134,7 @@ des Banana Pro!</text>
 <label x="25.4" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="REL_RCK" class="0">
+<net name="REL_ST_CP" class="0">
 <segment>
 <pinref part="IC2" gate="A" pin="RCK"/>
 <wire x1="269.24" y1="99.06" x2="266.7" y2="99.06" width="0.1524" layer="91"/>
@@ -20162,22 +20162,12 @@ des Banana Pro!</text>
 <pinref part="IC3" gate="A" pin="SCK"/>
 <label x="266.7" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="JP1" gate="A" pin="36"/>
-<wire x1="40.64" y1="63.5" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
-<label x="48.26" y="63.5" size="1.27" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="REL_SER" class="0">
 <segment>
 <pinref part="IC2" gate="A" pin="SER"/>
 <wire x1="269.24" y1="111.76" x2="266.7" y2="111.76" width="0.1524" layer="91"/>
 <label x="266.7" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="40.64" y1="66.04" x2="48.26" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="34"/>
-<label x="48.26" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -20400,11 +20390,6 @@ des Banana Pro!</text>
 </net>
 <net name="12V_VIN" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="66.04" y1="233.68" x2="58.42" y2="233.68" width="0.1524" layer="91"/>
-<label x="58.42" y="233.68" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="X1" gate="G$1" pin="P2.2"/>
 <pinref part="X1" gate="G$1" pin="P2.1"/>
 <wire x1="30.48" y1="228.6" x2="25.4" y2="228.6" width="0.1524" layer="91"/>
@@ -20439,9 +20424,14 @@ des Banana Pro!</text>
 <junction x="124.46" y="233.68"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="210.82" x2="81.28" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="81.28" y1="233.68" x2="71.12" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="71.12" y1="233.68" x2="81.28" y2="233.68" width="0.1524" layer="91"/>
 <junction x="81.28" y="233.68"/>
+</segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="66.04" y1="233.68" x2="58.42" y2="233.68" width="0.1524" layer="91"/>
+<label x="58.42" y="233.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -20461,7 +20451,7 @@ des Banana Pro!</text>
 <wire x1="205.74" y1="233.68" x2="208.28" y2="233.68" width="0.1524" layer="91"/>
 <junction x="205.74" y="233.68"/>
 <junction x="205.74" y="228.6"/>
-<pinref part="D2" gate="A" pin="K"/>
+<pinref part="D2" gate="A" pin="C"/>
 <wire x1="205.74" y1="218.79" x2="205.74" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20550,6 +20540,20 @@ des Banana Pro!</text>
 <pinref part="JP1" gate="A" pin="17"/>
 <wire x1="33.02" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
 <label x="25.4" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="REL_DS" class="0">
+<segment>
+<wire x1="40.64" y1="66.04" x2="48.26" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="34"/>
+<label x="48.26" y="66.04" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="REL_SH_CP" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="36"/>
+<wire x1="40.64" y1="63.5" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
+<label x="48.26" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
