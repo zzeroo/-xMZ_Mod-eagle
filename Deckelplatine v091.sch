@@ -19404,10 +19404,10 @@ des Banana Pro!</text>
 <attribute name="MF" x="38.1" y="220.98" size="1.27" layer="96" display="off"/>
 <attribute name="MPN" x="38.1" y="220.98" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="X2" gate="G$1" x="25.4" y="144.78" rot="MR0">
-<attribute name="OC_FARNELL" x="25.4" y="144.78" size="1.27" layer="96" display="off"/>
-<attribute name="MF" x="25.4" y="144.78" size="1.27" layer="96" display="off"/>
-<attribute name="MPN" x="25.4" y="144.78" size="1.27" layer="96" display="off"/>
+<instance part="X2" gate="G$1" x="38.1" y="142.24" rot="MR0">
+<attribute name="OC_FARNELL" x="38.1" y="142.24" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="38.1" y="142.24" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="38.1" y="142.24" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="STECKVERBINDERGEHÄUSE" gate="G$1" x="12.7" y="40.64">
 <attribute name="OC_FARNELL" x="12.7" y="40.64" size="1.27" layer="96" display="off"/>
@@ -19629,10 +19629,10 @@ des Banana Pro!</text>
 <segment>
 <pinref part="X2" gate="G$1" pin="P2.2"/>
 <pinref part="X2" gate="G$1" pin="P2.1"/>
-<wire x1="22.86" y1="142.24" x2="30.48" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="142.24" x2="17.78" y2="142.24" width="0.1524" layer="91"/>
-<junction x="22.86" y="142.24"/>
-<label x="17.78" y="142.24" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="35.56" y1="139.7" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="139.7" x2="30.48" y2="139.7" width="0.1524" layer="91"/>
+<junction x="35.56" y="139.7"/>
+<label x="30.48" y="139.7" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="E"/>
@@ -19805,10 +19805,10 @@ des Banana Pro!</text>
 <segment>
 <pinref part="X2" gate="G$1" pin="P1.2"/>
 <pinref part="X2" gate="G$1" pin="P1.1"/>
-<wire x1="22.86" y1="147.32" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="147.32" x2="17.78" y2="147.32" width="0.1524" layer="91"/>
-<junction x="22.86" y="147.32"/>
-<label x="17.78" y="147.32" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="35.56" y1="144.78" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="144.78" x2="30.48" y2="144.78" width="0.1524" layer="91"/>
+<junction x="35.56" y="144.78"/>
+<label x="30.48" y="144.78" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="RTS" class="0">
