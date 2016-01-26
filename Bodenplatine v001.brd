@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -156,6 +156,15 @@
 <wire x1="290" y1="0" x2="290" y2="145" width="0" layer="20"/>
 <wire x1="290" y1="145" x2="0" y2="145" width="0" layer="20"/>
 <wire x1="0" y1="145" x2="0" y2="0" width="0" layer="20"/>
+<text x="28.5" y="85" size="1.778" layer="21" font="vector" ratio="15" rot="R90">Relais 1</text>
+<text x="57.5" y="85" size="1.778" layer="21" font="vector" ratio="15" rot="R90">Relais 2</text>
+<text x="86" y="85" size="1.778" layer="21" font="vector" ratio="15" rot="R90">Relais 3</text>
+<text x="115" y="85" size="1.778" layer="21" font="vector" ratio="15" rot="R90">Relais 4</text>
+<text x="144" y="85" size="1.778" layer="21" font="vector" ratio="15" rot="R90">Relais 5</text>
+<text x="172.5" y="85" size="1.778" layer="21" font="vector" ratio="15" rot="R90">Relais 6</text>
+<text x="201.5" y="85" size="1.778" layer="21" font="vector" ratio="15" rot="R90">Relais 7</text>
+<text x="229.5" y="85" size="1.778" layer="21" font="vector" ratio="15" rot="R90">Relais 8</text>
+<text x="258.5" y="85" size="1.778" layer="21" font="vector" ratio="15" rot="R90">Relais 9</text>
 </plain>
 <libraries>
 <library name="xMZ-Mod-Touch-Bodenplatine">
@@ -2515,558 +2524,558 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="F10" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="10AT" x="96.75" y="28.16">
-<attribute name="OC_NEWARK" value="unknown" x="96.75" y="28.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MPN" value="" x="96.75" y="28.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MF" value="" x="96.75" y="28.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="96.75" y="28.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="F2" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="46.46" y="83.15">
-<attribute name="OC_NEWARK" value="unknown" x="46.46" y="83.15" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MPN" value="" x="46.46" y="83.15" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MF" value="" x="46.46" y="83.15" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="46.46" y="83.15" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="K2" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="62.64" y="94.44" rot="R270">
-<attribute name="OC_NEWARK" value="96B4867" x="62.64" y="94.44" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="62.64" y="94.44" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MF" value="" x="62.64" y="94.44" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="62.64" y="94.44" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-</element>
-<element name="X2" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="59.62" y="61.34">
-<attribute name="OC_FARNELL" value="unknown" x="59.62" y="61.34" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="59.62" y="61.34" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="59.62" y="61.34" size="1.778" layer="27" display="off"/>
-</element>
-<element name="X11" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_4X2" value="SPRINGCON_AST125_4X2" x="124.08" y="23.4">
-<attribute name="OC_FARNELL" value="unknown" x="124.08" y="23.4" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="124.08" y="23.4" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="124.08" y="23.4" size="1.778" layer="27" display="off"/>
-</element>
-<element name="X10" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_3X2" value="SPRINGCON_AST125_3X2" x="20.45" y="21.72">
-<attribute name="OC_FARNELL" value="unknown" x="20.45" y="21.72" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="20.45" y="21.72" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="20.45" y="21.72" size="1.778" layer="27" display="off"/>
-</element>
-<element name="JP1" library="pinhead" package="2X10" value="Stiftleiste 2x20 pol" x="141.95" y="129.96">
-<attribute name="OC_FARNELL" value="unknown" x="141.95" y="129.96" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="141.95" y="129.96" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="141.95" y="129.96" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R1" library="rcl" package="M0805" value="270R" x="53.75" y="212.61">
-<attribute name="OC_FARNELL" value="9334254" x="53.75" y="212.61" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="53.75" y="212.61" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MC01W08055270R" x="53.75" y="212.61" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D1" library="diode" package="SOT23" value="BAT54" x="53.75" y="179.59">
-<attribute name="OC_FARNELL" value="unknown" x="53.75" y="179.59" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="53.75" y="179.59" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="53.75" y="179.59" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R9" library="rcl" package="R0603" value="10k" x="53.75" y="173.24">
-<attribute name="OC_FARNELL" value="1697388" x="53.75" y="173.24" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="53.75" y="173.24" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CPF0603B10KE1" x="53.75" y="173.24" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R5" library="rcl" package="R0603" value="2k2" x="53.75" y="163.08">
-<attribute name="OC_FARNELL" value="9331913" x="53.75" y="163.08" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="53.75" y="163.08" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MC0063W060352K2" x="53.75" y="163.08" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D5" library="SparkFun-LED" package="LED-0603" value="Yellow" x="48.67" y="163.08">
-<attribute name="PROD_ID" value="DIO-09003" x="48.67" y="163.08" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="48.67" y="163.08" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="48.67" y="163.08" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="48.67" y="163.08" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D9" library="diode" package="DO35-7" value="1N4148W" x="62.75" y="110.77" rot="R180">
-<attribute name="OC_FARNELL" value="unknown" x="62.75" y="110.77" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="62.75" y="110.77" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="62.75" y="110.77" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="F3" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="76.15" y="86.6">
-<attribute name="OC_NEWARK" value="unknown" x="36.78" y="106.92" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MPN" value="" x="36.78" y="106.92" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MF" value="" x="36.78" y="106.92" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="36.78" y="106.92" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="K3" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="90.74" y="92.86" rot="R270">
-<attribute name="OC_NEWARK" value="96B4867" x="118.68" y="106.83" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="118.68" y="106.83" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MF" value="" x="118.68" y="106.83" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="118.68" y="106.83" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-</element>
-<element name="X3" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="90.1" y="62.56">
-<attribute name="OC_FARNELL" value="unknown" x="90.1" y="62.56" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="90.1" y="62.56" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="90.1" y="62.56" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R2" library="rcl" package="M0805" value="270R" x="63.76" y="195.35">
-<attribute name="OC_FARNELL" value="9334254" x="63.76" y="195.35" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="63.76" y="195.35" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MC01W08055270R" x="63.76" y="195.35" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D2" library="diode" package="SOT23" value="BAT54" x="72.65" y="205.51">
-<attribute name="OC_FARNELL" value="unknown" x="72.65" y="205.51" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="72.65" y="205.51" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="72.65" y="205.51" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R10" library="rcl" package="R0603" value="10k" x="75.19" y="196.62">
-<attribute name="OC_FARNELL" value="1697388" x="75.19" y="196.62" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="75.19" y="196.62" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CPF0603B10KE1" x="75.19" y="196.62" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R6" library="rcl" package="R0603" value="2k2" x="70.11" y="196.62">
-<attribute name="OC_FARNELL" value="9331913" x="70.11" y="196.62" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="70.11" y="196.62" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MC0063W060352K2" x="70.11" y="196.62" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D6" library="SparkFun-LED" package="LED-0603" value="Yellow" x="42.17" y="190.27">
-<attribute name="PROD_ID" value="DIO-09003" x="0.26" y="197.89" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="42.17" y="190.27" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="42.17" y="190.27" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="42.17" y="190.27" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D10" library="diode" package="DO35-7" value="1N4148W" x="90.63" y="109.65" rot="R180">
-<attribute name="OC_FARNELL" value="unknown" x="90.63" y="109.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="90.63" y="109.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="90.63" y="109.65" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="F4" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="106.52" y="85.17">
-<attribute name="OC_NEWARK" value="unknown" x="91.28" y="132.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MPN" value="" x="91.28" y="132.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MF" value="" x="91.28" y="132.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="91.28" y="132.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="K4" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="120.97" y="94.86" rot="R270">
-<attribute name="OC_NEWARK" value="96B4867" x="164.15" y="108.83" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="164.15" y="108.83" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MF" value="" x="164.15" y="108.83" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="164.15" y="108.83" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-</element>
-<element name="X4" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="126.1" y="63.3">
-<attribute name="OC_FARNELL" value="unknown" x="126.1" y="63.3" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="126.1" y="63.3" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="126.1" y="63.3" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R3" library="rcl" package="M0805" value="270R" x="-58.04" y="157.92">
-<attribute name="OC_FARNELL" value="9334254" x="-58.04" y="157.92" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="-58.04" y="157.92" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MC01W08055270R" x="-58.04" y="157.92" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D3" library="diode" package="SOT23" value="BAT54" x="-61.85" y="168.08">
-<attribute name="OC_FARNELL" value="unknown" x="-61.85" y="168.08" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-61.85" y="168.08" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-61.85" y="168.08" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R11" library="rcl" package="R0603" value="10k" x="-45.34" y="159.19">
-<attribute name="OC_FARNELL" value="1697388" x="-45.34" y="159.19" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="-45.34" y="159.19" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CPF0603B10KE1" x="-45.34" y="159.19" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R7" library="rcl" package="R0603" value="2k2" x="-91.06" y="151.57">
-<attribute name="OC_FARNELL" value="9331913" x="-91.06" y="151.57" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="-91.06" y="151.57" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MC0063W060352K2" x="-91.06" y="151.57" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D7" library="SparkFun-LED" package="LED-0603" value="Yellow" x="-75.82" y="152.84">
-<attribute name="PROD_ID" value="DIO-09003" x="-134.24" y="185.86" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="-75.82" y="152.84" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-75.82" y="152.84" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-75.82" y="152.84" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D11" library="diode" package="DO35-7" value="1N4148W" x="121.13" y="111.58" rot="R180">
-<attribute name="OC_FARNELL" value="unknown" x="121.13" y="111.58" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="121.13" y="111.58" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="121.13" y="111.58" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="F5" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="136.99" y="85.17">
-<attribute name="OC_NEWARK" value="unknown" x="65.87" y="81.36" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MPN" value="" x="65.87" y="81.36" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MF" value="" x="65.87" y="81.36" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="65.87" y="81.36" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="K5" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="151.31" y="93.36" rot="R270">
-<attribute name="OC_NEWARK" value="96B4867" x="155.12" y="149.24" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="155.12" y="149.24" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MF" value="" x="155.12" y="149.24" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="155.12" y="149.24" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-</element>
-<element name="X5" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="155.73" y="62.8">
-<attribute name="OC_FARNELL" value="unknown" x="155.73" y="62.8" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="155.73" y="62.8" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="155.73" y="62.8" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R4" library="rcl" package="M0805" value="270R" x="-51.69" y="157.92">
-<attribute name="OC_FARNELL" value="9334254" x="-51.69" y="157.92" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="-51.69" y="157.92" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MC01W08055270R" x="-51.69" y="157.92" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D4" library="diode" package="SOT23" value="BAT54" x="-54.23" y="168.08">
-<attribute name="OC_FARNELL" value="unknown" x="-54.23" y="168.08" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-54.23" y="168.08" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-54.23" y="168.08" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R12" library="rcl" package="R0603" value="10k" x="-85.98" y="151.57">
-<attribute name="OC_FARNELL" value="1697388" x="-85.98" y="151.57" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="-85.98" y="151.57" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CPF0603B10KE1" x="-85.98" y="151.57" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R8" library="rcl" package="R0603" value="2k2" x="-80.9" y="151.57">
-<attribute name="OC_FARNELL" value="9331913" x="-80.9" y="151.57" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="-80.9" y="151.57" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MC0063W060352K2" x="-80.9" y="151.57" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D8" library="SparkFun-LED" package="LED-0603" value="Yellow" x="-72.01" y="152.84">
-<attribute name="PROD_ID" value="DIO-09003" x="-176.15" y="136.33" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="-72.01" y="152.84" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-72.01" y="152.84" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-72.01" y="152.84" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D12" library="diode" package="DO35-7" value="1N4148W" x="151.43" y="110.58" rot="R180">
-<attribute name="OC_FARNELL" value="unknown" x="151.43" y="110.58" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="151.43" y="110.58" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="151.43" y="110.58" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="F6" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="167.15" y="84.7">
-<attribute name="OC_NEWARK" value="unknown" x="127.78" y="131.69" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MPN" value="" x="127.78" y="131.69" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MF" value="" x="127.78" y="131.69" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="127.78" y="131.69" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="K6" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="182.34" y="94.89" rot="R270">
-<attribute name="OC_NEWARK" value="96B4867" x="236.95" y="122.83" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="236.95" y="122.83" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MF" value="" x="236.95" y="122.83" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="236.95" y="122.83" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-</element>
-<element name="X6" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="182.1" y="62.83">
-<attribute name="OC_FARNELL" value="unknown" x="182.1" y="62.83" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="182.1" y="62.83" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="182.1" y="62.83" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R13" library="rcl" package="M0805" value="270R" x="-16.16" y="184.32">
-<attribute name="OC_FARNELL" value="9334254" x="-16.16" y="184.32" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="-16.16" y="184.32" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MC01W08055270R" x="-16.16" y="184.32" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D13" library="diode" package="SOT23" value="BAT54" x="16.86" y="203.37">
-<attribute name="OC_FARNELL" value="unknown" x="16.86" y="203.37" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="16.86" y="203.37" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="16.86" y="203.37" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R21" library="rcl" package="R0603" value="10k" x="9.24" y="185.59">
-<attribute name="OC_FARNELL" value="1697388" x="9.24" y="185.59" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="9.24" y="185.59" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CPF0603B10KE1" x="9.24" y="185.59" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R17" library="rcl" package="R0603" value="2k2" x="14.32" y="185.59">
-<attribute name="OC_FARNELL" value="9331913" x="14.32" y="185.59" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="14.32" y="185.59" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MC0063W060352K2" x="14.32" y="185.59" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D17" library="SparkFun-LED" package="LED-0603" value="Yellow" x="-26.32" y="179.24">
-<attribute name="PROD_ID" value="DIO-09003" x="-84.74" y="237.66" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="-26.32" y="179.24" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-26.32" y="179.24" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-26.32" y="179.24" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D21" library="diode" package="DO35-7" value="1N4148W" x="182.3" y="111.06" rot="R180">
-<attribute name="OC_FARNELL" value="unknown" x="182.3" y="111.06" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="182.3" y="111.06" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="182.3" y="111.06" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="F7" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="197.12" y="85.2">
-<attribute name="OC_NEWARK" value="unknown" x="101.87" y="82.66" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MPN" value="" x="101.87" y="82.66" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MF" value="" x="101.87" y="82.66" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="101.87" y="82.66" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="K7" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="210.34" y="94.68" rot="R270">
-<attribute name="OC_NEWARK" value="96B4867" x="215.42" y="193.74" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="215.42" y="193.74" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MF" value="" x="215.42" y="193.74" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="215.42" y="193.74" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-</element>
-<element name="X7" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="210.73" y="63.33">
-<attribute name="OC_FARNELL" value="unknown" x="210.73" y="63.33" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="210.73" y="63.33" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="210.73" y="63.33" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R14" library="rcl" package="M0805" value="270R" x="-9.81" y="184.32">
-<attribute name="OC_FARNELL" value="9334254" x="-9.81" y="184.32" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="-9.81" y="184.32" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MC01W08055270R" x="-9.81" y="184.32" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D14" library="diode" package="SOT23" value="BAT54" x="24.48" y="203.37">
-<attribute name="OC_FARNELL" value="unknown" x="24.48" y="203.37" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="24.48" y="203.37" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="24.48" y="203.37" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R22" library="rcl" package="R0603" value="10k" x="19.4" y="185.59">
-<attribute name="OC_FARNELL" value="1697388" x="19.4" y="185.59" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="19.4" y="185.59" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CPF0603B10KE1" x="19.4" y="185.59" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R18" library="rcl" package="R0603" value="2k2" x="24.48" y="185.59">
-<attribute name="OC_FARNELL" value="9331913" x="24.48" y="185.59" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="24.48" y="185.59" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MC0063W060352K2" x="24.48" y="185.59" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D18" library="SparkFun-LED" package="LED-0603" value="Yellow" x="-22.51" y="179.24">
-<attribute name="PROD_ID" value="DIO-09003" x="-126.65" y="188.13" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="-22.51" y="179.24" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-22.51" y="179.24" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-22.51" y="179.24" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D22" library="diode" package="DO35-7" value="1N4148W" x="210.6" y="111.06" rot="R180">
-<attribute name="OC_FARNELL" value="unknown" x="210.6" y="111.06" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="210.6" y="111.06" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="210.6" y="111.06" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="F8" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="225.59" y="89.7">
-<attribute name="OC_NEWARK" value="unknown" x="74.46" y="37.63" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MPN" value="" x="74.46" y="37.63" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MF" value="" x="74.46" y="37.63" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="74.46" y="37.63" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="K8" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="237.83" y="97.86" rot="R270">
-<attribute name="OC_NEWARK" value="96B4867" x="209.89" y="195.65" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="209.89" y="195.65" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MF" value="" x="209.89" y="195.65" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="209.89" y="195.65" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-</element>
-<element name="X8" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="235.86" y="64.33">
-<attribute name="OC_FARNELL" value="unknown" x="235.86" y="64.33" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="235.86" y="64.33" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="235.86" y="64.33" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R15" library="rcl" package="M0805" value="270R" x="-3.46" y="184.32">
-<attribute name="OC_FARNELL" value="9334254" x="-3.46" y="184.32" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="-3.46" y="184.32" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MC01W08055270R" x="-3.46" y="184.32" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D15" library="diode" package="SOT23" value="BAT54" x="-41.56" y="191.94">
-<attribute name="OC_FARNELL" value="unknown" x="-41.56" y="191.94" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-41.56" y="191.94" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-41.56" y="191.94" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R23" library="rcl" package="R0603" value="10k" x="29.56" y="185.59">
-<attribute name="OC_FARNELL" value="1697388" x="29.56" y="185.59" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="29.56" y="185.59" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CPF0603B10KE1" x="29.56" y="185.59" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R19" library="rcl" package="R0603" value="2k2" x="-41.56" y="177.97">
-<attribute name="OC_FARNELL" value="9331913" x="-41.56" y="177.97" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="-41.56" y="177.97" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MC0063W060352K2" x="-41.56" y="177.97" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D19" library="SparkFun-LED" package="LED-0603" value="Yellow" x="-18.7" y="179.24">
-<attribute name="PROD_ID" value="DIO-09003" x="-168.56" y="138.6" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="-18.7" y="179.24" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-18.7" y="179.24" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-18.7" y="179.24" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D23" library="diode" package="DO35-7" value="1N4148W" x="237.75" y="114.68" rot="R180">
-<attribute name="OC_FARNELL" value="unknown" x="237.75" y="114.68" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="237.75" y="114.68" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="237.75" y="114.68" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="F9" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="252.52" y="90.03">
-<attribute name="OC_NEWARK" value="unknown" x="111.55" y="15.1" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MPN" value="" x="111.55" y="15.1" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MF" value="" x="111.55" y="15.1" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="111.55" y="15.1" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="K9" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="275.33" y="98.65" rot="R270">
-<attribute name="OC_NEWARK" value="96B4867" x="197.86" y="267.56" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="197.86" y="267.56" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MF" value="" x="197.86" y="267.56" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="197.86" y="267.56" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-</element>
-<element name="X9" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="266.1" y="64.16">
-<attribute name="OC_FARNELL" value="unknown" x="266.1" y="64.16" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="266.1" y="64.16" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="266.1" y="64.16" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R16" library="rcl" package="M0805" value="270R" x="2.89" y="184.32">
-<attribute name="OC_FARNELL" value="9334254" x="2.89" y="184.32" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="2.89" y="184.32" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MC01W08055270R" x="2.89" y="184.32" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D16" library="diode" package="SOT23" value="BAT54" x="-33.94" y="191.94">
-<attribute name="OC_FARNELL" value="unknown" x="-33.94" y="191.94" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-33.94" y="191.94" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-33.94" y="191.94" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R24" library="rcl" package="R0603" value="10k" x="-36.48" y="177.97">
-<attribute name="OC_FARNELL" value="1697388" x="-36.48" y="177.97" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="-36.48" y="177.97" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CPF0603B10KE1" x="-36.48" y="177.97" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R20" library="rcl" package="R0603" value="2k2" x="-31.4" y="177.97">
-<attribute name="OC_FARNELL" value="9331913" x="-31.4" y="177.97" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="-31.4" y="177.97" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MC0063W060352K2" x="-31.4" y="177.97" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D20" library="SparkFun-LED" package="LED-0603" value="Yellow" x="-14.89" y="179.24">
-<attribute name="PROD_ID" value="DIO-09003" x="-210.47" y="89.07" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="-14.89" y="179.24" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-14.89" y="179.24" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-14.89" y="179.24" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D24" library="diode" package="DO35-7" value="1N4148W" x="275.55" y="116.18" rot="R180">
-<attribute name="OC_FARNELL" value="unknown" x="275.55" y="116.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="275.55" y="116.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="275.55" y="116.18" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="F1" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="14.65" y="84.27">
-<attribute name="OC_NEWARK" value="unknown" x="-24.72" y="104.59" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MPN" value="" x="-24.72" y="104.59" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MF" value="" x="-24.72" y="104.59" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="-24.72" y="104.59" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="K1" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="31.41" y="93.36" rot="R270">
-<attribute name="OC_NEWARK" value="96B4867" x="59.35" y="107.33" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="59.35" y="107.33" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MF" value="" x="59.35" y="107.33" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="59.35" y="107.33" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-</element>
-<element name="X1" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="30.1" y="62.23">
-<attribute name="OC_FARNELL" value="unknown" x="30.1" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="30.1" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="30.1" y="62.23" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R25" library="rcl" package="M0805" value="270R" x="-21.24" y="133.52">
-<attribute name="OC_FARNELL" value="9334254" x="-21.24" y="133.52" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="-21.24" y="133.52" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MC01W08055270R" x="-21.24" y="133.52" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D25" library="diode" package="SOT23" value="BAT54" x="-12.35" y="143.68">
-<attribute name="OC_FARNELL" value="unknown" x="-12.35" y="143.68" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-12.35" y="143.68" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-12.35" y="143.68" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R27" library="rcl" package="R0603" value="10k" x="-14.89" y="134.79">
-<attribute name="OC_FARNELL" value="1697388" x="-14.89" y="134.79" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="-14.89" y="134.79" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CPF0603B10KE1" x="-14.89" y="134.79" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R26" library="rcl" package="R0603" value="2k2" x="-9.81" y="134.79">
-<attribute name="OC_FARNELL" value="9331913" x="-9.81" y="134.79" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MULTICOMP" x="-9.81" y="134.79" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MC0063W060352K2" x="-9.81" y="134.79" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D26" library="SparkFun-LED" package="LED-0603" value="Yellow" x="-42.83" y="128.44">
-<attribute name="PROD_ID" value="DIO-09003" x="-84.74" y="136.06" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="-42.83" y="128.44" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-42.83" y="128.44" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-42.83" y="128.44" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D27" library="diode" package="DO35-7" value="1N4148W" x="31.63" y="110.48" rot="R180">
-<attribute name="OC_FARNELL" value="unknown" x="31.63" y="110.48" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="31.63" y="110.48" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="31.63" y="110.48" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="X12" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_4X2" value="SPRINGCON_AST125_4X2" x="181.1" y="24.51">
-<attribute name="OC_FARNELL" value="unknown" x="181.1" y="24.51" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="181.1" y="24.51" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="181.1" y="24.51" size="1.778" layer="27" display="off"/>
-</element>
-<element name="F12" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="6,3AT" x="152.78" y="36.24">
-<attribute name="OC_NEWARK" value="unknown" x="152.78" y="36.24" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MPN" value="" x="152.78" y="36.24" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MF" value="" x="152.78" y="36.24" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="152.78" y="36.24" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="X13" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="257.73" y="24.55">
-<attribute name="OC_FARNELL" value="unknown" x="257.73" y="24.55" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="257.73" y="24.55" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="257.73" y="24.55" size="1.778" layer="27" display="off"/>
-</element>
-<element name="F13" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="235.18" y="35.74">
-<attribute name="OC_NEWARK" value="unknown" x="235.18" y="35.74" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MPN" value="" x="235.18" y="35.74" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MF" value="" x="235.18" y="35.74" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="235.18" y="35.74" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="X14" library="con-wago_236" package="P-236-403" value="236-403" x="14.72" y="131.9" rot="R90">
-<attribute name="OC_FARNELL" value="1283527" x="14.72" y="131.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="WAGO" x="14.72" y="131.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="236-403" x="14.72" y="131.9" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="X15" library="con-wago_236" package="P-236-402" value="236-402" x="41.76" y="132.35" rot="R90">
-<attribute name="OC_FARNELL" value="1283526" x="41.76" y="132.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="WAGO" x="41.76" y="132.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="236-402" x="41.76" y="132.35" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="H1" library="holes" package="3,3" value="MOUNT-HOLE3.3" x="6.31" y="6">
-<attribute name="OC_FARNELL" value="unknown" x="6.31" y="6" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="6.31" y="6" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="6.31" y="6" size="1.778" layer="27" display="off"/>
-</element>
-<element name="H2" library="holes" package="3,3" value="MOUNT-HOLE3.3" x="274.81" y="11.11">
-<attribute name="OC_FARNELL" value="unknown" x="274.81" y="11.11" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="274.81" y="11.11" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="274.81" y="11.11" size="1.778" layer="27" display="off"/>
-</element>
-<element name="H3" library="holes" package="3,3" value="MOUNT-HOLE3.3" x="278.81" y="130.72">
-<attribute name="OC_FARNELL" value="unknown" x="278.81" y="130.72" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="278.81" y="130.72" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="278.81" y="130.72" size="1.778" layer="27" display="off"/>
-</element>
-<element name="H4" library="holes" package="3,3" value="MOUNT-HOLE3.3" x="7.31" y="116.83">
-<attribute name="OC_FARNELL" value="unknown" x="7.31" y="116.83" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="7.31" y="116.83" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="7.31" y="116.83" size="1.778" layer="27" display="off"/>
-</element>
-<element name="S1" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="31.5" y="118.5">
-<attribute name="OC_FARNELL" value="unknown" x="31.5" y="118.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="31.5" y="118.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="31.5" y="118.5" size="1.778" layer="27" display="off"/>
-</element>
-<element name="S2" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="62.5" y="119">
-<attribute name="OC_FARNELL" value="unknown" x="62.5" y="119" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="62.5" y="119" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="62.5" y="119" size="1.778" layer="27" display="off"/>
-</element>
-<element name="S3" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="91" y="119.5">
-<attribute name="OC_FARNELL" value="unknown" x="91" y="119.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="91" y="119.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="91" y="119.5" size="1.778" layer="27" display="off"/>
-</element>
-<element name="S4" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="121" y="116">
-<attribute name="OC_FARNELL" value="unknown" x="121" y="116" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="121" y="116" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="121" y="116" size="1.778" layer="27" display="off"/>
-</element>
-<element name="S5" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="151" y="117">
-<attribute name="OC_FARNELL" value="unknown" x="151" y="117" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="151" y="117" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="151" y="117" size="1.778" layer="27" display="off"/>
-</element>
-<element name="S6" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="182.5" y="117.5">
-<attribute name="OC_FARNELL" value="unknown" x="182.5" y="117.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="182.5" y="117.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="182.5" y="117.5" size="1.778" layer="27" display="off"/>
-</element>
-<element name="S7" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="209.5" y="118.5">
-<attribute name="OC_FARNELL" value="unknown" x="209.5" y="118.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="209.5" y="118.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="209.5" y="118.5" size="1.778" layer="27" display="off"/>
-</element>
-<element name="S8" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="240" y="119.5">
-<attribute name="OC_FARNELL" value="unknown" x="240" y="119.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="240" y="119.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="240" y="119.5" size="1.778" layer="27" display="off"/>
-</element>
-<element name="S9" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="269" y="121.5">
-<attribute name="OC_FARNELL" value="unknown" x="269" y="121.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="269" y="121.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="269" y="121.5" size="1.778" layer="27" display="off"/>
-</element>
-<element name="Q1" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BC846BLT1SMD" x="21.5" y="106">
-<attribute name="OC_FARNELL" value="2317836" x="21.5" y="106" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="F10" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="10AT" x="23" y="23" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="23" y="23" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="23" y="23" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MF" value="" x="23" y="23" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="23" y="23" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+</element>
+<element name="F2" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="49.75" y="75.5" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="49.75" y="75.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="49.75" y="75.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MF" value="" x="49.75" y="75.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="49.75" y="75.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+</element>
+<element name="K2" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="63.75" y="85" rot="R270">
+<attribute name="OC_NEWARK" value="96B4867" x="63.75" y="85" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="63.75" y="85" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="" x="63.75" y="85" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="63.75" y="85" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+</element>
+<element name="X2" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="58.75" y="50">
+<attribute name="OC_FARNELL" value="unknown" x="58.75" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="58.75" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="58.75" y="50" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X11" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_4X2" value="SPRINGCON_AST125_4X2" x="120" y="18">
+<attribute name="OC_FARNELL" value="unknown" x="120" y="18" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="120" y="18" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="120" y="18" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X10" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_3X2" value="SPRINGCON_AST125_3X2" x="45" y="18">
+<attribute name="OC_FARNELL" value="unknown" x="45" y="18" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="45" y="18" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="45" y="18" size="1.778" layer="27" display="off"/>
+</element>
+<element name="JP1" library="pinhead" package="2X10" value="Stiftleiste 2x20 pol" x="145" y="135">
+<attribute name="OC_FARNELL" value="unknown" x="145" y="135" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="145" y="135" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="145" y="135" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R1" library="rcl" package="M0805" value="270R" x="70.75" y="124.11">
+<attribute name="OC_FARNELL" value="9334254" x="70.75" y="124.11" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="70.75" y="124.11" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC01W08055270R" x="70.75" y="124.11" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D1" library="diode" package="SOT23" value="BAT54" x="71.25" y="118.59">
+<attribute name="OC_FARNELL" value="unknown" x="71.25" y="118.59" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="71.25" y="118.59" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="71.25" y="118.59" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R9" library="rcl" package="R0603" value="10k" x="70.75" y="113.24">
+<attribute name="OC_FARNELL" value="1697388" x="70.75" y="113.24" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="70.75" y="113.24" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CPF0603B10KE1" x="70.75" y="113.24" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R5" library="rcl" package="R0603" value="2k2" x="40" y="105.5">
+<attribute name="OC_FARNELL" value="9331913" x="40" y="105.5" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="40" y="105.5" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC0063W060352K2" x="40" y="105.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D5" library="SparkFun-LED" package="LED-0603" value="Yellow" x="34.92" y="105.17" rot="R90">
+<attribute name="PROD_ID" value="DIO-09003" x="34.92" y="105.17" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="34.92" y="105.17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="34.92" y="105.17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="34.92" y="105.17" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D9" library="diode" package="DO35-7" value="1N4148W" x="63.75" y="103.27" rot="R180">
+<attribute name="OC_FARNELL" value="unknown" x="63.75" y="103.27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="63.75" y="103.27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="63.75" y="103.27" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="F3" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="78.5" y="75.5" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="58.18" y="36.13" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="58.18" y="36.13" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MF" value="" x="58.18" y="36.13" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="58.18" y="36.13" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+</element>
+<element name="K3" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="92.5" y="85" rot="R270">
+<attribute name="OC_NEWARK" value="96B4867" x="120.44" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="120.44" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="" x="120.44" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="120.44" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+</element>
+<element name="X3" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="87.5" y="50">
+<attribute name="OC_FARNELL" value="unknown" x="87.5" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="87.5" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="87.5" y="50" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R2" library="rcl" package="M0805" value="270R" x="99.76" y="125.85">
+<attribute name="OC_FARNELL" value="9334254" x="99.76" y="125.85" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="99.76" y="125.85" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC01W08055270R" x="99.76" y="125.85" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D2" library="diode" package="SOT23" value="BAT54" x="100.65" y="118.51">
+<attribute name="OC_FARNELL" value="unknown" x="100.65" y="118.51" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="100.65" y="118.51" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="100.65" y="118.51" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R10" library="rcl" package="R0603" value="10k" x="101.19" y="112.12">
+<attribute name="OC_FARNELL" value="1697388" x="101.19" y="112.12" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="101.19" y="112.12" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CPF0603B10KE1" x="101.19" y="112.12" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R6" library="rcl" package="R0603" value="2k2" x="69" y="107.5">
+<attribute name="OC_FARNELL" value="9331913" x="69" y="107.5" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="69" y="107.5" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC0063W060352K2" x="69" y="107.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D6" library="SparkFun-LED" package="LED-0603" value="Yellow" x="63.73" y="106.17" rot="R90">
+<attribute name="PROD_ID" value="DIO-09003" x="56.11" y="64.26" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="63.73" y="106.17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="63.73" y="106.17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="63.73" y="106.17" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D10" library="diode" package="DO35-7" value="1N4148W" x="92.63" y="103.65" rot="R180">
+<attribute name="OC_FARNELL" value="unknown" x="92.63" y="103.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="92.63" y="103.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="92.63" y="103.65" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="F4" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="107.25" y="75.5" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="60.26" y="60.26" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="60.26" y="60.26" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MF" value="" x="60.26" y="60.26" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="60.26" y="60.26" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+</element>
+<element name="K4" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="121.25" y="85" rot="R270">
+<attribute name="OC_NEWARK" value="96B4867" x="164.43" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="164.43" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="" x="164.43" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="164.43" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+</element>
+<element name="X4" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="116.25" y="50">
+<attribute name="OC_FARNELL" value="unknown" x="116.25" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="116.25" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="116.25" y="50" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R3" library="rcl" package="M0805" value="270R" x="129.46" y="126.92">
+<attribute name="OC_FARNELL" value="9334254" x="129.46" y="126.92" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="129.46" y="126.92" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC01W08055270R" x="129.46" y="126.92" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D3" library="diode" package="SOT23" value="BAT54" x="129.65" y="122.08">
+<attribute name="OC_FARNELL" value="unknown" x="129.65" y="122.08" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="129.65" y="122.08" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="129.65" y="122.08" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R11" library="rcl" package="R0603" value="10k" x="129.16" y="116.69">
+<attribute name="OC_FARNELL" value="1697388" x="129.16" y="116.69" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="129.16" y="116.69" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CPF0603B10KE1" x="129.16" y="116.69" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R7" library="rcl" package="R0603" value="2k2" x="97.94" y="106.57">
+<attribute name="OC_FARNELL" value="9331913" x="97.94" y="106.57" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="97.94" y="106.57" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC0063W060352K2" x="97.94" y="106.57" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D7" library="SparkFun-LED" package="LED-0603" value="Yellow" x="93.16" y="106.18" rot="R90">
+<attribute name="PROD_ID" value="DIO-09003" x="60.14" y="47.76" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="93.16" y="106.18" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="93.16" y="106.18" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="93.16" y="106.18" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D11" library="diode" package="DO35-7" value="1N4148W" x="121.13" y="103.08" rot="R180">
+<attribute name="OC_FARNELL" value="unknown" x="121.13" y="103.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="121.13" y="103.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="121.13" y="103.08" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="F5" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="136" y="75.5" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="139.81" y="4.38" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="139.81" y="4.38" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MF" value="" x="139.81" y="4.38" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="139.81" y="4.38" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+</element>
+<element name="K5" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="150" y="85" rot="R270">
+<attribute name="OC_NEWARK" value="96B4867" x="153.81" y="140.88" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="153.81" y="140.88" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="" x="153.81" y="140.88" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="153.81" y="140.88" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+</element>
+<element name="X5" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="145" y="50">
+<attribute name="OC_FARNELL" value="unknown" x="145" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="145" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="145" y="50" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R4" library="rcl" package="M0805" value="270R" x="159.81" y="127.42">
+<attribute name="OC_FARNELL" value="9334254" x="159.81" y="127.42" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="159.81" y="127.42" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC01W08055270R" x="159.81" y="127.42" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D4" library="diode" package="SOT23" value="BAT54" x="160.77" y="121.58">
+<attribute name="OC_FARNELL" value="unknown" x="160.77" y="121.58" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="160.77" y="121.58" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="160.77" y="121.58" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R12" library="rcl" package="R0603" value="10k" x="160.02" y="115.57">
+<attribute name="OC_FARNELL" value="1697388" x="160.02" y="115.57" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="160.02" y="115.57" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CPF0603B10KE1" x="160.02" y="115.57" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R8" library="rcl" package="R0603" value="2k2" x="127.1" y="106.07">
+<attribute name="OC_FARNELL" value="9331913" x="127.1" y="106.07" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="127.1" y="106.07" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC0063W060352K2" x="127.1" y="106.07" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D8" library="SparkFun-LED" package="LED-0603" value="Yellow" x="121.16" y="106.99" rot="R90">
+<attribute name="PROD_ID" value="DIO-09003" x="137.67" y="2.85" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="121.16" y="106.99" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="121.16" y="106.99" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="121.16" y="106.99" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D12" library="diode" package="DO35-7" value="1N4148W" x="149.93" y="102.58" rot="R180">
+<attribute name="OC_FARNELL" value="unknown" x="149.93" y="102.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="149.93" y="102.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="149.93" y="102.58" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="F6" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="164.25" y="75.5" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="117.26" y="36.13" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="117.26" y="36.13" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MF" value="" x="117.26" y="36.13" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="117.26" y="36.13" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+</element>
+<element name="K6" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="178.75" y="85" rot="R270">
+<attribute name="OC_NEWARK" value="96B4867" x="233.36" y="112.94" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="233.36" y="112.94" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="" x="233.36" y="112.94" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="233.36" y="112.94" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+</element>
+<element name="X6" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="173.75" y="50">
+<attribute name="OC_FARNELL" value="unknown" x="173.75" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="173.75" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="173.75" y="50" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R13" library="rcl" package="M0805" value="270R" x="187.84" y="126.32">
+<attribute name="OC_FARNELL" value="9334254" x="187.84" y="126.32" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="187.84" y="126.32" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC01W08055270R" x="187.84" y="126.32" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D13" library="diode" package="SOT23" value="BAT54" x="187.86" y="120.87">
+<attribute name="OC_FARNELL" value="unknown" x="187.86" y="120.87" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="187.86" y="120.87" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="187.86" y="120.87" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R21" library="rcl" package="R0603" value="10k" x="188.24" y="115.09">
+<attribute name="OC_FARNELL" value="1697388" x="188.24" y="115.09" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="188.24" y="115.09" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CPF0603B10KE1" x="188.24" y="115.09" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R17" library="rcl" package="R0603" value="2k2" x="156.32" y="106.59">
+<attribute name="OC_FARNELL" value="9331913" x="156.32" y="106.59" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="156.32" y="106.59" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC0063W060352K2" x="156.32" y="106.59" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D17" library="SparkFun-LED" package="LED-0603" value="Yellow" x="150.26" y="105.68" rot="R90">
+<attribute name="PROD_ID" value="DIO-09003" x="91.84" y="47.26" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="150.26" y="105.68" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="150.26" y="105.68" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="150.26" y="105.68" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D21" library="diode" package="DO35-7" value="1N4148W" x="178.8" y="102.06" rot="R180">
+<attribute name="OC_FARNELL" value="unknown" x="178.8" y="102.06" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="178.8" y="102.06" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="178.8" y="102.06" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="F7" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="193.5" y="75.5" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="196.04" y="-19.75" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="196.04" y="-19.75" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MF" value="" x="196.04" y="-19.75" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="196.04" y="-19.75" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+</element>
+<element name="K7" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="207.5" y="85" rot="R270">
+<attribute name="OC_NEWARK" value="96B4867" x="212.58" y="184.06" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="212.58" y="184.06" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="" x="212.58" y="184.06" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="212.58" y="184.06" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+</element>
+<element name="X7" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="202.5" y="50">
+<attribute name="OC_FARNELL" value="unknown" x="202.5" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="202.5" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="202.5" y="50" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R14" library="rcl" package="M0805" value="270R" x="215.19" y="126.82">
+<attribute name="OC_FARNELL" value="9334254" x="215.19" y="126.82" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="215.19" y="126.82" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC01W08055270R" x="215.19" y="126.82" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D14" library="diode" package="SOT23" value="BAT54" x="215.98" y="120.37">
+<attribute name="OC_FARNELL" value="unknown" x="215.98" y="120.37" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="215.98" y="120.37" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="215.98" y="120.37" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R22" library="rcl" package="R0603" value="10k" x="215.9" y="114.59">
+<attribute name="OC_FARNELL" value="1697388" x="215.9" y="114.59" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="215.9" y="114.59" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CPF0603B10KE1" x="215.9" y="114.59" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R18" library="rcl" package="R0603" value="2k2" x="212.48" y="106.09">
+<attribute name="OC_FARNELL" value="9331913" x="212.48" y="106.09" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="212.48" y="106.09" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC0063W060352K2" x="212.48" y="106.09" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D18" library="SparkFun-LED" package="LED-0603" value="Yellow" x="178.76" y="104.99" rot="R90">
+<attribute name="PROD_ID" value="DIO-09003" x="169.87" y="0.85" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="178.76" y="104.99" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="178.76" y="104.99" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="178.76" y="104.99" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D22" library="diode" package="DO35-7" value="1N4148W" x="207.6" y="102.06" rot="R180">
+<attribute name="OC_FARNELL" value="unknown" x="207.6" y="102.06" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="207.6" y="102.06" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="207.6" y="102.06" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="F8" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="222.25" y="75.5" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="274.32" y="-75.63" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="274.32" y="-75.63" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MF" value="" x="274.32" y="-75.63" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="274.32" y="-75.63" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+</element>
+<element name="K8" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="236.25" y="85" rot="R270">
+<attribute name="OC_NEWARK" value="96B4867" x="208.31" y="182.79" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="208.31" y="182.79" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="" x="208.31" y="182.79" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="208.31" y="182.79" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+</element>
+<element name="X8" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="231.25" y="50">
+<attribute name="OC_FARNELL" value="unknown" x="231.25" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="231.25" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="231.25" y="50" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R15" library="rcl" package="M0805" value="270R" x="246.04" y="127.82">
+<attribute name="OC_FARNELL" value="9334254" x="246.04" y="127.82" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="246.04" y="127.82" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC01W08055270R" x="246.04" y="127.82" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D15" library="diode" package="SOT23" value="BAT54" x="246.44" y="121.94">
+<attribute name="OC_FARNELL" value="unknown" x="246.44" y="121.94" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="246.44" y="121.94" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="246.44" y="121.94" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R23" library="rcl" package="R0603" value="10k" x="231.06" y="115.59">
+<attribute name="OC_FARNELL" value="1697388" x="231.06" y="115.59" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="231.06" y="115.59" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CPF0603B10KE1" x="231.06" y="115.59" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R19" library="rcl" package="R0603" value="2k2" x="241.94" y="105.97">
+<attribute name="OC_FARNELL" value="9331913" x="241.94" y="105.97" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="241.94" y="105.97" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC0063W060352K2" x="241.94" y="105.97" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D19" library="SparkFun-LED" package="LED-0603" value="Yellow" x="208.26" y="105.3" rot="R90">
+<attribute name="PROD_ID" value="DIO-09003" x="248.9" y="-44.56" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="208.26" y="105.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="208.26" y="105.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="208.26" y="105.3" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D23" library="diode" package="DO35-7" value="1N4148W" x="236.25" y="102.18" rot="R180">
+<attribute name="OC_FARNELL" value="unknown" x="236.25" y="102.18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="236.25" y="102.18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="236.25" y="102.18" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="F9" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="251" y="75.5" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="325.93" y="-65.47" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="325.93" y="-65.47" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MF" value="" x="325.93" y="-65.47" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="325.93" y="-65.47" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+</element>
+<element name="K9" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="265" y="85" rot="R270">
+<attribute name="OC_NEWARK" value="96B4867" x="187.53" y="253.91" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="187.53" y="253.91" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="" x="187.53" y="253.91" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="187.53" y="253.91" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+</element>
+<element name="X9" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="260" y="50">
+<attribute name="OC_FARNELL" value="unknown" x="260" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="260" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="260" y="50" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R16" library="rcl" package="M0805" value="270R" x="271.89" y="127.82">
+<attribute name="OC_FARNELL" value="9334254" x="271.89" y="127.82" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="271.89" y="127.82" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC01W08055270R" x="271.89" y="127.82" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D16" library="diode" package="SOT23" value="BAT54" x="274.06" y="121.44">
+<attribute name="OC_FARNELL" value="unknown" x="274.06" y="121.44" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="274.06" y="121.44" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="274.06" y="121.44" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R24" library="rcl" package="R0603" value="10k" x="273.02" y="113.47">
+<attribute name="OC_FARNELL" value="1697388" x="273.02" y="113.47" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="273.02" y="113.47" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CPF0603B10KE1" x="273.02" y="113.47" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R20" library="rcl" package="R0603" value="2k2" x="271.1" y="104.97">
+<attribute name="OC_FARNELL" value="9331913" x="271.1" y="104.97" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="271.1" y="104.97" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC0063W060352K2" x="271.1" y="104.97" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D20" library="SparkFun-LED" package="LED-0603" value="Yellow" x="236.76" y="105.61" rot="R90">
+<attribute name="PROD_ID" value="DIO-09003" x="326.93" y="-89.97" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="236.76" y="105.61" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="236.76" y="105.61" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="236.76" y="105.61" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D24" library="diode" package="DO35-7" value="1N4148W" x="265.05" y="102.18" rot="R180">
+<attribute name="OC_FARNELL" value="unknown" x="265.05" y="102.18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="265.05" y="102.18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="265.05" y="102.18" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="F1" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="21" y="75.5" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="0.68" y="36.13" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="0.68" y="36.13" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MF" value="" x="0.68" y="36.13" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="0.68" y="36.13" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+</element>
+<element name="K1" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="35" y="85" rot="R270">
+<attribute name="OC_NEWARK" value="96B4867" x="62.94" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="62.94" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="" x="62.94" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="62.94" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+</element>
+<element name="X1" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="30" y="50">
+<attribute name="OC_FARNELL" value="unknown" x="30" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="30" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="30" y="50" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R25" library="rcl" package="M0805" value="270R" x="43.26" y="111.02">
+<attribute name="OC_FARNELL" value="9334254" x="43.26" y="111.02" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="43.26" y="111.02" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC01W08055270R" x="43.26" y="111.02" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D25" library="diode" package="SOT23" value="BAT54" x="43.65" y="117.18">
+<attribute name="OC_FARNELL" value="unknown" x="43.65" y="117.18" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="43.65" y="117.18" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="43.65" y="117.18" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R27" library="rcl" package="R0603" value="10k" x="44.11" y="122.29">
+<attribute name="OC_FARNELL" value="1697388" x="44.11" y="122.29" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="44.11" y="122.29" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CPF0603B10KE1" x="44.11" y="122.29" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R26" library="rcl" package="R0603" value="2k2" x="43.69" y="126.79">
+<attribute name="OC_FARNELL" value="9331913" x="43.69" y="126.79" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="43.69" y="126.79" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC0063W060352K2" x="43.69" y="126.79" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D26" library="SparkFun-LED" package="LED-0603" value="Yellow" x="264.06" y="104.67" rot="R90">
+<attribute name="PROD_ID" value="DIO-09003" x="256.44" y="62.76" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="264.06" y="104.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="264.06" y="104.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="264.06" y="104.67" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D27" library="diode" package="DO35-7" value="1N4148W" x="35.13" y="102.98" rot="R180">
+<attribute name="OC_FARNELL" value="unknown" x="35.13" y="102.98" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="35.13" y="102.98" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="35.13" y="102.98" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="X12" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_4X2" value="SPRINGCON_AST125_4X2" x="170" y="18">
+<attribute name="OC_FARNELL" value="unknown" x="170" y="18" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="170" y="18" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="170" y="18" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F12" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="6,3AT" x="145" y="23" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="145" y="23" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="145" y="23" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MF" value="" x="145" y="23" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="145" y="23" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+</element>
+<element name="X13" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="240" y="18">
+<attribute name="OC_FARNELL" value="unknown" x="240" y="18" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="240" y="18" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="240" y="18" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F13" library="xMZ-Mod-Touch-Bodenplatine" package="F456" value="3,15AT" x="220" y="23" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="220" y="23" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="220" y="23" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MF" value="" x="220" y="23" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="220" y="23" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+</element>
+<element name="X14" library="con-wago_236" package="P-236-403" value="236-403" x="22" y="134" rot="R90">
+<attribute name="OC_FARNELL" value="1283527" x="22" y="134" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="WAGO" x="22" y="134" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="236-403" x="22" y="134" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="X15" library="con-wago_236" package="P-236-402" value="236-402" x="55" y="134" rot="R90">
+<attribute name="OC_FARNELL" value="1283526" x="55" y="134" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="WAGO" x="55" y="134" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="236-402" x="55" y="134" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="H1" library="holes" package="3,3" value="MOUNT-HOLE3.3" x="8.5" y="15">
+<attribute name="OC_FARNELL" value="unknown" x="8.5" y="15" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="8.5" y="15" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="8.5" y="15" size="1.778" layer="27" display="off"/>
+</element>
+<element name="H2" library="holes" package="3,3" value="MOUNT-HOLE3.3" x="281.5" y="15">
+<attribute name="OC_FARNELL" value="unknown" x="281.5" y="15" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="281.5" y="15" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="281.5" y="15" size="1.778" layer="27" display="off"/>
+</element>
+<element name="H3" library="holes" package="3,3" value="MOUNT-HOLE3.3" x="281.5" y="100">
+<attribute name="OC_FARNELL" value="unknown" x="281.5" y="100" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="281.5" y="100" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="281.5" y="100" size="1.778" layer="27" display="off"/>
+</element>
+<element name="H4" library="holes" package="3,3" value="MOUNT-HOLE3.3" x="8.5" y="100">
+<attribute name="OC_FARNELL" value="unknown" x="8.5" y="100" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="8.5" y="100" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="8.5" y="100" size="1.778" layer="27" display="off"/>
+</element>
+<element name="S1" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="35" y="117" rot="R90">
+<attribute name="OC_FARNELL" value="unknown" x="35" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="35" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="35" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="S2" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="63.75" y="117" rot="R90">
+<attribute name="OC_FARNELL" value="unknown" x="63.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="63.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="63.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="S3" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="92.5" y="117" rot="R90">
+<attribute name="OC_FARNELL" value="unknown" x="92.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="92.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="92.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="S4" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="121.25" y="117" rot="R90">
+<attribute name="OC_FARNELL" value="unknown" x="121.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="121.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="121.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="S5" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="150" y="117" rot="R90">
+<attribute name="OC_FARNELL" value="unknown" x="150" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="150" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="150" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="S6" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="178.75" y="117" rot="R90">
+<attribute name="OC_FARNELL" value="unknown" x="178.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="178.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="178.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="S7" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="207.5" y="117" rot="R90">
+<attribute name="OC_FARNELL" value="unknown" x="207.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="207.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="207.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="S8" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="236.25" y="117" rot="R90">
+<attribute name="OC_FARNELL" value="unknown" x="236.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="236.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="236.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="S9" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="265" y="117" rot="R90">
+<attribute name="OC_FARNELL" value="unknown" x="265" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="265" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="265" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="Q1" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BC846BLT1SMD" x="26.5" y="110">
+<attribute name="OC_FARNELL" value="2317836" x="26.5" y="110" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="Q2" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BC846BLT1SMD" x="54.5" y="106">
 <attribute name="OC_FARNELL" value="2317836" x="54.5" y="106" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -3089,44 +3098,44 @@ design rules under a new name.</description>
 <element name="Q8" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BC846BLT1SMD" x="230.5" y="108.5">
 <attribute name="OC_FARNELL" value="2317836" x="230.5" y="108.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="Q9" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BC846BLT1SMD" x="265.5" y="110.5">
-<attribute name="OC_FARNELL" value="2317836" x="265.5" y="110.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="Q9" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BC846BLT1SMD" x="257" y="106">
+<attribute name="OC_FARNELL" value="2317836" x="257" y="106" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 </elements>
 <signals>
 <signal name="N$2">
 <contactref element="K2" pad="14"/>
 <contactref element="X2" pad="3"/>
-<wire x1="57.12" y1="61.34" x2="66.45" y2="81.84" width="0" layer="19" extent="1-1"/>
+<wire x1="56.25" y1="50" x2="67.56" y2="72.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="K2" pad="11"/>
 <contactref element="F2" pad="2"/>
-<wire x1="46.46" y1="78.07" x2="58.83" y2="85.04" width="0" layer="19" extent="1-1"/>
+<wire x1="54.83" y1="75.5" x2="59.94" y2="75.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P6">
 <contactref element="R13" pad="2"/>
 <contactref element="JP1" pad="5"/>
-<wire x1="135.6" y1="128.69" x2="-15.21" y2="184.32" width="0" layer="19" extent="1-1"/>
+<wire x1="138.65" y1="133.73" x2="188.79" y2="126.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="R1" pad="1"/>
 <contactref element="D1" pad="1"/>
-<wire x1="52.8" y1="212.61" x2="52.8" y2="178.49" width="0" layer="19" extent="1-1"/>
+<wire x1="70.3" y1="117.49" x2="69.8" y2="124.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="D1" pad="3"/>
 <contactref element="R9" pad="1"/>
 <contactref element="R5" pad="2"/>
 <contactref element="S2" pad="2"/>
-<wire x1="52.9" y1="173.24" x2="53.75" y2="180.69" width="0" layer="19" extent="1-1"/>
-<wire x1="54.6" y1="163.08" x2="52.9" y2="173.24" width="0" layer="19" extent="1-1"/>
-<wire x1="62.5" y1="119" x2="54.6" y2="163.08" width="0" layer="19" extent="1-1"/>
+<wire x1="69.9" y1="113.24" x2="71.25" y2="119.69" width="0" layer="19" extent="1-1"/>
+<wire x1="63.75" y1="117" x2="69.9" y2="113.24" width="0" layer="19" extent="1-1"/>
+<wire x1="40.85" y1="105.5" x2="63.75" y2="117" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="D5" pad="A"/>
 <contactref element="R5" pad="1"/>
-<wire x1="48.67" y1="162.203" x2="52.9" y2="163.08" width="0" layer="19" extent="1-1"/>
+<wire x1="35.797" y1="105.17" x2="39.15" y2="105.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="D5" pad="C"/>
@@ -3163,66 +3172,66 @@ design rules under a new name.</description>
 <contactref element="Q7" pad="2"/>
 <contactref element="Q8" pad="2"/>
 <contactref element="Q9" pad="2"/>
-<wire x1="148.46" y1="117" x2="143.95" y2="103.9" width="0" layer="19" extent="1-1"/>
-<wire x1="138.14" y1="128.69" x2="148.46" y2="117" width="0" layer="19" extent="1-1"/>
-<wire x1="138.14" y1="131.23" x2="138.14" y2="128.69" width="0" layer="19" extent="1-1"/>
-<wire x1="118.46" y1="116" x2="138.14" y2="128.69" width="0" layer="19" extent="1-1"/>
-<wire x1="113.45" y1="104.9" x2="118.46" y2="116" width="0" layer="19" extent="1-1"/>
-<wire x1="88.46" y1="119.5" x2="113.45" y2="104.9" width="0" layer="19" extent="1-1"/>
-<wire x1="83.45" y1="103.9" x2="88.46" y2="119.5" width="0" layer="19" extent="1-1"/>
-<wire x1="59.96" y1="119" x2="83.45" y2="103.9" width="0" layer="19" extent="1-1"/>
-<wire x1="55.45" y1="104.9" x2="59.96" y2="119" width="0" layer="19" extent="1-1"/>
-<wire x1="44.41" y1="130.3073" x2="59.96" y2="119" width="0" layer="19" extent="1-1"/>
-<wire x1="44.41" y1="135.3073" x2="44.41" y2="130.3073" width="0" layer="19" extent="1-1"/>
-<wire x1="28.96" y1="118.5" x2="44.41" y2="130.3073" width="0" layer="19" extent="1-1"/>
-<wire x1="22.45" y1="104.9" x2="28.96" y2="118.5" width="0" layer="19" extent="1-1"/>
-<wire x1="48.67" y1="163.957" x2="44.41" y2="135.3073" width="0" layer="19" extent="1-1"/>
-<wire x1="42.17" y1="191.147" x2="48.67" y2="163.957" width="0" layer="19" extent="1-1"/>
-<wire x1="175.95" y1="105.4" x2="148.46" y2="117" width="0" layer="19" extent="1-1"/>
-<wire x1="179.96" y1="117.5" x2="175.95" y2="105.4" width="0" layer="19" extent="1-1"/>
-<wire x1="206.96" y1="118.5" x2="179.96" y2="117.5" width="0" layer="19" extent="1-1"/>
-<wire x1="203.95" y1="104.4" x2="206.96" y2="118.5" width="0" layer="19" extent="1-1"/>
-<wire x1="231.45" y1="107.4" x2="206.96" y2="118.5" width="0" layer="19" extent="1-1"/>
-<wire x1="237.46" y1="119.5" x2="231.45" y2="107.4" width="0" layer="19" extent="1-1"/>
-<wire x1="266.46" y1="121.5" x2="237.46" y2="119.5" width="0" layer="19" extent="1-1"/>
-<wire x1="266.45" y1="109.4" x2="266.46" y2="121.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.89" y1="180.117" x2="42.17" y2="191.147" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.7" y1="180.117" x2="-14.89" y2="180.117" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.51" y1="180.117" x2="-18.7" y2="180.117" width="0" layer="19" extent="1-1"/>
-<wire x1="-26.32" y1="180.117" x2="-22.51" y2="180.117" width="0" layer="19" extent="1-1"/>
-<wire x1="-72.01" y1="153.717" x2="-26.32" y2="180.117" width="0" layer="19" extent="1-1"/>
-<wire x1="-75.82" y1="153.717" x2="-72.01" y2="153.717" width="0" layer="19" extent="1-1"/>
-<wire x1="-42.83" y1="129.317" x2="-72.01" y2="153.717" width="0" layer="19" extent="1-1"/>
-<wire x1="255.23" y1="29.55" x2="266.45" y2="109.4" width="0" layer="19" extent="1-1"/>
-<wire x1="178.6" y1="22.01" x2="255.23" y2="29.55" width="0" layer="19" extent="1-1"/>
-<wire x1="178.6" y1="17.01" x2="178.6" y2="22.01" width="0" layer="19" extent="1-1"/>
+<wire x1="143.95" y1="103.9" x2="149.383" y2="105.68" width="0" layer="19" extent="1-1"/>
+<wire x1="150" y1="114.46" x2="149.383" y2="105.68" width="0" layer="19" extent="1-1"/>
+<wire x1="141.19" y1="133.73" x2="150" y2="114.46" width="0" layer="19" extent="1-1"/>
+<wire x1="141.19" y1="136.27" x2="141.19" y2="133.73" width="0" layer="19" extent="1-1"/>
+<wire x1="120.283" y1="106.99" x2="143.95" y2="103.9" width="0" layer="19" extent="1-1"/>
+<wire x1="113.45" y1="104.9" x2="120.283" y2="106.99" width="0" layer="19" extent="1-1"/>
+<wire x1="121.25" y1="114.46" x2="120.283" y2="106.99" width="0" layer="19" extent="1-1"/>
+<wire x1="92.283" y1="106.18" x2="113.45" y2="104.9" width="0" layer="19" extent="1-1"/>
+<wire x1="92.5" y1="114.46" x2="92.283" y2="106.18" width="0" layer="19" extent="1-1"/>
+<wire x1="83.45" y1="103.9" x2="92.283" y2="106.18" width="0" layer="19" extent="1-1"/>
+<wire x1="62.853" y1="106.17" x2="83.45" y2="103.9" width="0" layer="19" extent="1-1"/>
+<wire x1="55.45" y1="104.9" x2="62.853" y2="106.17" width="0" layer="19" extent="1-1"/>
+<wire x1="63.75" y1="114.46" x2="62.853" y2="106.17" width="0" layer="19" extent="1-1"/>
+<wire x1="57.65" y1="131.9573" x2="63.75" y2="114.46" width="0" layer="19" extent="1-1"/>
+<wire x1="57.65" y1="136.9573" x2="57.65" y2="131.9573" width="0" layer="19" extent="1-1"/>
+<wire x1="34.043" y1="105.17" x2="55.45" y2="104.9" width="0" layer="19" extent="1-1"/>
+<wire x1="27.45" y1="108.9" x2="34.043" y2="105.17" width="0" layer="19" extent="1-1"/>
+<wire x1="35" y1="114.46" x2="34.043" y2="105.17" width="0" layer="19" extent="1-1"/>
+<wire x1="175.95" y1="105.4" x2="149.383" y2="105.68" width="0" layer="19" extent="1-1"/>
+<wire x1="177.883" y1="104.99" x2="175.95" y2="105.4" width="0" layer="19" extent="1-1"/>
+<wire x1="178.75" y1="114.46" x2="175.95" y2="105.4" width="0" layer="19" extent="1-1"/>
+<wire x1="203.95" y1="104.4" x2="177.883" y2="104.99" width="0" layer="19" extent="1-1"/>
+<wire x1="207.383" y1="105.3" x2="203.95" y2="104.4" width="0" layer="19" extent="1-1"/>
+<wire x1="207.5" y1="114.46" x2="207.383" y2="105.3" width="0" layer="19" extent="1-1"/>
+<wire x1="231.45" y1="107.4" x2="207.383" y2="105.3" width="0" layer="19" extent="1-1"/>
+<wire x1="235.883" y1="105.61" x2="231.45" y2="107.4" width="0" layer="19" extent="1-1"/>
+<wire x1="236.25" y1="114.46" x2="231.45" y2="107.4" width="0" layer="19" extent="1-1"/>
+<wire x1="257.95" y1="104.9" x2="235.883" y2="105.61" width="0" layer="19" extent="1-1"/>
+<wire x1="263.183" y1="104.67" x2="257.95" y2="104.9" width="0" layer="19" extent="1-1"/>
+<wire x1="265" y1="114.46" x2="263.183" y2="104.67" width="0" layer="19" extent="1-1"/>
+<wire x1="237.5" y1="23" x2="235.883" y2="105.61" width="0" layer="19" extent="1-1"/>
+<wire x1="167.5" y1="15.5" x2="237.5" y2="23" width="0" layer="19" extent="1-1"/>
+<wire x1="167.5" y1="10.5" x2="167.5" y2="15.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="R9" pad="2"/>
 <contactref element="Q2" pad="1"/>
-<wire x1="53.55" y1="104.9" x2="54.6" y2="173.24" width="0" layer="19" extent="1-1"/>
+<wire x1="53.55" y1="104.9" x2="71.6" y2="113.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="D9" pad="A"/>
 <contactref element="K2" pad="A1"/>
 <contactref element="Q2" pad="3"/>
-<wire x1="58.83" y1="107.14" x2="58.94" y2="110.77" width="0" layer="19" extent="1-1"/>
-<wire x1="54.5" y1="107.1" x2="58.83" y2="107.14" width="0" layer="19" extent="1-1"/>
+<wire x1="59.94" y1="97.7" x2="59.94" y2="103.27" width="0" layer="19" extent="1-1"/>
+<wire x1="54.5" y1="107.1" x2="59.94" y2="103.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="F2" pad="1"/>
 <contactref element="X2" pad="2"/>
-<wire x1="57.12" y1="66.34" x2="46.46" y2="88.23" width="0" layer="19" extent="1-1"/>
+<wire x1="56.25" y1="55" x2="44.67" y2="75.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="K2" pad="12"/>
 <contactref element="X2" pad="1"/>
-<wire x1="57.12" y1="71.34" x2="66.45" y2="88.24" width="0" layer="19" extent="1-1"/>
+<wire x1="56.25" y1="60" x2="67.56" y2="78.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="K2" pad="A2"/>
 <contactref element="D9" pad="C"/>
-<wire x1="66.45" y1="107.14" x2="66.56" y2="110.77" width="0" layer="19" extent="1-1"/>
+<wire x1="67.56" y1="97.7" x2="67.56" y2="103.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PE">
 <contactref element="X2" pad="5'"/>
@@ -3246,26 +3255,26 @@ design rules under a new name.</description>
 <contactref element="X14" pad="L3.1"/>
 <contactref element="X14" pad="L3.2"/>
 <contactref element="X10" pad="3"/>
-<wire x1="179.6" y1="52.83" x2="184.6" y2="52.83" width="0" layer="19" extent="1-1"/>
-<wire x1="158.23" y1="52.8" x2="179.6" y2="52.83" width="0" layer="19" extent="1-1"/>
-<wire x1="153.23" y1="52.8" x2="158.23" y2="52.8" width="0" layer="19" extent="1-1"/>
-<wire x1="208.23" y1="53.33" x2="184.6" y2="52.83" width="0" layer="19" extent="1-1"/>
-<wire x1="213.23" y1="53.33" x2="208.23" y2="53.33" width="0" layer="19" extent="1-1"/>
-<wire x1="233.36" y1="54.33" x2="213.23" y2="53.33" width="0" layer="19" extent="1-1"/>
-<wire x1="238.36" y1="54.33" x2="233.36" y2="54.33" width="0" layer="19" extent="1-1"/>
-<wire x1="128.6" y1="53.3" x2="153.23" y2="52.8" width="0" layer="19" extent="1-1"/>
-<wire x1="123.6" y1="53.3" x2="128.6" y2="53.3" width="0" layer="19" extent="1-1"/>
-<wire x1="263.6" y1="54.16" x2="238.36" y2="54.33" width="0" layer="19" extent="1-1"/>
-<wire x1="268.6" y1="54.16" x2="263.6" y2="54.16" width="0" layer="19" extent="1-1"/>
-<wire x1="92.6" y1="52.56" x2="123.6" y2="53.3" width="0" layer="19" extent="1-1"/>
-<wire x1="87.6" y1="52.56" x2="92.6" y2="52.56" width="0" layer="19" extent="1-1"/>
-<wire x1="62.12" y1="51.34" x2="87.6" y2="52.56" width="0" layer="19" extent="1-1"/>
-<wire x1="57.12" y1="51.34" x2="62.12" y2="51.34" width="0" layer="19" extent="1-1"/>
-<wire x1="32.6" y1="52.23" x2="57.12" y2="51.34" width="0" layer="19" extent="1-1"/>
-<wire x1="27.6" y1="52.23" x2="32.6" y2="52.23" width="0" layer="19" extent="1-1"/>
-<wire x1="17.95" y1="16.72" x2="27.6" y2="52.23" width="0" layer="19" extent="1-1"/>
-<wire x1="19.87" y1="129.8573" x2="27.6" y2="52.23" width="0" layer="19" extent="1-1"/>
-<wire x1="19.87" y1="134.8573" x2="19.87" y2="129.8573" width="0" layer="19" extent="1-1"/>
+<wire x1="200" y1="40" x2="205" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="176.25" y1="40" x2="200" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="171.25" y1="40" x2="176.25" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="147.5" y1="40" x2="171.25" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="142.5" y1="40" x2="147.5" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="118.75" y1="40" x2="142.5" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="113.75" y1="40" x2="118.75" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="90" y1="40" x2="113.75" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="85" y1="40" x2="90" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="61.25" y1="40" x2="85" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="56.25" y1="40" x2="61.25" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="32.5" y1="40" x2="56.25" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="27.5" y1="40" x2="32.5" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="228.75" y1="40" x2="205" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="233.75" y1="40" x2="228.75" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="257.5" y1="40" x2="233.75" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="262.5" y1="40" x2="257.5" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="42.5" y1="13" x2="32.5" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="27.15" y1="131.9573" x2="27.5" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="27.15" y1="136.9573" x2="27.15" y2="131.9573" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N">
 <contactref element="X2" pad="4"/>
@@ -3280,500 +3289,500 @@ design rules under a new name.</description>
 <contactref element="X14" pad="L2.1"/>
 <contactref element="X14" pad="L2.2"/>
 <contactref element="X10" pad="2"/>
-<wire x1="153.23" y1="57.8" x2="179.6" y2="57.83" width="0" layer="19" extent="1-1"/>
-<wire x1="208.23" y1="58.33" x2="179.6" y2="57.83" width="0" layer="19" extent="1-1"/>
-<wire x1="233.36" y1="59.33" x2="208.23" y2="58.33" width="0" layer="19" extent="1-1"/>
-<wire x1="123.6" y1="58.3" x2="153.23" y2="57.8" width="0" layer="19" extent="1-1"/>
-<wire x1="263.6" y1="59.16" x2="233.36" y2="59.33" width="0" layer="19" extent="1-1"/>
-<wire x1="87.6" y1="57.56" x2="123.6" y2="58.3" width="0" layer="19" extent="1-1"/>
-<wire x1="57.12" y1="56.34" x2="87.6" y2="57.56" width="0" layer="19" extent="1-1"/>
-<wire x1="27.6" y1="57.23" x2="57.12" y2="56.34" width="0" layer="19" extent="1-1"/>
-<wire x1="17.95" y1="21.72" x2="27.6" y2="57.23" width="0" layer="19" extent="1-1"/>
-<wire x1="14.87" y1="129.8573" x2="27.6" y2="57.23" width="0" layer="19" extent="1-1"/>
-<wire x1="14.87" y1="134.8573" x2="14.87" y2="129.8573" width="0" layer="19" extent="1-1"/>
+<wire x1="171.25" y1="45" x2="200" y2="45" width="0" layer="19" extent="1-1"/>
+<wire x1="142.5" y1="45" x2="171.25" y2="45" width="0" layer="19" extent="1-1"/>
+<wire x1="113.75" y1="45" x2="142.5" y2="45" width="0" layer="19" extent="1-1"/>
+<wire x1="85" y1="45" x2="113.75" y2="45" width="0" layer="19" extent="1-1"/>
+<wire x1="56.25" y1="45" x2="85" y2="45" width="0" layer="19" extent="1-1"/>
+<wire x1="27.5" y1="45" x2="56.25" y2="45" width="0" layer="19" extent="1-1"/>
+<wire x1="228.75" y1="45" x2="200" y2="45" width="0" layer="19" extent="1-1"/>
+<wire x1="257.5" y1="45" x2="228.75" y2="45" width="0" layer="19" extent="1-1"/>
+<wire x1="42.5" y1="18" x2="56.25" y2="45" width="0" layer="19" extent="1-1"/>
+<wire x1="22.15" y1="131.9573" x2="27.5" y2="45" width="0" layer="19" extent="1-1"/>
+<wire x1="22.15" y1="136.9573" x2="22.15" y2="131.9573" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="K3" pad="14"/>
 <contactref element="X3" pad="3"/>
-<wire x1="87.6" y1="62.56" x2="94.55" y2="80.26" width="0" layer="19" extent="1-1"/>
+<wire x1="85" y1="50" x2="96.31" y2="72.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="K3" pad="11"/>
 <contactref element="F3" pad="2"/>
-<wire x1="76.15" y1="81.52" x2="86.93" y2="83.46" width="0" layer="19" extent="1-1"/>
+<wire x1="83.58" y1="75.5" x2="88.69" y2="75.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="R2" pad="1"/>
 <contactref element="D2" pad="1"/>
-<wire x1="62.81" y1="195.35" x2="71.7" y2="204.41" width="0" layer="19" extent="1-1"/>
+<wire x1="99.7" y1="117.41" x2="98.81" y2="125.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="D2" pad="3"/>
 <contactref element="R10" pad="1"/>
 <contactref element="R6" pad="2"/>
 <contactref element="S3" pad="2"/>
-<wire x1="74.34" y1="196.62" x2="91" y2="119.5" width="0" layer="19" extent="1-1"/>
-<wire x1="70.96" y1="196.62" x2="74.34" y2="196.62" width="0" layer="19" extent="1-1"/>
-<wire x1="72.65" y1="206.61" x2="74.34" y2="196.62" width="0" layer="19" extent="1-1"/>
+<wire x1="100.34" y1="112.12" x2="100.65" y2="119.61" width="0" layer="19" extent="1-1"/>
+<wire x1="92.5" y1="117" x2="100.65" y2="119.61" width="0" layer="19" extent="1-1"/>
+<wire x1="69.85" y1="107.5" x2="92.5" y2="117" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="D6" pad="A"/>
 <contactref element="R6" pad="1"/>
-<wire x1="69.26" y1="196.62" x2="42.17" y2="189.393" width="0" layer="19" extent="1-1"/>
+<wire x1="64.607" y1="106.17" x2="68.15" y2="107.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="R10" pad="2"/>
 <contactref element="Q3" pad="1"/>
-<wire x1="76.04" y1="196.62" x2="81.55" y2="103.9" width="0" layer="19" extent="1-1"/>
+<wire x1="81.55" y1="103.9" x2="102.04" y2="112.12" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="K3" pad="A2"/>
 <contactref element="D10" pad="C"/>
-<wire x1="94.55" y1="105.56" x2="94.44" y2="109.65" width="0" layer="19" extent="1-1"/>
+<wire x1="96.31" y1="97.7" x2="96.44" y2="103.65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="D10" pad="A"/>
 <contactref element="K3" pad="A1"/>
 <contactref element="Q3" pad="3"/>
-<wire x1="86.93" y1="105.56" x2="86.82" y2="109.65" width="0" layer="19" extent="1-1"/>
-<wire x1="82.5" y1="106.1" x2="86.93" y2="105.56" width="0" layer="19" extent="1-1"/>
+<wire x1="88.69" y1="97.7" x2="88.82" y2="103.65" width="0" layer="19" extent="1-1"/>
+<wire x1="82.5" y1="106.1" x2="88.82" y2="103.65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="F3" pad="1"/>
 <contactref element="X3" pad="2"/>
-<wire x1="87.6" y1="67.56" x2="76.15" y2="91.68" width="0" layer="19" extent="1-1"/>
+<wire x1="85" y1="55" x2="73.42" y2="75.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
 <contactref element="K3" pad="12"/>
 <contactref element="X3" pad="1"/>
-<wire x1="87.6" y1="72.56" x2="94.55" y2="86.66" width="0" layer="19" extent="1-1"/>
+<wire x1="85" y1="60" x2="96.31" y2="78.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$21">
 <contactref element="K4" pad="14"/>
 <contactref element="X4" pad="3"/>
-<wire x1="123.6" y1="63.3" x2="124.78" y2="82.26" width="0" layer="19" extent="1-1"/>
+<wire x1="113.75" y1="50" x2="125.06" y2="72.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$22">
 <contactref element="K4" pad="11"/>
 <contactref element="F4" pad="2"/>
-<wire x1="106.52" y1="80.09" x2="117.16" y2="85.46" width="0" layer="19" extent="1-1"/>
+<wire x1="112.33" y1="75.5" x2="117.44" y2="75.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$23">
 <contactref element="R3" pad="1"/>
 <contactref element="D3" pad="1"/>
-<wire x1="-58.99" y1="157.92" x2="-62.8" y2="166.98" width="0" layer="19" extent="1-1"/>
+<wire x1="128.7" y1="120.98" x2="128.51" y2="126.92" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="D3" pad="3"/>
 <contactref element="R11" pad="1"/>
 <contactref element="R7" pad="2"/>
 <contactref element="S4" pad="2"/>
-<wire x1="-46.19" y1="159.19" x2="121" y2="116" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.85" y1="169.18" x2="-46.19" y2="159.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-90.21" y1="151.57" x2="-61.85" y2="169.18" width="0" layer="19" extent="1-1"/>
+<wire x1="128.31" y1="116.69" x2="129.65" y2="123.18" width="0" layer="19" extent="1-1"/>
+<wire x1="121.25" y1="117" x2="128.31" y2="116.69" width="0" layer="19" extent="1-1"/>
+<wire x1="98.79" y1="106.57" x2="121.25" y2="117" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="D7" pad="A"/>
 <contactref element="R7" pad="1"/>
-<wire x1="-91.91" y1="151.57" x2="-75.82" y2="151.963" width="0" layer="19" extent="1-1"/>
+<wire x1="94.037" y1="106.18" x2="97.09" y2="106.57" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$26">
 <contactref element="R11" pad="2"/>
 <contactref element="Q4" pad="1"/>
-<wire x1="-44.49" y1="159.19" x2="111.55" y2="104.9" width="0" layer="19" extent="1-1"/>
+<wire x1="111.55" y1="104.9" x2="130.01" y2="116.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="K4" pad="A2"/>
 <contactref element="D11" pad="C"/>
-<wire x1="124.78" y1="107.56" x2="124.94" y2="111.58" width="0" layer="19" extent="1-1"/>
+<wire x1="125.06" y1="97.7" x2="124.94" y2="103.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$28">
 <contactref element="D11" pad="A"/>
 <contactref element="K4" pad="A1"/>
 <contactref element="Q4" pad="3"/>
-<wire x1="117.16" y1="107.56" x2="117.32" y2="111.58" width="0" layer="19" extent="1-1"/>
-<wire x1="112.5" y1="107.1" x2="117.16" y2="107.56" width="0" layer="19" extent="1-1"/>
+<wire x1="117.44" y1="97.7" x2="117.32" y2="103.08" width="0" layer="19" extent="1-1"/>
+<wire x1="112.5" y1="107.1" x2="117.32" y2="103.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$29">
 <contactref element="F4" pad="1"/>
 <contactref element="X4" pad="2"/>
-<wire x1="123.6" y1="68.3" x2="106.52" y2="90.25" width="0" layer="19" extent="1-1"/>
+<wire x1="113.75" y1="55" x2="102.17" y2="75.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$30">
 <contactref element="K4" pad="12"/>
 <contactref element="X4" pad="1"/>
-<wire x1="123.6" y1="73.3" x2="124.78" y2="88.66" width="0" layer="19" extent="1-1"/>
+<wire x1="113.75" y1="60" x2="125.06" y2="78.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$31">
 <contactref element="K5" pad="14"/>
 <contactref element="X5" pad="3"/>
-<wire x1="153.23" y1="62.8" x2="155.12" y2="80.76" width="0" layer="19" extent="1-1"/>
+<wire x1="142.5" y1="50" x2="153.81" y2="72.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$32">
 <contactref element="K5" pad="11"/>
 <contactref element="F5" pad="2"/>
-<wire x1="136.99" y1="80.09" x2="147.5" y2="83.96" width="0" layer="19" extent="1-1"/>
+<wire x1="141.08" y1="75.5" x2="146.19" y2="75.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$33">
 <contactref element="R4" pad="1"/>
 <contactref element="D4" pad="1"/>
-<wire x1="-52.64" y1="157.92" x2="-55.18" y2="166.98" width="0" layer="19" extent="1-1"/>
+<wire x1="159.82" y1="120.48" x2="158.86" y2="127.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$34">
 <contactref element="D4" pad="3"/>
 <contactref element="R12" pad="1"/>
 <contactref element="R8" pad="2"/>
 <contactref element="S5" pad="2"/>
-<wire x1="-80.05" y1="151.57" x2="-54.23" y2="169.18" width="0" layer="19" extent="1-1"/>
-<wire x1="-86.83" y1="151.57" x2="-80.05" y2="151.57" width="0" layer="19" extent="1-1"/>
-<wire x1="151" y1="117" x2="-54.23" y2="169.18" width="0" layer="19" extent="1-1"/>
+<wire x1="150" y1="117" x2="127.95" y2="106.07" width="0" layer="19" extent="1-1"/>
+<wire x1="159.17" y1="115.57" x2="150" y2="117" width="0" layer="19" extent="1-1"/>
+<wire x1="160.77" y1="122.68" x2="159.17" y2="115.57" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$35">
 <contactref element="D8" pad="A"/>
 <contactref element="R8" pad="1"/>
-<wire x1="-81.75" y1="151.57" x2="-72.01" y2="151.963" width="0" layer="19" extent="1-1"/>
+<wire x1="126.25" y1="106.07" x2="122.037" y2="106.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$36">
 <contactref element="R12" pad="2"/>
 <contactref element="Q5" pad="1"/>
-<wire x1="-85.13" y1="151.57" x2="142.05" y2="103.9" width="0" layer="19" extent="1-1"/>
+<wire x1="160.87" y1="115.57" x2="142.05" y2="103.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$37">
 <contactref element="K5" pad="A2"/>
 <contactref element="D12" pad="C"/>
-<wire x1="155.12" y1="106.06" x2="155.24" y2="110.58" width="0" layer="19" extent="1-1"/>
+<wire x1="153.74" y1="102.58" x2="153.81" y2="97.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
 <contactref element="D12" pad="A"/>
 <contactref element="K5" pad="A1"/>
 <contactref element="Q5" pad="3"/>
-<wire x1="143" y1="106.1" x2="147.5" y2="106.06" width="0" layer="19" extent="1-1"/>
-<wire x1="147.62" y1="110.58" x2="147.5" y2="106.06" width="0" layer="19" extent="1-1"/>
+<wire x1="143" y1="106.1" x2="146.12" y2="102.58" width="0" layer="19" extent="1-1"/>
+<wire x1="146.19" y1="97.7" x2="146.12" y2="102.58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$39">
 <contactref element="F5" pad="1"/>
 <contactref element="X5" pad="2"/>
-<wire x1="153.23" y1="67.8" x2="136.99" y2="90.25" width="0" layer="19" extent="1-1"/>
+<wire x1="142.5" y1="55" x2="130.92" y2="75.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$40">
 <contactref element="K5" pad="12"/>
 <contactref element="X5" pad="1"/>
-<wire x1="153.23" y1="72.8" x2="155.12" y2="87.16" width="0" layer="19" extent="1-1"/>
+<wire x1="142.5" y1="60" x2="153.81" y2="78.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$41">
 <contactref element="K6" pad="14"/>
 <contactref element="X6" pad="3"/>
-<wire x1="186.15" y1="82.29" x2="179.6" y2="62.83" width="0" layer="19" extent="1-1"/>
+<wire x1="171.25" y1="50" x2="182.56" y2="72.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$42">
 <contactref element="K6" pad="11"/>
 <contactref element="F6" pad="2"/>
-<wire x1="178.53" y1="85.49" x2="167.15" y2="79.62" width="0" layer="19" extent="1-1"/>
+<wire x1="169.33" y1="75.5" x2="174.94" y2="75.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$43">
 <contactref element="R13" pad="1"/>
 <contactref element="D13" pad="1"/>
-<wire x1="-17.11" y1="184.32" x2="15.91" y2="202.27" width="0" layer="19" extent="1-1"/>
+<wire x1="186.91" y1="119.77" x2="186.89" y2="126.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$44">
 <contactref element="D13" pad="3"/>
 <contactref element="R21" pad="1"/>
 <contactref element="R17" pad="2"/>
 <contactref element="S6" pad="2"/>
-<wire x1="15.17" y1="185.59" x2="16.86" y2="204.47" width="0" layer="19" extent="1-1"/>
-<wire x1="8.39" y1="185.59" x2="15.17" y2="185.59" width="0" layer="19" extent="1-1"/>
-<wire x1="182.5" y1="117.5" x2="15.17" y2="185.59" width="0" layer="19" extent="1-1"/>
+<wire x1="187.39" y1="115.09" x2="187.86" y2="121.97" width="0" layer="19" extent="1-1"/>
+<wire x1="178.75" y1="117" x2="187.39" y2="115.09" width="0" layer="19" extent="1-1"/>
+<wire x1="157.17" y1="106.59" x2="178.75" y2="117" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$45">
 <contactref element="D17" pad="A"/>
 <contactref element="R17" pad="1"/>
-<wire x1="-26.32" y1="178.363" x2="13.47" y2="185.59" width="0" layer="19" extent="1-1"/>
+<wire x1="151.137" y1="105.68" x2="155.47" y2="106.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$46">
 <contactref element="R21" pad="2"/>
 <contactref element="Q6" pad="1"/>
-<wire x1="174.05" y1="105.4" x2="10.09" y2="185.59" width="0" layer="19" extent="1-1"/>
+<wire x1="174.05" y1="105.4" x2="189.09" y2="115.09" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$47">
 <contactref element="K6" pad="A2"/>
 <contactref element="D21" pad="C"/>
-<wire x1="186.15" y1="107.59" x2="186.11" y2="111.06" width="0" layer="19" extent="1-1"/>
+<wire x1="182.56" y1="97.7" x2="182.61" y2="102.06" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$48">
 <contactref element="D21" pad="A"/>
 <contactref element="K6" pad="A1"/>
 <contactref element="Q6" pad="3"/>
-<wire x1="178.53" y1="107.59" x2="178.49" y2="111.06" width="0" layer="19" extent="1-1"/>
-<wire x1="175" y1="107.6" x2="178.53" y2="107.59" width="0" layer="19" extent="1-1"/>
+<wire x1="174.99" y1="102.06" x2="175" y2="107.6" width="0" layer="19" extent="1-1"/>
+<wire x1="174.94" y1="97.7" x2="174.99" y2="102.06" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$49">
 <contactref element="F6" pad="1"/>
 <contactref element="X6" pad="2"/>
-<wire x1="167.15" y1="89.78" x2="179.6" y2="67.83" width="0" layer="19" extent="1-1"/>
+<wire x1="171.25" y1="55" x2="159.17" y2="75.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$50">
 <contactref element="K6" pad="12"/>
 <contactref element="X6" pad="1"/>
-<wire x1="186.15" y1="88.69" x2="179.6" y2="72.83" width="0" layer="19" extent="1-1"/>
+<wire x1="182.56" y1="78.8" x2="171.25" y2="60" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$51">
 <contactref element="K7" pad="14"/>
 <contactref element="X7" pad="3"/>
-<wire x1="208.23" y1="63.33" x2="214.15" y2="82.08" width="0" layer="19" extent="1-1"/>
+<wire x1="211.31" y1="72.4" x2="200" y2="50" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$52">
 <contactref element="K7" pad="11"/>
 <contactref element="F7" pad="2"/>
-<wire x1="197.12" y1="80.12" x2="206.53" y2="85.28" width="0" layer="19" extent="1-1"/>
+<wire x1="198.58" y1="75.5" x2="203.69" y2="75.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$53">
 <contactref element="R14" pad="1"/>
 <contactref element="D14" pad="1"/>
-<wire x1="-10.76" y1="184.32" x2="23.53" y2="202.27" width="0" layer="19" extent="1-1"/>
+<wire x1="215.03" y1="119.27" x2="214.24" y2="126.82" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$54">
 <contactref element="D14" pad="3"/>
 <contactref element="R22" pad="1"/>
 <contactref element="R18" pad="2"/>
 <contactref element="S7" pad="2"/>
-<wire x1="25.33" y1="185.59" x2="24.48" y2="204.47" width="0" layer="19" extent="1-1"/>
-<wire x1="18.55" y1="185.59" x2="25.33" y2="185.59" width="0" layer="19" extent="1-1"/>
-<wire x1="209.5" y1="118.5" x2="25.33" y2="185.59" width="0" layer="19" extent="1-1"/>
+<wire x1="215.05" y1="114.59" x2="215.98" y2="121.47" width="0" layer="19" extent="1-1"/>
+<wire x1="207.5" y1="117" x2="215.05" y2="114.59" width="0" layer="19" extent="1-1"/>
+<wire x1="213.33" y1="106.09" x2="215.05" y2="114.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$55">
 <contactref element="D18" pad="A"/>
 <contactref element="R18" pad="1"/>
-<wire x1="-22.51" y1="178.363" x2="23.63" y2="185.59" width="0" layer="19" extent="1-1"/>
+<wire x1="179.637" y1="104.99" x2="211.63" y2="106.09" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$56">
 <contactref element="R22" pad="2"/>
 <contactref element="Q7" pad="1"/>
-<wire x1="202.05" y1="104.4" x2="20.25" y2="185.59" width="0" layer="19" extent="1-1"/>
+<wire x1="202.05" y1="104.4" x2="216.75" y2="114.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$57">
 <contactref element="K7" pad="A2"/>
 <contactref element="D22" pad="C"/>
-<wire x1="214.15" y1="107.38" x2="214.41" y2="111.06" width="0" layer="19" extent="1-1"/>
+<wire x1="211.31" y1="97.7" x2="211.41" y2="102.06" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$58">
 <contactref element="D22" pad="A"/>
 <contactref element="K7" pad="A1"/>
 <contactref element="Q7" pad="3"/>
-<wire x1="206.53" y1="107.38" x2="206.79" y2="111.06" width="0" layer="19" extent="1-1"/>
-<wire x1="203" y1="106.6" x2="206.53" y2="107.38" width="0" layer="19" extent="1-1"/>
+<wire x1="203.69" y1="97.7" x2="203.79" y2="102.06" width="0" layer="19" extent="1-1"/>
+<wire x1="203" y1="106.6" x2="203.79" y2="102.06" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$59">
 <contactref element="F7" pad="1"/>
 <contactref element="X7" pad="2"/>
-<wire x1="208.23" y1="68.33" x2="197.12" y2="90.28" width="0" layer="19" extent="1-1"/>
+<wire x1="188.42" y1="75.5" x2="200" y2="55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$60">
 <contactref element="K7" pad="12"/>
 <contactref element="X7" pad="1"/>
-<wire x1="208.23" y1="73.33" x2="214.15" y2="88.48" width="0" layer="19" extent="1-1"/>
+<wire x1="200" y1="60" x2="211.31" y2="78.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$61">
 <contactref element="K8" pad="14"/>
 <contactref element="X8" pad="3"/>
-<wire x1="233.36" y1="64.33" x2="241.64" y2="85.26" width="0" layer="19" extent="1-1"/>
+<wire x1="228.75" y1="50" x2="240.06" y2="72.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$62">
 <contactref element="K8" pad="11"/>
 <contactref element="F8" pad="2"/>
-<wire x1="225.59" y1="84.62" x2="234.02" y2="88.46" width="0" layer="19" extent="1-1"/>
+<wire x1="227.33" y1="75.5" x2="232.44" y2="75.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$63">
 <contactref element="R15" pad="1"/>
 <contactref element="D15" pad="1"/>
-<wire x1="-42.51" y1="190.84" x2="-4.41" y2="184.32" width="0" layer="19" extent="1-1"/>
+<wire x1="245.49" y1="120.84" x2="245.09" y2="127.82" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$64">
 <contactref element="D15" pad="3"/>
 <contactref element="R23" pad="1"/>
 <contactref element="R19" pad="2"/>
 <contactref element="S8" pad="2"/>
-<wire x1="-40.71" y1="177.97" x2="28.71" y2="185.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.56" y1="193.04" x2="-40.71" y2="177.97" width="0" layer="19" extent="1-1"/>
-<wire x1="240" y1="119.5" x2="28.71" y2="185.59" width="0" layer="19" extent="1-1"/>
+<wire x1="236.25" y1="117" x2="246.44" y2="123.04" width="0" layer="19" extent="1-1"/>
+<wire x1="230.21" y1="115.59" x2="236.25" y2="117" width="0" layer="19" extent="1-1"/>
+<wire x1="242.79" y1="105.97" x2="236.25" y2="117" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$65">
 <contactref element="D19" pad="A"/>
 <contactref element="R19" pad="1"/>
-<wire x1="-42.41" y1="177.97" x2="-18.7" y2="178.363" width="0" layer="19" extent="1-1"/>
+<wire x1="209.137" y1="105.3" x2="241.09" y2="105.97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$66">
 <contactref element="R23" pad="2"/>
 <contactref element="Q8" pad="1"/>
-<wire x1="229.55" y1="107.4" x2="30.41" y2="185.59" width="0" layer="19" extent="1-1"/>
+<wire x1="229.55" y1="107.4" x2="231.91" y2="115.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$67">
 <contactref element="K8" pad="A2"/>
 <contactref element="D23" pad="C"/>
-<wire x1="241.64" y1="110.56" x2="241.56" y2="114.68" width="0" layer="19" extent="1-1"/>
+<wire x1="240.06" y1="97.7" x2="240.06" y2="102.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$68">
 <contactref element="D23" pad="A"/>
 <contactref element="K8" pad="A1"/>
 <contactref element="Q8" pad="3"/>
-<wire x1="234.02" y1="110.56" x2="233.94" y2="114.68" width="0" layer="19" extent="1-1"/>
-<wire x1="230.5" y1="109.6" x2="234.02" y2="110.56" width="0" layer="19" extent="1-1"/>
+<wire x1="232.44" y1="102.18" x2="230.5" y2="109.6" width="0" layer="19" extent="1-1"/>
+<wire x1="232.44" y1="97.7" x2="232.44" y2="102.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$69">
 <contactref element="F8" pad="1"/>
 <contactref element="X8" pad="2"/>
-<wire x1="233.36" y1="69.33" x2="225.59" y2="94.78" width="0" layer="19" extent="1-1"/>
+<wire x1="228.75" y1="55" x2="217.17" y2="75.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$70">
 <contactref element="K8" pad="12"/>
 <contactref element="X8" pad="1"/>
-<wire x1="233.36" y1="74.33" x2="241.64" y2="91.66" width="0" layer="19" extent="1-1"/>
+<wire x1="228.75" y1="60" x2="240.06" y2="78.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$72">
 <contactref element="K9" pad="11"/>
 <contactref element="F9" pad="2"/>
-<wire x1="252.52" y1="84.95" x2="271.52" y2="89.25" width="0" layer="19" extent="1-1"/>
+<wire x1="256.08" y1="75.5" x2="261.19" y2="75.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$73">
 <contactref element="R16" pad="1"/>
 <contactref element="D16" pad="1"/>
-<wire x1="-34.89" y1="190.84" x2="1.94" y2="184.32" width="0" layer="19" extent="1-1"/>
+<wire x1="273.11" y1="120.34" x2="270.94" y2="127.82" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$74">
 <contactref element="D16" pad="3"/>
 <contactref element="R24" pad="1"/>
 <contactref element="R20" pad="2"/>
 <contactref element="S9" pad="2"/>
-<wire x1="-30.55" y1="177.97" x2="-33.94" y2="193.04" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.33" y1="177.97" x2="-30.55" y2="177.97" width="0" layer="19" extent="1-1"/>
-<wire x1="269" y1="121.5" x2="-30.55" y2="177.97" width="0" layer="19" extent="1-1"/>
+<wire x1="272.17" y1="113.47" x2="274.06" y2="122.54" width="0" layer="19" extent="1-1"/>
+<wire x1="265" y1="117" x2="272.17" y2="113.47" width="0" layer="19" extent="1-1"/>
+<wire x1="271.95" y1="104.97" x2="272.17" y2="113.47" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$75">
 <contactref element="D20" pad="A"/>
 <contactref element="R20" pad="1"/>
-<wire x1="-32.25" y1="177.97" x2="-14.89" y2="178.363" width="0" layer="19" extent="1-1"/>
+<wire x1="237.637" y1="105.61" x2="270.25" y2="104.97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$76">
 <contactref element="R24" pad="2"/>
 <contactref element="Q9" pad="1"/>
-<wire x1="264.55" y1="109.4" x2="-35.63" y2="177.97" width="0" layer="19" extent="1-1"/>
+<wire x1="256.05" y1="104.9" x2="273.87" y2="113.47" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$77">
 <contactref element="K9" pad="A2"/>
 <contactref element="D24" pad="C"/>
-<wire x1="279.14" y1="111.35" x2="279.36" y2="116.18" width="0" layer="19" extent="1-1"/>
+<wire x1="268.81" y1="97.7" x2="268.86" y2="102.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$78">
 <contactref element="D24" pad="A"/>
 <contactref element="K9" pad="A1"/>
 <contactref element="Q9" pad="3"/>
-<wire x1="271.52" y1="111.35" x2="271.74" y2="116.18" width="0" layer="19" extent="1-1"/>
-<wire x1="265.5" y1="111.6" x2="271.52" y2="111.35" width="0" layer="19" extent="1-1"/>
+<wire x1="261.24" y1="102.18" x2="257" y2="107.1" width="0" layer="19" extent="1-1"/>
+<wire x1="261.19" y1="97.7" x2="261.24" y2="102.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$79">
 <contactref element="F9" pad="1"/>
 <contactref element="X9" pad="2"/>
-<wire x1="263.6" y1="69.16" x2="252.52" y2="95.11" width="0" layer="19" extent="1-1"/>
+<wire x1="257.5" y1="55" x2="245.92" y2="75.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$80">
 <contactref element="K9" pad="12"/>
 <contactref element="X9" pad="1"/>
-<wire x1="263.6" y1="74.16" x2="279.14" y2="92.45" width="0" layer="19" extent="1-1"/>
+<wire x1="257.5" y1="60" x2="268.81" y2="78.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$81">
 <contactref element="K1" pad="14"/>
 <contactref element="X1" pad="3"/>
-<wire x1="27.6" y1="62.23" x2="35.22" y2="80.76" width="0" layer="19" extent="1-1"/>
+<wire x1="27.5" y1="50" x2="38.81" y2="72.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$82">
 <contactref element="K1" pad="11"/>
 <contactref element="F1" pad="2"/>
-<wire x1="14.65" y1="79.19" x2="27.6" y2="83.96" width="0" layer="19" extent="1-1"/>
+<wire x1="26.08" y1="75.5" x2="31.19" y2="75.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$83">
 <contactref element="R25" pad="1"/>
 <contactref element="D25" pad="1"/>
-<wire x1="-22.19" y1="133.52" x2="-13.3" y2="142.58" width="0" layer="19" extent="1-1"/>
+<wire x1="42.31" y1="111.02" x2="42.7" y2="116.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$84">
 <contactref element="D25" pad="3"/>
 <contactref element="R27" pad="1"/>
 <contactref element="R26" pad="2"/>
 <contactref element="S1" pad="2"/>
-<wire x1="-8.96" y1="134.79" x2="31.5" y2="118.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.74" y1="134.79" x2="-8.96" y2="134.79" width="0" layer="19" extent="1-1"/>
-<wire x1="-12.35" y1="144.78" x2="-8.96" y2="134.79" width="0" layer="19" extent="1-1"/>
+<wire x1="43.26" y1="122.29" x2="44.54" y2="126.79" width="0" layer="19" extent="1-1"/>
+<wire x1="43.65" y1="118.28" x2="43.26" y2="122.29" width="0" layer="19" extent="1-1"/>
+<wire x1="35" y1="117" x2="43.65" y2="118.28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$85">
 <contactref element="D26" pad="A"/>
 <contactref element="R26" pad="1"/>
-<wire x1="-42.83" y1="127.563" x2="-10.66" y2="134.79" width="0" layer="19" extent="1-1"/>
+<wire x1="264.937" y1="104.67" x2="42.84" y2="126.79" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$86">
 <contactref element="R27" pad="2"/>
 <contactref element="Q1" pad="1"/>
-<wire x1="-14.04" y1="134.79" x2="20.55" y2="104.9" width="0" layer="19" extent="1-1"/>
+<wire x1="25.55" y1="108.9" x2="44.96" y2="122.29" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$87">
 <contactref element="K1" pad="A2"/>
 <contactref element="D27" pad="C"/>
-<wire x1="35.22" y1="106.06" x2="35.44" y2="110.48" width="0" layer="19" extent="1-1"/>
+<wire x1="38.81" y1="97.7" x2="38.94" y2="102.98" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$88">
 <contactref element="D27" pad="A"/>
 <contactref element="K1" pad="A1"/>
 <contactref element="Q1" pad="3"/>
-<wire x1="27.6" y1="106.06" x2="27.82" y2="110.48" width="0" layer="19" extent="1-1"/>
-<wire x1="21.5" y1="107.1" x2="27.6" y2="106.06" width="0" layer="19" extent="1-1"/>
+<wire x1="31.32" y1="102.98" x2="26.5" y2="111.1" width="0" layer="19" extent="1-1"/>
+<wire x1="31.19" y1="97.7" x2="31.32" y2="102.98" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$89">
 <contactref element="F1" pad="1"/>
 <contactref element="X1" pad="2"/>
-<wire x1="27.6" y1="67.23" x2="14.65" y2="89.35" width="0" layer="19" extent="1-1"/>
+<wire x1="27.5" y1="55" x2="15.92" y2="75.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$90">
 <contactref element="K1" pad="12"/>
 <contactref element="X1" pad="1"/>
-<wire x1="27.6" y1="72.23" x2="35.22" y2="87.16" width="0" layer="19" extent="1-1"/>
+<wire x1="27.5" y1="60" x2="38.81" y2="78.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P2">
 <contactref element="R1" pad="2"/>
 <contactref element="JP1" pad="4"/>
-<wire x1="133.06" y1="131.23" x2="54.7" y2="212.61" width="0" layer="19" extent="1-1"/>
+<wire x1="136.11" y1="136.27" x2="71.7" y2="124.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P3">
 <contactref element="R2" pad="2"/>
 <contactref element="JP1" pad="2"/>
-<wire x1="64.71" y1="195.35" x2="130.52" y2="131.23" width="0" layer="19" extent="1-1"/>
+<wire x1="133.57" y1="136.27" x2="100.71" y2="125.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P7">
 <contactref element="R14" pad="2"/>
 <contactref element="JP1" pad="11"/>
-<wire x1="143.22" y1="128.69" x2="-8.86" y2="184.32" width="0" layer="19" extent="1-1"/>
+<wire x1="146.27" y1="133.73" x2="216.14" y2="126.82" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P4">
 <contactref element="R3" pad="2"/>
 <contactref element="JP1" pad="1"/>
-<wire x1="130.52" y1="128.69" x2="-57.09" y2="157.92" width="0" layer="19" extent="1-1"/>
+<wire x1="130.41" y1="126.92" x2="133.57" y2="133.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P8">
 <contactref element="R15" pad="2"/>
 <contactref element="JP1" pad="13"/>
-<wire x1="145.76" y1="128.69" x2="-2.51" y2="184.32" width="0" layer="19" extent="1-1"/>
+<wire x1="148.81" y1="133.73" x2="246.99" y2="127.82" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P9">
 <contactref element="R16" pad="2"/>
 <contactref element="JP1" pad="15"/>
-<wire x1="148.3" y1="128.69" x2="3.84" y2="184.32" width="0" layer="19" extent="1-1"/>
+<wire x1="151.35" y1="133.73" x2="272.84" y2="127.82" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P5">
 <contactref element="R4" pad="2"/>
 <contactref element="JP1" pad="3"/>
-<wire x1="133.06" y1="128.69" x2="-50.74" y2="157.92" width="0" layer="19" extent="1-1"/>
+<wire x1="136.11" y1="133.73" x2="160.76" y2="127.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P1">
 <contactref element="R25" pad="2"/>
 <contactref element="JP1" pad="6"/>
-<wire x1="135.6" y1="131.23" x2="-20.29" y2="133.52" width="0" layer="19" extent="1-1"/>
+<wire x1="138.65" y1="136.27" x2="44.21" y2="111.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="12V">
 <contactref element="JP1" pad="12"/>
@@ -3781,17 +3790,17 @@ design rules under a new name.</description>
 <contactref element="F13" pad="1"/>
 <contactref element="X15" pad="L1.1"/>
 <contactref element="X15" pad="L1.2"/>
-<wire x1="235.18" y1="40.82" x2="152.78" y2="41.32" width="0" layer="19" extent="1-1"/>
-<wire x1="143.22" y1="131.23" x2="152.78" y2="41.32" width="0" layer="19" extent="1-1"/>
-<wire x1="39.41" y1="130.3073" x2="143.22" y2="131.23" width="0" layer="19" extent="1-1"/>
-<wire x1="39.41" y1="135.3073" x2="39.41" y2="130.3073" width="0" layer="19" extent="1-1"/>
+<wire x1="139.92" y1="23" x2="214.92" y2="23" width="0" layer="19" extent="1-1"/>
+<wire x1="146.27" y1="136.27" x2="139.92" y2="23" width="0" layer="19" extent="1-1"/>
+<wire x1="52.65" y1="136.9573" x2="146.27" y2="136.27" width="0" layer="19" extent="1-1"/>
+<wire x1="52.65" y1="131.9573" x2="52.65" y2="136.9573" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A-">
 <contactref element="JP1" pad="20"/>
 <contactref element="X13" pad="4'"/>
 <contactref element="X13" pad="4"/>
-<wire x1="255.23" y1="19.55" x2="153.38" y2="131.23" width="0" layer="19" extent="1-1"/>
-<wire x1="260.23" y1="19.55" x2="255.23" y2="19.55" width="0" layer="19" extent="1-1"/>
+<wire x1="242.5" y1="13" x2="237.5" y2="13" width="0" layer="19" extent="1-1"/>
+<wire x1="156.43" y1="136.27" x2="237.5" y2="13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="JP1" pad="9"/>
@@ -3805,26 +3814,26 @@ design rules under a new name.</description>
 <contactref element="S8" pad="3"/>
 <contactref element="S5" pad="3"/>
 <contactref element="S9" pad="3"/>
-<wire x1="140.68" y1="128.69" x2="123.54" y2="116" width="0" layer="19" extent="1-1"/>
-<wire x1="140.68" y1="131.23" x2="140.68" y2="128.69" width="0" layer="19" extent="1-1"/>
-<wire x1="153.54" y1="117" x2="140.68" y2="128.69" width="0" layer="19" extent="1-1"/>
-<wire x1="93.54" y1="119.5" x2="123.54" y2="116" width="0" layer="19" extent="1-1"/>
-<wire x1="65.04" y1="119" x2="93.54" y2="119.5" width="0" layer="19" extent="1-1"/>
-<wire x1="34.04" y1="118.5" x2="65.04" y2="119" width="0" layer="19" extent="1-1"/>
-<wire x1="185.04" y1="117.5" x2="153.54" y2="117" width="0" layer="19" extent="1-1"/>
-<wire x1="212.04" y1="118.5" x2="185.04" y2="117.5" width="0" layer="19" extent="1-1"/>
-<wire x1="242.54" y1="119.5" x2="212.04" y2="118.5" width="0" layer="19" extent="1-1"/>
-<wire x1="271.54" y1="121.5" x2="242.54" y2="119.5" width="0" layer="19" extent="1-1"/>
+<wire x1="143.73" y1="133.73" x2="121.25" y2="119.54" width="0" layer="19" extent="1-1"/>
+<wire x1="143.73" y1="136.27" x2="143.73" y2="133.73" width="0" layer="19" extent="1-1"/>
+<wire x1="150" y1="119.54" x2="143.73" y2="133.73" width="0" layer="19" extent="1-1"/>
+<wire x1="92.5" y1="119.54" x2="121.25" y2="119.54" width="0" layer="19" extent="1-1"/>
+<wire x1="63.75" y1="119.54" x2="92.5" y2="119.54" width="0" layer="19" extent="1-1"/>
+<wire x1="35" y1="119.54" x2="63.75" y2="119.54" width="0" layer="19" extent="1-1"/>
+<wire x1="178.75" y1="119.54" x2="150" y2="119.54" width="0" layer="19" extent="1-1"/>
+<wire x1="207.5" y1="119.54" x2="178.75" y2="119.54" width="0" layer="19" extent="1-1"/>
+<wire x1="236.25" y1="119.54" x2="207.5" y2="119.54" width="0" layer="19" extent="1-1"/>
+<wire x1="265" y1="119.54" x2="236.25" y2="119.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B+">
 <contactref element="JP1" pad="19"/>
 <contactref element="X13" pad="3"/>
-<wire x1="255.23" y1="24.55" x2="153.38" y2="128.69" width="0" layer="19" extent="1-1"/>
+<wire x1="237.5" y1="18" x2="156.43" y2="133.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$91">
 <contactref element="F10" pad="2"/>
 <contactref element="X10" pad="1"/>
-<wire x1="17.95" y1="26.72" x2="96.75" y2="23.08" width="0" layer="19" extent="1-1"/>
+<wire x1="28.08" y1="23" x2="42.5" y2="23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="L">
 <contactref element="F10" pad="1"/>
@@ -3834,24 +3843,24 @@ design rules under a new name.</description>
 <contactref element="X11" pad="3"/>
 <contactref element="X11" pad="4"/>
 <contactref element="X14" pad="L1.2"/>
-<wire x1="121.58" y1="25.9" x2="121.58" y2="30.9" width="0" layer="19" extent="1-1"/>
-<wire x1="121.58" y1="20.9" x2="121.58" y2="25.9" width="0" layer="19" extent="1-1"/>
-<wire x1="121.58" y1="15.9" x2="121.58" y2="20.9" width="0" layer="19" extent="1-1"/>
-<wire x1="96.75" y1="33.24" x2="121.58" y2="30.9" width="0" layer="19" extent="1-1"/>
-<wire x1="9.87" y1="129.8573" x2="96.75" y2="33.24" width="0" layer="19" extent="1-1"/>
-<wire x1="9.87" y1="134.8573" x2="9.87" y2="129.8573" width="0" layer="19" extent="1-1"/>
+<wire x1="17.15" y1="131.9573" x2="17.15" y2="136.9573" width="0" layer="19" extent="1-1"/>
+<wire x1="17.92" y1="23" x2="17.15" y2="131.9573" width="0" layer="19" extent="1-1"/>
+<wire x1="117.5" y1="25.5" x2="17.92" y2="23" width="0" layer="19" extent="1-1"/>
+<wire x1="117.5" y1="20.5" x2="117.5" y2="25.5" width="0" layer="19" extent="1-1"/>
+<wire x1="117.5" y1="15.5" x2="117.5" y2="20.5" width="0" layer="19" extent="1-1"/>
+<wire x1="117.5" y1="10.5" x2="117.5" y2="15.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$94">
 <contactref element="F12" pad="2"/>
 <contactref element="X12" pad="1"/>
 <contactref element="X12" pad="2"/>
-<wire x1="178.6" y1="27.01" x2="178.6" y2="32.01" width="0" layer="19" extent="1-1"/>
-<wire x1="152.78" y1="31.16" x2="178.6" y2="32.01" width="0" layer="19" extent="1-1"/>
+<wire x1="167.5" y1="20.5" x2="167.5" y2="25.5" width="0" layer="19" extent="1-1"/>
+<wire x1="150.08" y1="23" x2="167.5" y2="25.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$92">
 <contactref element="F13" pad="2"/>
 <contactref element="X13" pad="1"/>
-<wire x1="235.18" y1="30.66" x2="255.23" y2="34.55" width="0" layer="19" extent="1-1"/>
+<wire x1="237.5" y1="28" x2="225.08" y2="23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCHIRM">
 <contactref element="X13" pad="5"/>
@@ -3859,7 +3868,24 @@ design rules under a new name.</description>
 <signal name="N$71">
 <contactref element="K9" pad="14"/>
 <contactref element="X9" pad="3"/>
-<wire x1="263.6" y1="64.16" x2="279.14" y2="86.05" width="0" layer="19" extent="1-1"/>
+<wire x1="257.5" y1="50" x2="268.81" y2="72.4" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$93">
+<polygon width="0.254" layer="1" isolate="0.3048">
+<vertex x="0" y="0"/>
+<vertex x="0" y="145"/>
+<vertex x="290" y="145"/>
+<vertex x="290" y="0"/>
+<vertex x="0" y="0"/>
+</polygon>
+</signal>
+<signal name="N$95">
+<polygon width="0.254" layer="16" isolate="0.3048">
+<vertex x="0" y="0"/>
+<vertex x="0" y="145"/>
+<vertex x="290" y="145"/>
+<vertex x="290" y="0"/>
+</polygon>
 </signal>
 </signals>
 </board>
