@@ -449,6 +449,21 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <text x="-5.08" y="3.175" size="1.778" layer="25">&gt;NAME</text>
 <text x="-5.08" y="-5.08" size="1.778" layer="27">&gt;VALUE</text>
 </package>
+<package name="SOT23">
+<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="A3L-LOC">
@@ -590,6 +605,24 @@ Mail: info@gaswarnanlagen.com</text>
 <pin name="P" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="S" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
 <pin name="O" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="NPN">
+<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
+<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1246,6 +1279,27 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BC846*" prefix="Q">
+<description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="SOT23">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name="A"/>
+<technology name="ALT1"/>
+<technology name="B"/>
+<technology name="BLT1"/>
 </technologies>
 </device>
 </devices>
@@ -6248,126 +6302,505 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="FRAME1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="A3L-LOC-RA-GAS" device="" value="A3"/>
 <part name="F10" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="10AT"/>
 <part name="F2" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="3,15AT"/>
-<part name="K2" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
-<part name="X2" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device=""/>
-<part name="X11" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_4X2" device=""/>
-<part name="X10" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_3X2" device=""/>
-<part name="Q1" library="AWJLEagleLib" deviceset="BC846BS" device="&quot;" value="BC846"/>
-<part name="JP1" library="pinhead" deviceset="PINHD-2X10" device="" value="Stiftleiste 2x20 pol"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="M0805" value="270R"/>
-<part name="D1" library="diode" deviceset="BAT54" device=""/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="D5" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
+<part name="K2" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+</part>
+<part name="X2" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="X11" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_4X2" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="X10" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_3X2" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="JP1" library="pinhead" deviceset="PINHD-2X10" device="" value="Stiftleiste 2x20 pol">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R1" library="rcl" deviceset="R-EU_" device="M0805" value="270R">
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="MC01W08055270R"/>
+<attribute name="OC_FARNELL" value="9334254"/>
+</part>
+<part name="D1" library="diode" deviceset="BAT54" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
+<attribute name="MPN" value="CPF0603B10KE1"/>
+<attribute name="OC_FARNELL" value="1697388"/>
+</part>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="2k2">
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="MC0063W060352K2"/>
+<attribute name="OC_FARNELL" value="9331913"/>
+</part>
+<part name="D5" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="D9" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W"/>
+<part name="D9" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="F3" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="3,15AT"/>
-<part name="K3" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
-<part name="X3" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device=""/>
-<part name="Q2" library="AWJLEagleLib" deviceset="BC846BS" device="&quot;" value="BC846"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="M0805" value="270R"/>
-<part name="D2" library="diode" deviceset="BAT54" device=""/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="D6" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
+<part name="K3" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+</part>
+<part name="X3" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R2" library="rcl" deviceset="R-EU_" device="M0805" value="270R">
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="MC01W08055270R"/>
+<attribute name="OC_FARNELL" value="9334254"/>
+</part>
+<part name="D2" library="diode" deviceset="BAT54" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
+<attribute name="MPN" value="CPF0603B10KE1"/>
+<attribute name="OC_FARNELL" value="1697388"/>
+</part>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="2k2">
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="MC0063W060352K2"/>
+<attribute name="OC_FARNELL" value="9331913"/>
+</part>
+<part name="D6" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="D10" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W"/>
+<part name="D10" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="F4" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="3,15AT"/>
-<part name="K4" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
-<part name="X4" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device=""/>
-<part name="Q3" library="AWJLEagleLib" deviceset="BC846BS" device="&quot;" value="BC846"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="M0805" value="270R"/>
-<part name="D3" library="diode" deviceset="BAT54" device=""/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="D7" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
+<part name="K4" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+</part>
+<part name="X4" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R3" library="rcl" deviceset="R-EU_" device="M0805" value="270R">
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="MC01W08055270R"/>
+<attribute name="OC_FARNELL" value="9334254"/>
+</part>
+<part name="D3" library="diode" deviceset="BAT54" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
+<attribute name="MPN" value="CPF0603B10KE1"/>
+<attribute name="OC_FARNELL" value="1697388"/>
+</part>
+<part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="2k2">
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="MC0063W060352K2"/>
+<attribute name="OC_FARNELL" value="9331913"/>
+</part>
+<part name="D7" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="D11" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W"/>
+<part name="D11" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="F5" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="3,15AT"/>
-<part name="K5" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
-<part name="X5" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device=""/>
-<part name="Q4" library="AWJLEagleLib" deviceset="BC846BS" device="&quot;" value="BC846"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="M0805" value="270R"/>
-<part name="D4" library="diode" deviceset="BAT54" device=""/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="D8" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
+<part name="K5" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+</part>
+<part name="X5" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R4" library="rcl" deviceset="R-EU_" device="M0805" value="270R">
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="MC01W08055270R"/>
+<attribute name="OC_FARNELL" value="9334254"/>
+</part>
+<part name="D4" library="diode" deviceset="BAT54" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
+<attribute name="MPN" value="CPF0603B10KE1"/>
+<attribute name="OC_FARNELL" value="1697388"/>
+</part>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="2k2">
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="MC0063W060352K2"/>
+<attribute name="OC_FARNELL" value="9331913"/>
+</part>
+<part name="D8" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="D12" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W"/>
+<part name="D12" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="F6" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="3,15AT"/>
-<part name="K6" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
-<part name="X6" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device=""/>
-<part name="Q5" library="AWJLEagleLib" deviceset="BC846BS" device="&quot;" value="BC846"/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="M0805" value="270R"/>
-<part name="D13" library="diode" deviceset="BAT54" device=""/>
-<part name="R21" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R17" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="D17" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
+<part name="K6" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+</part>
+<part name="X6" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R13" library="rcl" deviceset="R-EU_" device="M0805" value="270R">
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="MC01W08055270R"/>
+<attribute name="OC_FARNELL" value="9334254"/>
+</part>
+<part name="D13" library="diode" deviceset="BAT54" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R21" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
+<attribute name="MPN" value="CPF0603B10KE1"/>
+<attribute name="OC_FARNELL" value="1697388"/>
+</part>
+<part name="R17" library="rcl" deviceset="R-EU_" device="R0603" value="2k2">
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="MC0063W060352K2"/>
+<attribute name="OC_FARNELL" value="9331913"/>
+</part>
+<part name="D17" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="D21" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W"/>
+<part name="D21" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="F7" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="3,15AT"/>
-<part name="K7" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
-<part name="X7" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device=""/>
-<part name="Q6" library="AWJLEagleLib" deviceset="BC846BS" device="&quot;" value="BC846"/>
-<part name="R14" library="rcl" deviceset="R-EU_" device="M0805" value="270R"/>
-<part name="D14" library="diode" deviceset="BAT54" device=""/>
-<part name="R22" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R18" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="D18" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
+<part name="K7" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+</part>
+<part name="X7" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R14" library="rcl" deviceset="R-EU_" device="M0805" value="270R">
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="MC01W08055270R"/>
+<attribute name="OC_FARNELL" value="9334254"/>
+</part>
+<part name="D14" library="diode" deviceset="BAT54" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R22" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
+<attribute name="MPN" value="CPF0603B10KE1"/>
+<attribute name="OC_FARNELL" value="1697388"/>
+</part>
+<part name="R18" library="rcl" deviceset="R-EU_" device="R0603" value="2k2">
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="MC0063W060352K2"/>
+<attribute name="OC_FARNELL" value="9331913"/>
+</part>
+<part name="D18" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="D22" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W"/>
+<part name="D22" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="F8" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="3,15AT"/>
-<part name="K8" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
-<part name="X8" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device=""/>
-<part name="Q7" library="AWJLEagleLib" deviceset="BC846BS" device="&quot;" value="BC846"/>
-<part name="R15" library="rcl" deviceset="R-EU_" device="M0805" value="270R"/>
-<part name="D15" library="diode" deviceset="BAT54" device=""/>
-<part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="D19" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
+<part name="K8" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+</part>
+<part name="X8" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R15" library="rcl" deviceset="R-EU_" device="M0805" value="270R">
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="MC01W08055270R"/>
+<attribute name="OC_FARNELL" value="9334254"/>
+</part>
+<part name="D15" library="diode" deviceset="BAT54" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
+<attribute name="MPN" value="CPF0603B10KE1"/>
+<attribute name="OC_FARNELL" value="1697388"/>
+</part>
+<part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="2k2">
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="MC0063W060352K2"/>
+<attribute name="OC_FARNELL" value="9331913"/>
+</part>
+<part name="D19" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="D23" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W"/>
+<part name="D23" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="F9" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="3,15AT"/>
-<part name="K9" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
-<part name="X9" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device=""/>
-<part name="Q8" library="AWJLEagleLib" deviceset="BC846BS" device="&quot;" value="BC846"/>
-<part name="R16" library="rcl" deviceset="R-EU_" device="M0805" value="270R"/>
-<part name="D16" library="diode" deviceset="BAT54" device=""/>
-<part name="R24" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R20" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="D20" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
+<part name="K9" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+</part>
+<part name="X9" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R16" library="rcl" deviceset="R-EU_" device="M0805" value="270R">
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="MC01W08055270R"/>
+<attribute name="OC_FARNELL" value="9334254"/>
+</part>
+<part name="D16" library="diode" deviceset="BAT54" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R24" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
+<attribute name="MPN" value="CPF0603B10KE1"/>
+<attribute name="OC_FARNELL" value="1697388"/>
+</part>
+<part name="R20" library="rcl" deviceset="R-EU_" device="R0603" value="2k2">
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="MC0063W060352K2"/>
+<attribute name="OC_FARNELL" value="9331913"/>
+</part>
+<part name="D20" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="D24" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W"/>
+<part name="D24" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="F1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="3,15AT"/>
-<part name="K1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
-<part name="X1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device=""/>
-<part name="Q9" library="AWJLEagleLib" deviceset="BC846BS" device="&quot;" value="BC846"/>
-<part name="R25" library="rcl" deviceset="R-EU_" device="M0805" value="270R"/>
-<part name="D25" library="diode" deviceset="BAT54" device=""/>
-<part name="R27" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R26" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="D26" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
+<part name="K1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+</part>
+<part name="X1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="Q9" library="AWJLEagleLib" deviceset="BC846BS" device="&quot;" value="BC846">
+<attribute name="MF" value="ON SEMICONDUCTOR"/>
+<attribute name="MPN" value="BC846BWT1G"/>
+<attribute name="OC_FARNELL" value="2317836"/>
+</part>
+<part name="R25" library="rcl" deviceset="R-EU_" device="M0805" value="270R">
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="MC01W08055270R"/>
+<attribute name="OC_FARNELL" value="9334254"/>
+</part>
+<part name="D25" library="diode" deviceset="BAT54" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R27" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
+<attribute name="MPN" value="CPF0603B10KE1"/>
+<attribute name="OC_FARNELL" value="1697388"/>
+</part>
+<part name="R26" library="rcl" deviceset="R-EU_" device="R0603" value="2k2">
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="MC0063W060352K2"/>
+<attribute name="OC_FARNELL" value="9331913"/>
+</part>
+<part name="D26" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="D27" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W"/>
-<part name="X12" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_4X2" device=""/>
+<part name="D27" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="X12" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_4X2" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="F12" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="6,3AT"/>
-<part name="X13" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device=""/>
+<part name="X13" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="F13" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="3,15AT"/>
-<part name="X14" library="con-wago_236" deviceset="236-403" device=""/>
-<part name="X15" library="con-wago_236" deviceset="236-402" device=""/>
-<part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
-<part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
-<part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
-<part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
-<part name="S1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device=""/>
-<part name="S2" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device=""/>
-<part name="S3" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device=""/>
-<part name="S4" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device=""/>
-<part name="S5" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device=""/>
-<part name="S6" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device=""/>
-<part name="S7" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device=""/>
-<part name="S8" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device=""/>
-<part name="S9" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device=""/>
+<part name="X14" library="con-wago_236" deviceset="236-403" device="">
+<attribute name="MF" value="WAGO"/>
+<attribute name="MPN" value="236-403"/>
+<attribute name="OC_FARNELL" value="1283527"/>
+</part>
+<part name="X15" library="con-wago_236" deviceset="236-402" device="">
+<attribute name="MF" value="WAGO"/>
+<attribute name="MPN" value="236-402"/>
+<attribute name="OC_FARNELL" value="1283526"/>
+</part>
+<part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.3">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.3">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.3">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.3">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="S1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="S2" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="S3" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="S4" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="S5" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="S6" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="S7" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="S8" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="S9" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="Q1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="BC846*" device="SMD" technology="BLT1">
+<attribute name="OC_FARNELL" value="2317836"/>
+</part>
+<part name="Q2" library="xMZ-Mod-Touch-Bodenplatine" deviceset="BC846*" device="SMD" technology="BLT1">
+<attribute name="OC_FARNELL" value="2317836"/>
+</part>
+<part name="Q3" library="xMZ-Mod-Touch-Bodenplatine" deviceset="BC846*" device="SMD" technology="BLT1">
+<attribute name="OC_FARNELL" value="2317836"/>
+</part>
+<part name="Q4" library="xMZ-Mod-Touch-Bodenplatine" deviceset="BC846*" device="SMD" technology="BLT1">
+<attribute name="OC_FARNELL" value="2317836"/>
+</part>
+<part name="Q5" library="xMZ-Mod-Touch-Bodenplatine" deviceset="BC846*" device="SMD" technology="BLT1">
+<attribute name="OC_FARNELL" value="2317836"/>
+</part>
+<part name="Q6" library="xMZ-Mod-Touch-Bodenplatine" deviceset="BC846*" device="SMD" technology="BLT1">
+<attribute name="OC_FARNELL" value="2317836"/>
+</part>
+<part name="Q7" library="xMZ-Mod-Touch-Bodenplatine" deviceset="BC846*" device="SMD" technology="BLT1">
+<attribute name="OC_FARNELL" value="2317836"/>
+</part>
+<part name="Q8" library="xMZ-Mod-Touch-Bodenplatine" deviceset="BC846*" device="SMD" technology="BLT1">
+<attribute name="OC_FARNELL" value="2317836"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -6396,133 +6829,485 @@ oder externer Akku</text>
 <instance part="F2" gate="1" x="81.28" y="236.22" rot="R180"/>
 <instance part="K2" gate="1" x="63.5" y="241.3" rot="R180"/>
 <instance part="K2" gate="2" x="76.2" y="238.76"/>
-<instance part="X2" gate="G$1" x="99.06" y="231.14"/>
-<instance part="X11" gate="G$1" x="307.34" y="86.36"/>
-<instance part="X10" gate="G$1" x="307.34" y="127"/>
-<instance part="Q1" gate="A" x="45.72" y="228.6"/>
-<instance part="JP1" gate="A" x="271.78" y="175.26"/>
-<instance part="R1" gate="G$1" x="10.16" y="233.68" rot="R90"/>
-<instance part="D1" gate="G$1" x="20.32" y="228.6"/>
-<instance part="R9" gate="G$1" x="35.56" y="228.6"/>
-<instance part="R5" gate="G$1" x="27.94" y="220.98" rot="R90"/>
-<instance part="D5" gate="G$1" x="38.1" y="215.9" rot="R90"/>
+<instance part="X2" gate="G$1" x="99.06" y="231.14">
+<attribute name="OC_FARNELL" x="99.06" y="231.14" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="99.06" y="231.14" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="99.06" y="231.14" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="X11" gate="G$1" x="307.34" y="86.36">
+<attribute name="OC_FARNELL" x="307.34" y="86.36" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="307.34" y="86.36" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="307.34" y="86.36" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="X10" gate="G$1" x="307.34" y="127">
+<attribute name="OC_FARNELL" x="307.34" y="127" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="307.34" y="127" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="307.34" y="127" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="JP1" gate="A" x="271.78" y="175.26">
+<attribute name="OC_FARNELL" x="271.78" y="175.26" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="271.78" y="175.26" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="271.78" y="175.26" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R1" gate="G$1" x="10.16" y="233.68" rot="R90">
+<attribute name="OC_FARNELL" x="10.16" y="233.68" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="10.16" y="233.68" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="10.16" y="233.68" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="D1" gate="G$1" x="20.32" y="228.6">
+<attribute name="OC_FARNELL" x="20.32" y="228.6" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="20.32" y="228.6" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="20.32" y="228.6" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R9" gate="G$1" x="35.56" y="228.6">
+<attribute name="OC_FARNELL" x="35.56" y="228.6" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="35.56" y="228.6" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="35.56" y="228.6" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R5" gate="G$1" x="27.94" y="220.98" rot="R90">
+<attribute name="OC_FARNELL" x="27.94" y="220.98" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="27.94" y="220.98" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="27.94" y="220.98" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="D5" gate="G$1" x="38.1" y="215.9" rot="R90">
+<attribute name="OC_FARNELL" x="38.1" y="215.9" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="38.1" y="215.9" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="38.1" y="215.9" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="GND1" gate="1" x="48.26" y="210.82"/>
-<instance part="D9" gate="G$1" x="48.26" y="241.3" rot="R90"/>
+<instance part="D9" gate="G$1" x="48.26" y="241.3" rot="R90">
+<attribute name="OC_FARNELL" x="48.26" y="241.3" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="48.26" y="241.3" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="48.26" y="241.3" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="F3" gate="1" x="81.28" y="185.42" rot="R180"/>
 <instance part="K3" gate="1" x="63.5" y="190.5" rot="R180"/>
 <instance part="K3" gate="2" x="76.2" y="187.96"/>
-<instance part="X3" gate="G$1" x="99.06" y="180.34"/>
-<instance part="Q2" gate="A" x="45.72" y="177.8"/>
-<instance part="R2" gate="G$1" x="10.16" y="182.88" rot="R90"/>
-<instance part="D2" gate="G$1" x="20.32" y="177.8"/>
-<instance part="R10" gate="G$1" x="35.56" y="177.8"/>
-<instance part="R6" gate="G$1" x="27.94" y="170.18" rot="R90"/>
-<instance part="D6" gate="G$1" x="38.1" y="165.1" rot="R90"/>
+<instance part="X3" gate="G$1" x="99.06" y="180.34">
+<attribute name="OC_FARNELL" x="99.06" y="180.34" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="99.06" y="180.34" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="99.06" y="180.34" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="10.16" y="182.88" rot="R90">
+<attribute name="OC_FARNELL" x="10.16" y="182.88" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="10.16" y="182.88" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="10.16" y="182.88" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="D2" gate="G$1" x="20.32" y="177.8">
+<attribute name="OC_FARNELL" x="20.32" y="177.8" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="20.32" y="177.8" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="20.32" y="177.8" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R10" gate="G$1" x="35.56" y="177.8">
+<attribute name="OC_FARNELL" x="35.56" y="177.8" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="35.56" y="177.8" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="35.56" y="177.8" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R6" gate="G$1" x="27.94" y="170.18" rot="R90">
+<attribute name="OC_FARNELL" x="27.94" y="170.18" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="27.94" y="170.18" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="27.94" y="170.18" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="D6" gate="G$1" x="38.1" y="165.1" rot="R90">
+<attribute name="OC_FARNELL" x="38.1" y="165.1" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="38.1" y="165.1" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="38.1" y="165.1" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="GND2" gate="1" x="48.26" y="160.02"/>
-<instance part="D10" gate="G$1" x="48.26" y="190.5" rot="R90"/>
+<instance part="D10" gate="G$1" x="48.26" y="190.5" rot="R90">
+<attribute name="OC_FARNELL" x="48.26" y="190.5" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="48.26" y="190.5" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="48.26" y="190.5" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="F4" gate="1" x="83.82" y="134.62" rot="R180"/>
 <instance part="K4" gate="1" x="66.04" y="139.7" rot="R180"/>
 <instance part="K4" gate="2" x="78.74" y="137.16"/>
-<instance part="X4" gate="G$1" x="101.6" y="129.54"/>
-<instance part="Q3" gate="A" x="48.26" y="127"/>
-<instance part="R3" gate="G$1" x="12.7" y="132.08" rot="R90"/>
-<instance part="D3" gate="G$1" x="22.86" y="127"/>
-<instance part="R11" gate="G$1" x="38.1" y="127"/>
-<instance part="R7" gate="G$1" x="30.48" y="119.38" rot="R90"/>
-<instance part="D7" gate="G$1" x="40.64" y="114.3" rot="R90"/>
+<instance part="X4" gate="G$1" x="101.6" y="129.54">
+<attribute name="OC_FARNELL" x="101.6" y="129.54" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="101.6" y="129.54" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="101.6" y="129.54" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="12.7" y="132.08" rot="R90">
+<attribute name="OC_FARNELL" x="12.7" y="132.08" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="12.7" y="132.08" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="12.7" y="132.08" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="D3" gate="G$1" x="22.86" y="127">
+<attribute name="OC_FARNELL" x="22.86" y="127" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="22.86" y="127" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="22.86" y="127" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R11" gate="G$1" x="38.1" y="127">
+<attribute name="OC_FARNELL" x="38.1" y="127" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="38.1" y="127" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="38.1" y="127" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R7" gate="G$1" x="30.48" y="119.38" rot="R90">
+<attribute name="OC_FARNELL" x="30.48" y="119.38" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="30.48" y="119.38" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="30.48" y="119.38" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="D7" gate="G$1" x="40.64" y="114.3" rot="R90">
+<attribute name="OC_FARNELL" x="40.64" y="114.3" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="40.64" y="114.3" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="40.64" y="114.3" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="GND3" gate="1" x="50.8" y="109.22"/>
-<instance part="D11" gate="G$1" x="50.8" y="139.7" rot="R90"/>
+<instance part="D11" gate="G$1" x="50.8" y="139.7" rot="R90">
+<attribute name="OC_FARNELL" x="50.8" y="139.7" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="50.8" y="139.7" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="50.8" y="139.7" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="F5" gate="1" x="83.82" y="83.82" rot="R180"/>
 <instance part="K5" gate="1" x="66.04" y="88.9" rot="R180"/>
 <instance part="K5" gate="2" x="78.74" y="86.36"/>
-<instance part="X5" gate="G$1" x="101.6" y="78.74"/>
-<instance part="Q4" gate="A" x="48.26" y="76.2"/>
-<instance part="R4" gate="G$1" x="12.7" y="81.28" rot="R90"/>
-<instance part="D4" gate="G$1" x="22.86" y="76.2"/>
-<instance part="R12" gate="G$1" x="38.1" y="76.2"/>
-<instance part="R8" gate="G$1" x="30.48" y="68.58" rot="R90"/>
-<instance part="D8" gate="G$1" x="40.64" y="63.5" rot="R90"/>
+<instance part="X5" gate="G$1" x="101.6" y="78.74">
+<attribute name="OC_FARNELL" x="101.6" y="78.74" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="101.6" y="78.74" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="101.6" y="78.74" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R4" gate="G$1" x="12.7" y="81.28" rot="R90">
+<attribute name="OC_FARNELL" x="12.7" y="81.28" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="12.7" y="81.28" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="12.7" y="81.28" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="D4" gate="G$1" x="22.86" y="76.2">
+<attribute name="OC_FARNELL" x="22.86" y="76.2" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="22.86" y="76.2" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="22.86" y="76.2" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R12" gate="G$1" x="38.1" y="76.2">
+<attribute name="OC_FARNELL" x="38.1" y="76.2" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="38.1" y="76.2" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="38.1" y="76.2" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R8" gate="G$1" x="30.48" y="68.58" rot="R90">
+<attribute name="OC_FARNELL" x="30.48" y="68.58" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="30.48" y="68.58" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="30.48" y="68.58" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="D8" gate="G$1" x="40.64" y="63.5" rot="R90">
+<attribute name="OC_FARNELL" x="40.64" y="63.5" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="40.64" y="63.5" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="40.64" y="63.5" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="GND4" gate="1" x="50.8" y="58.42"/>
-<instance part="D12" gate="G$1" x="50.8" y="88.9" rot="R90"/>
+<instance part="D12" gate="G$1" x="50.8" y="88.9" rot="R90">
+<attribute name="OC_FARNELL" x="50.8" y="88.9" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="50.8" y="88.9" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="50.8" y="88.9" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="F6" gate="1" x="205.74" y="236.22" rot="R180"/>
 <instance part="K6" gate="1" x="187.96" y="241.3" rot="R180"/>
 <instance part="K6" gate="2" x="200.66" y="238.76"/>
-<instance part="X6" gate="G$1" x="223.52" y="231.14"/>
-<instance part="Q5" gate="A" x="170.18" y="228.6"/>
-<instance part="R13" gate="G$1" x="134.62" y="233.68" rot="R90"/>
-<instance part="D13" gate="G$1" x="144.78" y="228.6"/>
-<instance part="R21" gate="G$1" x="160.02" y="228.6"/>
-<instance part="R17" gate="G$1" x="152.4" y="220.98" rot="R90"/>
-<instance part="D17" gate="G$1" x="162.56" y="215.9" rot="R90"/>
+<instance part="X6" gate="G$1" x="223.52" y="231.14">
+<attribute name="OC_FARNELL" x="223.52" y="231.14" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="223.52" y="231.14" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="223.52" y="231.14" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R13" gate="G$1" x="134.62" y="233.68" rot="R90">
+<attribute name="OC_FARNELL" x="134.62" y="233.68" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="134.62" y="233.68" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="134.62" y="233.68" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="D13" gate="G$1" x="144.78" y="228.6">
+<attribute name="OC_FARNELL" x="144.78" y="228.6" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="144.78" y="228.6" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="144.78" y="228.6" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R21" gate="G$1" x="160.02" y="228.6">
+<attribute name="OC_FARNELL" x="160.02" y="228.6" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="160.02" y="228.6" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="160.02" y="228.6" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R17" gate="G$1" x="152.4" y="220.98" rot="R90">
+<attribute name="OC_FARNELL" x="152.4" y="220.98" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="152.4" y="220.98" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="152.4" y="220.98" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="D17" gate="G$1" x="162.56" y="215.9" rot="R90">
+<attribute name="OC_FARNELL" x="162.56" y="215.9" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="162.56" y="215.9" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="162.56" y="215.9" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="GND5" gate="1" x="172.72" y="210.82"/>
-<instance part="D21" gate="G$1" x="172.72" y="241.3" rot="R90"/>
+<instance part="D21" gate="G$1" x="172.72" y="241.3" rot="R90">
+<attribute name="OC_FARNELL" x="172.72" y="241.3" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="172.72" y="241.3" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="172.72" y="241.3" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="F7" gate="1" x="205.74" y="185.42" rot="R180"/>
 <instance part="K7" gate="1" x="187.96" y="190.5" rot="R180"/>
 <instance part="K7" gate="2" x="200.66" y="187.96"/>
-<instance part="X7" gate="G$1" x="223.52" y="180.34"/>
-<instance part="Q6" gate="A" x="170.18" y="177.8"/>
-<instance part="R14" gate="G$1" x="134.62" y="182.88" rot="R90"/>
-<instance part="D14" gate="G$1" x="144.78" y="177.8"/>
-<instance part="R22" gate="G$1" x="160.02" y="177.8"/>
-<instance part="R18" gate="G$1" x="152.4" y="170.18" rot="R90"/>
-<instance part="D18" gate="G$1" x="162.56" y="165.1" rot="R90"/>
+<instance part="X7" gate="G$1" x="223.52" y="180.34">
+<attribute name="OC_FARNELL" x="223.52" y="180.34" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="223.52" y="180.34" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="223.52" y="180.34" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R14" gate="G$1" x="134.62" y="182.88" rot="R90">
+<attribute name="OC_FARNELL" x="134.62" y="182.88" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="134.62" y="182.88" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="134.62" y="182.88" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="D14" gate="G$1" x="144.78" y="177.8">
+<attribute name="OC_FARNELL" x="144.78" y="177.8" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="144.78" y="177.8" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="144.78" y="177.8" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R22" gate="G$1" x="160.02" y="177.8">
+<attribute name="OC_FARNELL" x="160.02" y="177.8" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="160.02" y="177.8" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="160.02" y="177.8" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R18" gate="G$1" x="152.4" y="170.18" rot="R90">
+<attribute name="OC_FARNELL" x="152.4" y="170.18" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="152.4" y="170.18" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="152.4" y="170.18" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="D18" gate="G$1" x="162.56" y="165.1" rot="R90">
+<attribute name="OC_FARNELL" x="162.56" y="165.1" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="162.56" y="165.1" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="162.56" y="165.1" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="GND6" gate="1" x="172.72" y="160.02"/>
-<instance part="D22" gate="G$1" x="172.72" y="190.5" rot="R90"/>
+<instance part="D22" gate="G$1" x="172.72" y="190.5" rot="R90">
+<attribute name="OC_FARNELL" x="172.72" y="190.5" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="172.72" y="190.5" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="172.72" y="190.5" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="F8" gate="1" x="208.28" y="134.62" rot="R180"/>
 <instance part="K8" gate="1" x="190.5" y="139.7" rot="R180"/>
 <instance part="K8" gate="2" x="203.2" y="137.16"/>
-<instance part="X8" gate="G$1" x="226.06" y="129.54"/>
-<instance part="Q7" gate="A" x="172.72" y="127"/>
-<instance part="R15" gate="G$1" x="137.16" y="132.08" rot="R90"/>
-<instance part="D15" gate="G$1" x="147.32" y="127"/>
-<instance part="R23" gate="G$1" x="162.56" y="127"/>
-<instance part="R19" gate="G$1" x="154.94" y="119.38" rot="R90"/>
-<instance part="D19" gate="G$1" x="165.1" y="114.3" rot="R90"/>
+<instance part="X8" gate="G$1" x="226.06" y="129.54">
+<attribute name="OC_FARNELL" x="226.06" y="129.54" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="226.06" y="129.54" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="226.06" y="129.54" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R15" gate="G$1" x="137.16" y="132.08" rot="R90">
+<attribute name="OC_FARNELL" x="137.16" y="132.08" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="137.16" y="132.08" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="137.16" y="132.08" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="D15" gate="G$1" x="147.32" y="127">
+<attribute name="OC_FARNELL" x="147.32" y="127" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="147.32" y="127" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="147.32" y="127" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R23" gate="G$1" x="162.56" y="127">
+<attribute name="OC_FARNELL" x="162.56" y="127" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="162.56" y="127" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="162.56" y="127" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R19" gate="G$1" x="154.94" y="119.38" rot="R90">
+<attribute name="OC_FARNELL" x="154.94" y="119.38" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="154.94" y="119.38" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="154.94" y="119.38" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="D19" gate="G$1" x="165.1" y="114.3" rot="R90">
+<attribute name="OC_FARNELL" x="165.1" y="114.3" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="165.1" y="114.3" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="165.1" y="114.3" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="GND7" gate="1" x="175.26" y="109.22"/>
-<instance part="D23" gate="G$1" x="175.26" y="139.7" rot="R90"/>
+<instance part="D23" gate="G$1" x="175.26" y="139.7" rot="R90">
+<attribute name="OC_FARNELL" x="175.26" y="139.7" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="175.26" y="139.7" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="175.26" y="139.7" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="F9" gate="1" x="208.28" y="83.82" rot="R180"/>
 <instance part="K9" gate="1" x="190.5" y="88.9" rot="R180"/>
 <instance part="K9" gate="2" x="203.2" y="86.36"/>
-<instance part="X9" gate="G$1" x="226.06" y="78.74"/>
-<instance part="Q8" gate="A" x="172.72" y="76.2"/>
-<instance part="R16" gate="G$1" x="137.16" y="81.28" rot="R90"/>
-<instance part="D16" gate="G$1" x="147.32" y="76.2"/>
-<instance part="R24" gate="G$1" x="162.56" y="76.2"/>
-<instance part="R20" gate="G$1" x="154.94" y="68.58" rot="R90"/>
-<instance part="D20" gate="G$1" x="165.1" y="63.5" rot="R90"/>
+<instance part="X9" gate="G$1" x="226.06" y="78.74">
+<attribute name="OC_FARNELL" x="226.06" y="78.74" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="226.06" y="78.74" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="226.06" y="78.74" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R16" gate="G$1" x="137.16" y="81.28" rot="R90">
+<attribute name="OC_FARNELL" x="137.16" y="81.28" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="137.16" y="81.28" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="137.16" y="81.28" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="D16" gate="G$1" x="147.32" y="76.2">
+<attribute name="OC_FARNELL" x="147.32" y="76.2" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="147.32" y="76.2" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="147.32" y="76.2" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R24" gate="G$1" x="162.56" y="76.2">
+<attribute name="OC_FARNELL" x="162.56" y="76.2" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="162.56" y="76.2" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="162.56" y="76.2" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R20" gate="G$1" x="154.94" y="68.58" rot="R90">
+<attribute name="OC_FARNELL" x="154.94" y="68.58" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="154.94" y="68.58" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="154.94" y="68.58" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="D20" gate="G$1" x="165.1" y="63.5" rot="R90">
+<attribute name="OC_FARNELL" x="165.1" y="63.5" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="165.1" y="63.5" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="165.1" y="63.5" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="GND8" gate="1" x="175.26" y="58.42"/>
-<instance part="D24" gate="G$1" x="175.26" y="88.9" rot="R90"/>
+<instance part="D24" gate="G$1" x="175.26" y="88.9" rot="R90">
+<attribute name="OC_FARNELL" x="175.26" y="88.9" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="175.26" y="88.9" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="175.26" y="88.9" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="F1" gate="1" x="332.74" y="236.22" rot="R180"/>
 <instance part="K1" gate="1" x="314.96" y="241.3" rot="R180"/>
 <instance part="K1" gate="2" x="327.66" y="238.76"/>
-<instance part="X1" gate="G$1" x="350.52" y="231.14"/>
-<instance part="Q9" gate="A" x="297.18" y="228.6"/>
-<instance part="R25" gate="G$1" x="261.62" y="233.68" rot="R90"/>
-<instance part="D25" gate="G$1" x="271.78" y="228.6"/>
-<instance part="R27" gate="G$1" x="287.02" y="228.6"/>
-<instance part="R26" gate="G$1" x="279.4" y="220.98" rot="R90"/>
-<instance part="D26" gate="G$1" x="289.56" y="215.9" rot="R90"/>
+<instance part="X1" gate="G$1" x="350.52" y="231.14">
+<attribute name="OC_FARNELL" x="350.52" y="231.14" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="350.52" y="231.14" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="350.52" y="231.14" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="Q9" gate="A" x="297.18" y="228.6">
+<attribute name="OC_FARNELL" x="297.18" y="228.6" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="297.18" y="228.6" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="297.18" y="228.6" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R25" gate="G$1" x="261.62" y="233.68" rot="R90">
+<attribute name="OC_FARNELL" x="261.62" y="233.68" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="261.62" y="233.68" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="261.62" y="233.68" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="D25" gate="G$1" x="271.78" y="228.6">
+<attribute name="OC_FARNELL" x="271.78" y="228.6" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="271.78" y="228.6" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="271.78" y="228.6" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R27" gate="G$1" x="287.02" y="228.6">
+<attribute name="OC_FARNELL" x="287.02" y="228.6" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="287.02" y="228.6" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="287.02" y="228.6" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R26" gate="G$1" x="279.4" y="220.98" rot="R90">
+<attribute name="OC_FARNELL" x="279.4" y="220.98" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="279.4" y="220.98" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="279.4" y="220.98" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="D26" gate="G$1" x="289.56" y="215.9" rot="R90">
+<attribute name="OC_FARNELL" x="289.56" y="215.9" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="289.56" y="215.9" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="289.56" y="215.9" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="GND9" gate="1" x="299.72" y="210.82"/>
-<instance part="D27" gate="G$1" x="299.72" y="241.3" rot="R90"/>
-<instance part="X12" gate="G$1" x="350.52" y="86.36"/>
+<instance part="D27" gate="G$1" x="299.72" y="241.3" rot="R90">
+<attribute name="OC_FARNELL" x="299.72" y="241.3" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="299.72" y="241.3" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="299.72" y="241.3" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="X12" gate="G$1" x="350.52" y="86.36">
+<attribute name="OC_FARNELL" x="350.52" y="86.36" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="350.52" y="86.36" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="350.52" y="86.36" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="F12" gate="1" x="332.74" y="93.98"/>
-<instance part="X13" gate="G$1" x="350.52" y="45.72"/>
+<instance part="X13" gate="G$1" x="350.52" y="45.72">
+<attribute name="OC_FARNELL" x="350.52" y="45.72" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="350.52" y="45.72" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="350.52" y="45.72" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="F13" gate="1" x="335.28" y="55.88"/>
-<instance part="X14" gate="G$1" x="350.52" y="172.72"/>
-<instance part="X15" gate="G$1" x="350.52" y="142.24"/>
-<instance part="H1" gate="G$1" x="10.16" y="10.16"/>
-<instance part="H2" gate="G$1" x="10.16" y="17.78"/>
-<instance part="H3" gate="G$1" x="10.16" y="25.4"/>
-<instance part="H4" gate="G$1" x="10.16" y="33.02"/>
-<instance part="S1" gate="BEF1" x="279.4" y="241.3"/>
-<instance part="S2" gate="BEF1" x="27.94" y="241.3"/>
-<instance part="S3" gate="BEF1" x="27.94" y="190.5"/>
-<instance part="S4" gate="BEF1" x="30.48" y="139.7"/>
-<instance part="S5" gate="BEF1" x="30.48" y="88.9"/>
-<instance part="S6" gate="BEF1" x="152.4" y="241.3"/>
-<instance part="S7" gate="BEF1" x="152.4" y="190.5"/>
-<instance part="S8" gate="BEF1" x="154.94" y="139.7"/>
-<instance part="S9" gate="BEF1" x="154.94" y="88.9"/>
+<instance part="X14" gate="G$1" x="350.52" y="172.72">
+<attribute name="OC_FARNELL" x="350.52" y="172.72" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="350.52" y="172.72" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="350.52" y="172.72" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="X15" gate="G$1" x="350.52" y="142.24">
+<attribute name="OC_FARNELL" x="350.52" y="142.24" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="350.52" y="142.24" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="350.52" y="142.24" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="H1" gate="G$1" x="10.16" y="10.16">
+<attribute name="OC_FARNELL" x="10.16" y="10.16" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="10.16" y="10.16" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="10.16" y="10.16" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="H2" gate="G$1" x="10.16" y="17.78">
+<attribute name="OC_FARNELL" x="10.16" y="17.78" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="10.16" y="17.78" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="10.16" y="17.78" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="H3" gate="G$1" x="10.16" y="25.4">
+<attribute name="OC_FARNELL" x="10.16" y="25.4" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="10.16" y="25.4" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="10.16" y="25.4" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="H4" gate="G$1" x="10.16" y="33.02">
+<attribute name="OC_FARNELL" x="10.16" y="33.02" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="10.16" y="33.02" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="10.16" y="33.02" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="S1" gate="BEF1" x="279.4" y="241.3">
+<attribute name="OC_FARNELL" x="279.4" y="241.3" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="279.4" y="241.3" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="279.4" y="241.3" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="S2" gate="BEF1" x="27.94" y="241.3">
+<attribute name="OC_FARNELL" x="27.94" y="241.3" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="27.94" y="241.3" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="27.94" y="241.3" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="S3" gate="BEF1" x="27.94" y="190.5">
+<attribute name="OC_FARNELL" x="27.94" y="190.5" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="27.94" y="190.5" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="27.94" y="190.5" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="S4" gate="BEF1" x="30.48" y="139.7">
+<attribute name="OC_FARNELL" x="30.48" y="139.7" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="30.48" y="139.7" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="30.48" y="139.7" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="S5" gate="BEF1" x="30.48" y="88.9">
+<attribute name="OC_FARNELL" x="30.48" y="88.9" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="30.48" y="88.9" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="30.48" y="88.9" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="S6" gate="BEF1" x="152.4" y="241.3">
+<attribute name="OC_FARNELL" x="152.4" y="241.3" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="152.4" y="241.3" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="152.4" y="241.3" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="S7" gate="BEF1" x="152.4" y="190.5">
+<attribute name="OC_FARNELL" x="152.4" y="190.5" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="152.4" y="190.5" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="152.4" y="190.5" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="S8" gate="BEF1" x="154.94" y="139.7">
+<attribute name="OC_FARNELL" x="154.94" y="139.7" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="154.94" y="139.7" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="154.94" y="139.7" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="S9" gate="BEF1" x="154.94" y="88.9">
+<attribute name="OC_FARNELL" x="154.94" y="88.9" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="154.94" y="88.9" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="154.94" y="88.9" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="Q1" gate="G$1" x="45.72" y="228.6">
+<attribute name="OC_FARNELL" x="45.72" y="228.6" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="Q2" gate="G$1" x="45.72" y="177.8">
+<attribute name="OC_FARNELL" x="45.72" y="177.8" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="Q3" gate="G$1" x="48.26" y="127">
+<attribute name="OC_FARNELL" x="48.26" y="127" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="Q4" gate="G$1" x="48.26" y="76.2">
+<attribute name="OC_FARNELL" x="48.26" y="76.2" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="Q5" gate="G$1" x="170.18" y="228.6">
+<attribute name="OC_FARNELL" x="170.18" y="228.6" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="Q6" gate="G$1" x="170.18" y="177.8">
+<attribute name="OC_FARNELL" x="170.18" y="177.8" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="Q7" gate="G$1" x="172.72" y="127">
+<attribute name="OC_FARNELL" x="172.72" y="127" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="Q8" gate="G$1" x="172.72" y="76.2">
+<attribute name="OC_FARNELL" x="172.72" y="76.2" size="1.27" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6590,72 +7375,72 @@ oder externer Akku</text>
 <wire x1="48.26" y1="213.36" x2="48.26" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="D5" gate="G$1" pin="C"/>
 <wire x1="48.26" y1="215.9" x2="43.18" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="A" pin="E"/>
 <wire x1="48.26" y1="223.52" x2="48.26" y2="215.9" width="0.1524" layer="91"/>
 <junction x="48.26" y="215.9"/>
+<pinref part="Q1" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="48.26" y1="162.56" x2="48.26" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="D6" gate="G$1" pin="C"/>
 <wire x1="48.26" y1="165.1" x2="43.18" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="A" pin="E"/>
 <wire x1="48.26" y1="172.72" x2="48.26" y2="165.1" width="0.1524" layer="91"/>
 <junction x="48.26" y="165.1"/>
+<pinref part="Q2" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="50.8" y1="111.76" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="D7" gate="G$1" pin="C"/>
 <wire x1="50.8" y1="114.3" x2="45.72" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="A" pin="E"/>
 <wire x1="50.8" y1="121.92" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
 <junction x="50.8" y="114.3"/>
+<pinref part="Q3" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="50.8" y1="60.96" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="D8" gate="G$1" pin="C"/>
 <wire x1="50.8" y1="63.5" x2="45.72" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="Q4" gate="A" pin="E"/>
 <wire x1="50.8" y1="71.12" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
 <junction x="50.8" y="63.5"/>
+<pinref part="Q4" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="172.72" y1="213.36" x2="172.72" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="D17" gate="G$1" pin="C"/>
 <wire x1="172.72" y1="215.9" x2="167.64" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="A" pin="E"/>
 <wire x1="172.72" y1="223.52" x2="172.72" y2="215.9" width="0.1524" layer="91"/>
 <junction x="172.72" y="215.9"/>
+<pinref part="Q5" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="172.72" y1="162.56" x2="172.72" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="D18" gate="G$1" pin="C"/>
 <wire x1="172.72" y1="165.1" x2="167.64" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="Q6" gate="A" pin="E"/>
 <wire x1="172.72" y1="172.72" x2="172.72" y2="165.1" width="0.1524" layer="91"/>
 <junction x="172.72" y="165.1"/>
+<pinref part="Q6" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="175.26" y1="111.76" x2="175.26" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="D19" gate="G$1" pin="C"/>
 <wire x1="175.26" y1="114.3" x2="170.18" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="Q7" gate="A" pin="E"/>
 <wire x1="175.26" y1="121.92" x2="175.26" y2="114.3" width="0.1524" layer="91"/>
 <junction x="175.26" y="114.3"/>
+<pinref part="Q7" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="175.26" y1="60.96" x2="175.26" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="D20" gate="G$1" pin="C"/>
 <wire x1="175.26" y1="63.5" x2="170.18" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="Q8" gate="A" pin="E"/>
 <wire x1="175.26" y1="71.12" x2="175.26" y2="63.5" width="0.1524" layer="91"/>
 <junction x="175.26" y="63.5"/>
+<pinref part="Q8" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
@@ -6754,8 +7539,8 @@ oder externer Akku</text>
 <net name="N$10" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<pinref part="Q1" gate="A" pin="B"/>
 <wire x1="40.64" y1="228.6" x2="43.18" y2="228.6" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -6769,12 +7554,12 @@ oder externer Akku</text>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="Q1" gate="A" pin="C"/>
 <pinref part="D9" gate="G$1" pin="A"/>
 <wire x1="48.26" y1="233.68" x2="48.26" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="K2" gate="1" pin="1"/>
 <wire x1="63.5" y1="236.22" x2="63.5" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="233.68" x2="48.26" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="C"/>
 <junction x="48.26" y="233.68"/>
 </segment>
 </net>
@@ -7014,8 +7799,8 @@ oder externer Akku</text>
 <net name="N$16" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
-<pinref part="Q2" gate="A" pin="B"/>
 <wire x1="40.64" y1="177.8" x2="43.18" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -7029,12 +7814,12 @@ oder externer Akku</text>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="Q2" gate="A" pin="C"/>
 <pinref part="D10" gate="G$1" pin="A"/>
 <wire x1="48.26" y1="182.88" x2="48.26" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="K3" gate="1" pin="1"/>
 <wire x1="63.5" y1="185.42" x2="63.5" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="182.88" x2="48.26" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="C"/>
 <junction x="48.26" y="182.88"/>
 </segment>
 </net>
@@ -7105,8 +7890,8 @@ oder externer Akku</text>
 <net name="N$26" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
-<pinref part="Q3" gate="A" pin="B"/>
 <wire x1="43.18" y1="127" x2="45.72" y2="127" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -7120,12 +7905,12 @@ oder externer Akku</text>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="Q3" gate="A" pin="C"/>
 <pinref part="D11" gate="G$1" pin="A"/>
 <wire x1="50.8" y1="132.08" x2="50.8" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="K4" gate="1" pin="1"/>
 <wire x1="66.04" y1="134.62" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="132.08" x2="50.8" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="C"/>
 <junction x="50.8" y="132.08"/>
 </segment>
 </net>
@@ -7196,8 +7981,8 @@ oder externer Akku</text>
 <net name="N$36" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
-<pinref part="Q4" gate="A" pin="B"/>
 <wire x1="43.18" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="Q4" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -7211,12 +7996,12 @@ oder externer Akku</text>
 </net>
 <net name="N$38" class="0">
 <segment>
-<pinref part="Q4" gate="A" pin="C"/>
 <pinref part="D12" gate="G$1" pin="A"/>
 <wire x1="50.8" y1="81.28" x2="50.8" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="K5" gate="1" pin="1"/>
 <wire x1="66.04" y1="83.82" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="81.28" x2="50.8" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="Q4" gate="G$1" pin="C"/>
 <junction x="50.8" y="81.28"/>
 </segment>
 </net>
@@ -7287,8 +8072,8 @@ oder externer Akku</text>
 <net name="N$46" class="0">
 <segment>
 <pinref part="R21" gate="G$1" pin="2"/>
-<pinref part="Q5" gate="A" pin="B"/>
 <wire x1="165.1" y1="228.6" x2="167.64" y2="228.6" width="0.1524" layer="91"/>
+<pinref part="Q5" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$47" class="0">
@@ -7302,12 +8087,12 @@ oder externer Akku</text>
 </net>
 <net name="N$48" class="0">
 <segment>
-<pinref part="Q5" gate="A" pin="C"/>
 <pinref part="D21" gate="G$1" pin="A"/>
 <wire x1="172.72" y1="233.68" x2="172.72" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="K6" gate="1" pin="1"/>
 <wire x1="187.96" y1="236.22" x2="187.96" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="233.68" x2="172.72" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="Q5" gate="G$1" pin="C"/>
 <junction x="172.72" y="233.68"/>
 </segment>
 </net>
@@ -7378,8 +8163,8 @@ oder externer Akku</text>
 <net name="N$56" class="0">
 <segment>
 <pinref part="R22" gate="G$1" pin="2"/>
-<pinref part="Q6" gate="A" pin="B"/>
 <wire x1="165.1" y1="177.8" x2="167.64" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="Q6" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$57" class="0">
@@ -7393,12 +8178,12 @@ oder externer Akku</text>
 </net>
 <net name="N$58" class="0">
 <segment>
-<pinref part="Q6" gate="A" pin="C"/>
 <pinref part="D22" gate="G$1" pin="A"/>
 <wire x1="172.72" y1="182.88" x2="172.72" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="K7" gate="1" pin="1"/>
 <wire x1="187.96" y1="185.42" x2="187.96" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="182.88" x2="172.72" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="Q6" gate="G$1" pin="C"/>
 <junction x="172.72" y="182.88"/>
 </segment>
 </net>
@@ -7469,8 +8254,8 @@ oder externer Akku</text>
 <net name="N$66" class="0">
 <segment>
 <pinref part="R23" gate="G$1" pin="2"/>
-<pinref part="Q7" gate="A" pin="B"/>
 <wire x1="167.64" y1="127" x2="170.18" y2="127" width="0.1524" layer="91"/>
+<pinref part="Q7" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$67" class="0">
@@ -7484,12 +8269,12 @@ oder externer Akku</text>
 </net>
 <net name="N$68" class="0">
 <segment>
-<pinref part="Q7" gate="A" pin="C"/>
 <pinref part="D23" gate="G$1" pin="A"/>
 <wire x1="175.26" y1="132.08" x2="175.26" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="K8" gate="1" pin="1"/>
 <wire x1="190.5" y1="134.62" x2="190.5" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="132.08" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="Q7" gate="G$1" pin="C"/>
 <junction x="175.26" y="132.08"/>
 </segment>
 </net>
@@ -7550,8 +8335,8 @@ oder externer Akku</text>
 <net name="N$76" class="0">
 <segment>
 <pinref part="R24" gate="G$1" pin="2"/>
-<pinref part="Q8" gate="A" pin="B"/>
 <wire x1="167.64" y1="76.2" x2="170.18" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="Q8" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$77" class="0">
@@ -7565,12 +8350,12 @@ oder externer Akku</text>
 </net>
 <net name="N$78" class="0">
 <segment>
-<pinref part="Q8" gate="A" pin="C"/>
 <pinref part="D24" gate="G$1" pin="A"/>
 <wire x1="175.26" y1="81.28" x2="175.26" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="K9" gate="1" pin="1"/>
 <wire x1="190.5" y1="83.82" x2="190.5" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="81.28" x2="175.26" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="Q8" gate="G$1" pin="C"/>
 <junction x="175.26" y="81.28"/>
 </segment>
 </net>
