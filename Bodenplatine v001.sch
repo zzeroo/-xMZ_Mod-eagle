@@ -6199,7 +6199,7 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="FRAME1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="A3L-LOC-RA-GAS" device="" value="A3"/>
 <part name="F9" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="10AT"/>
 <part name="F1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="3,15AT"/>
-<part name="K1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
+<part name="K2" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
 <part name="X2" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device=""/>
 <part name="X11" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_4X2" device=""/>
 <part name="X10" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_3X2" device=""/>
@@ -6213,7 +6213,7 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="D9" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W"/>
 <part name="F2" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="3,15AT"/>
-<part name="K2" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
+<part name="K3" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
 <part name="X3" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device=""/>
 <part name="Q2" library="AWJLEagleLib" deviceset="BC846BS" device="&quot;" value="BC846"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="M0805" value="270R"/>
@@ -6224,7 +6224,7 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="D10" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W"/>
 <part name="F3" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="3,15AT"/>
-<part name="K3" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
+<part name="K4" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
 <part name="X4" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device=""/>
 <part name="Q3" library="AWJLEagleLib" deviceset="BC846BS" device="&quot;" value="BC846"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="M0805" value="270R"/>
@@ -6235,7 +6235,7 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="D11" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W"/>
 <part name="F4" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="3,15AT"/>
-<part name="K4" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
+<part name="K5" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
 <part name="X5" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device=""/>
 <part name="Q4" library="AWJLEagleLib" deviceset="BC846BS" device="&quot;" value="BC846"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="M0805" value="270R"/>
@@ -6246,7 +6246,7 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="D12" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W"/>
 <part name="F5" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="3,15AT"/>
-<part name="K5" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
+<part name="K6" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
 <part name="X6" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device=""/>
 <part name="Q5" library="AWJLEagleLib" deviceset="BC846BS" device="&quot;" value="BC846"/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="M0805" value="270R"/>
@@ -6257,7 +6257,7 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="D21" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W"/>
 <part name="F6" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="3,15AT"/>
-<part name="K6" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
+<part name="K7" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
 <part name="X7" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device=""/>
 <part name="Q6" library="AWJLEagleLib" deviceset="BC846BS" device="&quot;" value="BC846"/>
 <part name="R14" library="rcl" deviceset="R-EU_" device="M0805" value="270R"/>
@@ -6268,7 +6268,7 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="D22" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W"/>
 <part name="F7" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="3,15AT"/>
-<part name="K7" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
+<part name="K8" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
 <part name="X8" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device=""/>
 <part name="Q7" library="AWJLEagleLib" deviceset="BC846BS" device="&quot;" value="BC846"/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="M0805" value="270R"/>
@@ -6279,7 +6279,7 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="D23" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W"/>
 <part name="F8" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="3,15AT"/>
-<part name="K8" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
+<part name="K9" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
 <part name="X9" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device=""/>
 <part name="Q8" library="AWJLEagleLib" deviceset="BC846BS" device="&quot;" value="BC846"/>
 <part name="R16" library="rcl" deviceset="R-EU_" device="M0805" value="270R"/>
@@ -6290,7 +6290,7 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="D24" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W"/>
 <part name="F12" library="xMZ-Mod-Touch-Bodenplatine" deviceset="F456" device="" value="3,15AT"/>
-<part name="K9" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
+<part name="K1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012"/>
 <part name="X1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device=""/>
 <part name="Q9" library="AWJLEagleLib" deviceset="BC846BS" device="&quot;" value="BC846"/>
 <part name="R25" library="rcl" deviceset="R-EU_" device="M0805" value="270R"/>
@@ -6336,8 +6336,8 @@ oder externer Akku</text>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="F9" gate="1" x="292.1" y="132.08"/>
 <instance part="F1" gate="1" x="81.28" y="236.22" rot="R180"/>
-<instance part="K1" gate="1" x="63.5" y="241.3" rot="R180"/>
-<instance part="K1" gate="2" x="76.2" y="238.76"/>
+<instance part="K2" gate="1" x="63.5" y="241.3" rot="R180"/>
+<instance part="K2" gate="2" x="76.2" y="238.76"/>
 <instance part="X2" gate="G$1" x="99.06" y="231.14"/>
 <instance part="X11" gate="G$1" x="307.34" y="86.36"/>
 <instance part="X10" gate="G$1" x="307.34" y="127"/>
@@ -6351,8 +6351,8 @@ oder externer Akku</text>
 <instance part="GND1" gate="1" x="48.26" y="210.82"/>
 <instance part="D9" gate="G$1" x="48.26" y="241.3" rot="R90"/>
 <instance part="F2" gate="1" x="81.28" y="185.42" rot="R180"/>
-<instance part="K2" gate="1" x="63.5" y="190.5" rot="R180"/>
-<instance part="K2" gate="2" x="76.2" y="187.96"/>
+<instance part="K3" gate="1" x="63.5" y="190.5" rot="R180"/>
+<instance part="K3" gate="2" x="76.2" y="187.96"/>
 <instance part="X3" gate="G$1" x="99.06" y="180.34"/>
 <instance part="Q2" gate="A" x="45.72" y="177.8"/>
 <instance part="R2" gate="G$1" x="10.16" y="182.88" rot="R90"/>
@@ -6363,8 +6363,8 @@ oder externer Akku</text>
 <instance part="GND2" gate="1" x="48.26" y="160.02"/>
 <instance part="D10" gate="G$1" x="48.26" y="190.5" rot="R90"/>
 <instance part="F3" gate="1" x="83.82" y="134.62" rot="R180"/>
-<instance part="K3" gate="1" x="66.04" y="139.7" rot="R180"/>
-<instance part="K3" gate="2" x="78.74" y="137.16"/>
+<instance part="K4" gate="1" x="66.04" y="139.7" rot="R180"/>
+<instance part="K4" gate="2" x="78.74" y="137.16"/>
 <instance part="X4" gate="G$1" x="101.6" y="129.54"/>
 <instance part="Q3" gate="A" x="48.26" y="127"/>
 <instance part="R3" gate="G$1" x="12.7" y="132.08" rot="R90"/>
@@ -6375,8 +6375,8 @@ oder externer Akku</text>
 <instance part="GND3" gate="1" x="50.8" y="109.22"/>
 <instance part="D11" gate="G$1" x="50.8" y="139.7" rot="R90"/>
 <instance part="F4" gate="1" x="83.82" y="83.82" rot="R180"/>
-<instance part="K4" gate="1" x="66.04" y="88.9" rot="R180"/>
-<instance part="K4" gate="2" x="78.74" y="86.36"/>
+<instance part="K5" gate="1" x="66.04" y="88.9" rot="R180"/>
+<instance part="K5" gate="2" x="78.74" y="86.36"/>
 <instance part="X5" gate="G$1" x="101.6" y="78.74"/>
 <instance part="Q4" gate="A" x="48.26" y="76.2"/>
 <instance part="R4" gate="G$1" x="12.7" y="81.28" rot="R90"/>
@@ -6387,8 +6387,8 @@ oder externer Akku</text>
 <instance part="GND4" gate="1" x="50.8" y="58.42"/>
 <instance part="D12" gate="G$1" x="50.8" y="88.9" rot="R90"/>
 <instance part="F5" gate="1" x="205.74" y="236.22" rot="R180"/>
-<instance part="K5" gate="1" x="187.96" y="241.3" rot="R180"/>
-<instance part="K5" gate="2" x="200.66" y="238.76"/>
+<instance part="K6" gate="1" x="187.96" y="241.3" rot="R180"/>
+<instance part="K6" gate="2" x="200.66" y="238.76"/>
 <instance part="X6" gate="G$1" x="223.52" y="231.14"/>
 <instance part="Q5" gate="A" x="170.18" y="228.6"/>
 <instance part="R13" gate="G$1" x="134.62" y="233.68" rot="R90"/>
@@ -6399,8 +6399,8 @@ oder externer Akku</text>
 <instance part="GND5" gate="1" x="172.72" y="210.82"/>
 <instance part="D21" gate="G$1" x="172.72" y="241.3" rot="R90"/>
 <instance part="F6" gate="1" x="205.74" y="185.42" rot="R180"/>
-<instance part="K6" gate="1" x="187.96" y="190.5" rot="R180"/>
-<instance part="K6" gate="2" x="200.66" y="187.96"/>
+<instance part="K7" gate="1" x="187.96" y="190.5" rot="R180"/>
+<instance part="K7" gate="2" x="200.66" y="187.96"/>
 <instance part="X7" gate="G$1" x="223.52" y="180.34"/>
 <instance part="Q6" gate="A" x="170.18" y="177.8"/>
 <instance part="R14" gate="G$1" x="134.62" y="182.88" rot="R90"/>
@@ -6411,8 +6411,8 @@ oder externer Akku</text>
 <instance part="GND6" gate="1" x="172.72" y="160.02"/>
 <instance part="D22" gate="G$1" x="172.72" y="190.5" rot="R90"/>
 <instance part="F7" gate="1" x="208.28" y="134.62" rot="R180"/>
-<instance part="K7" gate="1" x="190.5" y="139.7" rot="R180"/>
-<instance part="K7" gate="2" x="203.2" y="137.16"/>
+<instance part="K8" gate="1" x="190.5" y="139.7" rot="R180"/>
+<instance part="K8" gate="2" x="203.2" y="137.16"/>
 <instance part="X8" gate="G$1" x="226.06" y="129.54"/>
 <instance part="Q7" gate="A" x="172.72" y="127"/>
 <instance part="R15" gate="G$1" x="137.16" y="132.08" rot="R90"/>
@@ -6423,8 +6423,8 @@ oder externer Akku</text>
 <instance part="GND7" gate="1" x="175.26" y="109.22"/>
 <instance part="D23" gate="G$1" x="175.26" y="139.7" rot="R90"/>
 <instance part="F8" gate="1" x="208.28" y="83.82" rot="R180"/>
-<instance part="K8" gate="1" x="190.5" y="88.9" rot="R180"/>
-<instance part="K8" gate="2" x="203.2" y="86.36"/>
+<instance part="K9" gate="1" x="190.5" y="88.9" rot="R180"/>
+<instance part="K9" gate="2" x="203.2" y="86.36"/>
 <instance part="X9" gate="G$1" x="226.06" y="78.74"/>
 <instance part="Q8" gate="A" x="172.72" y="76.2"/>
 <instance part="R16" gate="G$1" x="137.16" y="81.28" rot="R90"/>
@@ -6435,8 +6435,8 @@ oder externer Akku</text>
 <instance part="GND8" gate="1" x="175.26" y="58.42"/>
 <instance part="D24" gate="G$1" x="175.26" y="88.9" rot="R90"/>
 <instance part="F12" gate="1" x="332.74" y="236.22" rot="R180"/>
-<instance part="K9" gate="1" x="314.96" y="241.3" rot="R180"/>
-<instance part="K9" gate="2" x="327.66" y="238.76"/>
+<instance part="K1" gate="1" x="314.96" y="241.3" rot="R180"/>
+<instance part="K1" gate="2" x="327.66" y="238.76"/>
 <instance part="X1" gate="G$1" x="350.52" y="231.14"/>
 <instance part="Q9" gate="A" x="297.18" y="228.6"/>
 <instance part="R25" gate="G$1" x="261.62" y="233.68" rot="R90"/>
@@ -6462,7 +6462,7 @@ oder externer Akku</text>
 <nets>
 <net name="N$2" class="0">
 <segment>
-<pinref part="K1" gate="2" pin="S"/>
+<pinref part="K2" gate="2" pin="S"/>
 <wire x1="71.12" y1="243.84" x2="71.12" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="231.14" x2="96.52" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="3@1"/>
@@ -6472,7 +6472,7 @@ oder externer Akku</text>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="K1" gate="2" pin="P"/>
+<pinref part="K2" gate="2" pin="P"/>
 <pinref part="F1" gate="1" pin="2"/>
 </segment>
 </net>
@@ -6647,7 +6647,7 @@ oder externer Akku</text>
 <net name="N$11" class="0">
 <segment>
 <wire x1="48.26" y1="243.84" x2="48.26" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="K1" gate="1" pin="2"/>
+<pinref part="K2" gate="1" pin="2"/>
 <wire x1="63.5" y1="246.38" x2="63.5" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="248.92" x2="48.26" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="D9" gate="G$1" pin="C"/>
@@ -6658,7 +6658,7 @@ oder externer Akku</text>
 <pinref part="Q1" gate="A" pin="C"/>
 <pinref part="D9" gate="G$1" pin="A"/>
 <wire x1="48.26" y1="233.68" x2="48.26" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="K1" gate="1" pin="1"/>
+<pinref part="K2" gate="1" pin="1"/>
 <wire x1="63.5" y1="236.22" x2="63.5" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="233.68" x2="48.26" y2="233.68" width="0.1524" layer="91"/>
 <junction x="48.26" y="233.68"/>
@@ -6675,7 +6675,7 @@ oder externer Akku</text>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="K1" gate="2" pin="O"/>
+<pinref part="K2" gate="2" pin="O"/>
 <wire x1="99.06" y1="241.3" x2="96.52" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="241.3" x2="83.82" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="241.3" x2="81.28" y2="243.84" width="0.1524" layer="91"/>
@@ -6854,7 +6854,7 @@ oder externer Akku</text>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="K2" gate="2" pin="S"/>
+<pinref part="K3" gate="2" pin="S"/>
 <wire x1="71.12" y1="193.04" x2="71.12" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="180.34" x2="96.52" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="X3" gate="G$1" pin="3@1"/>
@@ -6864,7 +6864,7 @@ oder externer Akku</text>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="K2" gate="2" pin="P"/>
+<pinref part="K3" gate="2" pin="P"/>
 <pinref part="F2" gate="1" pin="2"/>
 </segment>
 </net>
@@ -6905,7 +6905,7 @@ oder externer Akku</text>
 <net name="N$17" class="0">
 <segment>
 <wire x1="48.26" y1="193.04" x2="48.26" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="K2" gate="1" pin="2"/>
+<pinref part="K3" gate="1" pin="2"/>
 <wire x1="63.5" y1="195.58" x2="63.5" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="198.12" x2="48.26" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="D10" gate="G$1" pin="C"/>
@@ -6916,7 +6916,7 @@ oder externer Akku</text>
 <pinref part="Q2" gate="A" pin="C"/>
 <pinref part="D10" gate="G$1" pin="A"/>
 <wire x1="48.26" y1="182.88" x2="48.26" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="K2" gate="1" pin="1"/>
+<pinref part="K3" gate="1" pin="1"/>
 <wire x1="63.5" y1="185.42" x2="63.5" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="182.88" x2="48.26" y2="182.88" width="0.1524" layer="91"/>
 <junction x="48.26" y="182.88"/>
@@ -6933,7 +6933,7 @@ oder externer Akku</text>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="K2" gate="2" pin="O"/>
+<pinref part="K3" gate="2" pin="O"/>
 <wire x1="99.06" y1="190.5" x2="96.52" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="190.5" x2="83.82" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="190.5" x2="81.28" y2="193.04" width="0.1524" layer="91"/>
@@ -6943,7 +6943,7 @@ oder externer Akku</text>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="K3" gate="2" pin="S"/>
+<pinref part="K4" gate="2" pin="S"/>
 <wire x1="73.66" y1="142.24" x2="73.66" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="129.54" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="X4" gate="G$1" pin="3@1"/>
@@ -6953,7 +6953,7 @@ oder externer Akku</text>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="K3" gate="2" pin="P"/>
+<pinref part="K4" gate="2" pin="P"/>
 <pinref part="F3" gate="1" pin="2"/>
 </segment>
 </net>
@@ -6994,7 +6994,7 @@ oder externer Akku</text>
 <net name="N$27" class="0">
 <segment>
 <wire x1="50.8" y1="142.24" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="K3" gate="1" pin="2"/>
+<pinref part="K4" gate="1" pin="2"/>
 <wire x1="66.04" y1="144.78" x2="66.04" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="147.32" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="D11" gate="G$1" pin="C"/>
@@ -7005,7 +7005,7 @@ oder externer Akku</text>
 <pinref part="Q3" gate="A" pin="C"/>
 <pinref part="D11" gate="G$1" pin="A"/>
 <wire x1="50.8" y1="132.08" x2="50.8" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="K3" gate="1" pin="1"/>
+<pinref part="K4" gate="1" pin="1"/>
 <wire x1="66.04" y1="134.62" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="132.08" x2="50.8" y2="132.08" width="0.1524" layer="91"/>
 <junction x="50.8" y="132.08"/>
@@ -7022,7 +7022,7 @@ oder externer Akku</text>
 </net>
 <net name="N$30" class="0">
 <segment>
-<pinref part="K3" gate="2" pin="O"/>
+<pinref part="K4" gate="2" pin="O"/>
 <wire x1="101.6" y1="139.7" x2="99.06" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="139.7" x2="86.36" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="139.7" x2="83.82" y2="142.24" width="0.1524" layer="91"/>
@@ -7032,7 +7032,7 @@ oder externer Akku</text>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="K4" gate="2" pin="S"/>
+<pinref part="K5" gate="2" pin="S"/>
 <wire x1="73.66" y1="91.44" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="X5" gate="G$1" pin="3@1"/>
@@ -7042,7 +7042,7 @@ oder externer Akku</text>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="K4" gate="2" pin="P"/>
+<pinref part="K5" gate="2" pin="P"/>
 <pinref part="F4" gate="1" pin="2"/>
 </segment>
 </net>
@@ -7083,7 +7083,7 @@ oder externer Akku</text>
 <net name="N$37" class="0">
 <segment>
 <wire x1="50.8" y1="91.44" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="K4" gate="1" pin="2"/>
+<pinref part="K5" gate="1" pin="2"/>
 <wire x1="66.04" y1="93.98" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="96.52" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="D12" gate="G$1" pin="C"/>
@@ -7094,7 +7094,7 @@ oder externer Akku</text>
 <pinref part="Q4" gate="A" pin="C"/>
 <pinref part="D12" gate="G$1" pin="A"/>
 <wire x1="50.8" y1="81.28" x2="50.8" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="K4" gate="1" pin="1"/>
+<pinref part="K5" gate="1" pin="1"/>
 <wire x1="66.04" y1="83.82" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="81.28" x2="50.8" y2="81.28" width="0.1524" layer="91"/>
 <junction x="50.8" y="81.28"/>
@@ -7111,7 +7111,7 @@ oder externer Akku</text>
 </net>
 <net name="N$40" class="0">
 <segment>
-<pinref part="K4" gate="2" pin="O"/>
+<pinref part="K5" gate="2" pin="O"/>
 <wire x1="101.6" y1="88.9" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="88.9" x2="86.36" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="88.9" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
@@ -7121,7 +7121,7 @@ oder externer Akku</text>
 </net>
 <net name="N$41" class="0">
 <segment>
-<pinref part="K5" gate="2" pin="S"/>
+<pinref part="K6" gate="2" pin="S"/>
 <wire x1="195.58" y1="243.84" x2="195.58" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="231.14" x2="220.98" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="X6" gate="G$1" pin="3@1"/>
@@ -7131,7 +7131,7 @@ oder externer Akku</text>
 </net>
 <net name="N$42" class="0">
 <segment>
-<pinref part="K5" gate="2" pin="P"/>
+<pinref part="K6" gate="2" pin="P"/>
 <pinref part="F5" gate="1" pin="2"/>
 </segment>
 </net>
@@ -7172,7 +7172,7 @@ oder externer Akku</text>
 <net name="N$47" class="0">
 <segment>
 <wire x1="172.72" y1="243.84" x2="172.72" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="K5" gate="1" pin="2"/>
+<pinref part="K6" gate="1" pin="2"/>
 <wire x1="187.96" y1="246.38" x2="187.96" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="248.92" x2="172.72" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="D21" gate="G$1" pin="C"/>
@@ -7183,7 +7183,7 @@ oder externer Akku</text>
 <pinref part="Q5" gate="A" pin="C"/>
 <pinref part="D21" gate="G$1" pin="A"/>
 <wire x1="172.72" y1="233.68" x2="172.72" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="K5" gate="1" pin="1"/>
+<pinref part="K6" gate="1" pin="1"/>
 <wire x1="187.96" y1="236.22" x2="187.96" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="233.68" x2="172.72" y2="233.68" width="0.1524" layer="91"/>
 <junction x="172.72" y="233.68"/>
@@ -7200,7 +7200,7 @@ oder externer Akku</text>
 </net>
 <net name="N$50" class="0">
 <segment>
-<pinref part="K5" gate="2" pin="O"/>
+<pinref part="K6" gate="2" pin="O"/>
 <wire x1="223.52" y1="241.3" x2="220.98" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="241.3" x2="208.28" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="241.3" x2="205.74" y2="243.84" width="0.1524" layer="91"/>
@@ -7210,7 +7210,7 @@ oder externer Akku</text>
 </net>
 <net name="N$51" class="0">
 <segment>
-<pinref part="K6" gate="2" pin="S"/>
+<pinref part="K7" gate="2" pin="S"/>
 <wire x1="195.58" y1="193.04" x2="195.58" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="180.34" x2="220.98" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="X7" gate="G$1" pin="3@1"/>
@@ -7220,7 +7220,7 @@ oder externer Akku</text>
 </net>
 <net name="N$52" class="0">
 <segment>
-<pinref part="K6" gate="2" pin="P"/>
+<pinref part="K7" gate="2" pin="P"/>
 <pinref part="F6" gate="1" pin="2"/>
 </segment>
 </net>
@@ -7261,7 +7261,7 @@ oder externer Akku</text>
 <net name="N$57" class="0">
 <segment>
 <wire x1="172.72" y1="193.04" x2="172.72" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="K6" gate="1" pin="2"/>
+<pinref part="K7" gate="1" pin="2"/>
 <wire x1="187.96" y1="195.58" x2="187.96" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="198.12" x2="172.72" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="D22" gate="G$1" pin="C"/>
@@ -7272,7 +7272,7 @@ oder externer Akku</text>
 <pinref part="Q6" gate="A" pin="C"/>
 <pinref part="D22" gate="G$1" pin="A"/>
 <wire x1="172.72" y1="182.88" x2="172.72" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="K6" gate="1" pin="1"/>
+<pinref part="K7" gate="1" pin="1"/>
 <wire x1="187.96" y1="185.42" x2="187.96" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="182.88" x2="172.72" y2="182.88" width="0.1524" layer="91"/>
 <junction x="172.72" y="182.88"/>
@@ -7289,7 +7289,7 @@ oder externer Akku</text>
 </net>
 <net name="N$60" class="0">
 <segment>
-<pinref part="K6" gate="2" pin="O"/>
+<pinref part="K7" gate="2" pin="O"/>
 <wire x1="223.52" y1="190.5" x2="220.98" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="190.5" x2="208.28" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="190.5" x2="205.74" y2="193.04" width="0.1524" layer="91"/>
@@ -7299,7 +7299,7 @@ oder externer Akku</text>
 </net>
 <net name="N$61" class="0">
 <segment>
-<pinref part="K7" gate="2" pin="S"/>
+<pinref part="K8" gate="2" pin="S"/>
 <wire x1="198.12" y1="142.24" x2="198.12" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="129.54" x2="223.52" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="X8" gate="G$1" pin="3@1"/>
@@ -7309,7 +7309,7 @@ oder externer Akku</text>
 </net>
 <net name="N$62" class="0">
 <segment>
-<pinref part="K7" gate="2" pin="P"/>
+<pinref part="K8" gate="2" pin="P"/>
 <pinref part="F7" gate="1" pin="2"/>
 </segment>
 </net>
@@ -7350,7 +7350,7 @@ oder externer Akku</text>
 <net name="N$67" class="0">
 <segment>
 <wire x1="175.26" y1="142.24" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="K7" gate="1" pin="2"/>
+<pinref part="K8" gate="1" pin="2"/>
 <wire x1="190.5" y1="144.78" x2="190.5" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="D23" gate="G$1" pin="C"/>
@@ -7361,7 +7361,7 @@ oder externer Akku</text>
 <pinref part="Q7" gate="A" pin="C"/>
 <pinref part="D23" gate="G$1" pin="A"/>
 <wire x1="175.26" y1="132.08" x2="175.26" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="K7" gate="1" pin="1"/>
+<pinref part="K8" gate="1" pin="1"/>
 <wire x1="190.5" y1="134.62" x2="190.5" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="132.08" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
 <junction x="175.26" y="132.08"/>
@@ -7378,7 +7378,7 @@ oder externer Akku</text>
 </net>
 <net name="N$70" class="0">
 <segment>
-<pinref part="K7" gate="2" pin="O"/>
+<pinref part="K8" gate="2" pin="O"/>
 <wire x1="226.06" y1="139.7" x2="223.52" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="139.7" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="139.7" x2="208.28" y2="142.24" width="0.1524" layer="91"/>
@@ -7388,7 +7388,7 @@ oder externer Akku</text>
 </net>
 <net name="N$72" class="0">
 <segment>
-<pinref part="K8" gate="2" pin="P"/>
+<pinref part="K9" gate="2" pin="P"/>
 <pinref part="F8" gate="1" pin="2"/>
 </segment>
 </net>
@@ -7429,7 +7429,7 @@ oder externer Akku</text>
 <net name="N$77" class="0">
 <segment>
 <wire x1="175.26" y1="91.44" x2="175.26" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="K8" gate="1" pin="2"/>
+<pinref part="K9" gate="1" pin="2"/>
 <wire x1="190.5" y1="93.98" x2="190.5" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="96.52" x2="175.26" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="D24" gate="G$1" pin="C"/>
@@ -7440,7 +7440,7 @@ oder externer Akku</text>
 <pinref part="Q8" gate="A" pin="C"/>
 <pinref part="D24" gate="G$1" pin="A"/>
 <wire x1="175.26" y1="81.28" x2="175.26" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="K8" gate="1" pin="1"/>
+<pinref part="K9" gate="1" pin="1"/>
 <wire x1="190.5" y1="83.82" x2="190.5" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="81.28" x2="175.26" y2="81.28" width="0.1524" layer="91"/>
 <junction x="175.26" y="81.28"/>
@@ -7457,7 +7457,7 @@ oder externer Akku</text>
 </net>
 <net name="N$80" class="0">
 <segment>
-<pinref part="K8" gate="2" pin="O"/>
+<pinref part="K9" gate="2" pin="O"/>
 <wire x1="226.06" y1="88.9" x2="223.52" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="88.9" x2="210.82" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="88.9" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
@@ -7467,7 +7467,7 @@ oder externer Akku</text>
 </net>
 <net name="N$81" class="0">
 <segment>
-<pinref part="K9" gate="2" pin="S"/>
+<pinref part="K1" gate="2" pin="S"/>
 <wire x1="322.58" y1="243.84" x2="322.58" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="231.14" x2="347.98" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="3@1"/>
@@ -7477,7 +7477,7 @@ oder externer Akku</text>
 </net>
 <net name="N$82" class="0">
 <segment>
-<pinref part="K9" gate="2" pin="P"/>
+<pinref part="K1" gate="2" pin="P"/>
 <pinref part="F12" gate="1" pin="2"/>
 </segment>
 </net>
@@ -7518,7 +7518,7 @@ oder externer Akku</text>
 <net name="N$87" class="0">
 <segment>
 <wire x1="299.72" y1="243.84" x2="299.72" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="K9" gate="1" pin="2"/>
+<pinref part="K1" gate="1" pin="2"/>
 <wire x1="314.96" y1="246.38" x2="314.96" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="248.92" x2="299.72" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="D27" gate="G$1" pin="C"/>
@@ -7529,7 +7529,7 @@ oder externer Akku</text>
 <pinref part="Q9" gate="A" pin="C"/>
 <pinref part="D27" gate="G$1" pin="A"/>
 <wire x1="299.72" y1="233.68" x2="299.72" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="K9" gate="1" pin="1"/>
+<pinref part="K1" gate="1" pin="1"/>
 <wire x1="314.96" y1="236.22" x2="314.96" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="233.68" x2="299.72" y2="233.68" width="0.1524" layer="91"/>
 <junction x="299.72" y="233.68"/>
@@ -7546,7 +7546,7 @@ oder externer Akku</text>
 </net>
 <net name="N$90" class="0">
 <segment>
-<pinref part="K9" gate="2" pin="O"/>
+<pinref part="K1" gate="2" pin="O"/>
 <wire x1="350.52" y1="241.3" x2="347.98" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="241.3" x2="335.28" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="241.3" x2="332.74" y2="243.84" width="0.1524" layer="91"/>
@@ -7802,7 +7802,7 @@ oder externer Akku</text>
 </net>
 <net name="N$71" class="0">
 <segment>
-<pinref part="K8" gate="2" pin="S"/>
+<pinref part="K9" gate="2" pin="S"/>
 <wire x1="226.06" y1="78.74" x2="223.52" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="78.74" x2="198.12" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="78.74" x2="198.12" y2="91.44" width="0.1524" layer="91"/>
