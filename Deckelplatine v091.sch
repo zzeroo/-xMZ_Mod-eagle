@@ -19031,28 +19031,28 @@ CatalogNumber: &lt;b&gt;0111 0005MR&lt;/b&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="327.66" y="119.38" size="2.54" layer="94" font="vector">Connector Relais/ BUS</text>
-<text x="27.4574" y="113.4872" size="2.54" layer="94" font="vector">Connector Banana Pro</text>
-<text x="177.5206" y="99.2886" size="1.4224" layer="94" ratio="12">RS-485</text>
+<text x="327.66" y="119.38" size="1.778" layer="91" font="vector">Connector Relais/ BUS</text>
+<text x="27.4574" y="113.4872" size="1.778" layer="91" font="vector">Connector Banana Pro</text>
+<text x="177.5206" y="99.2886" size="1.4224" layer="91" ratio="12">RS-485</text>
 <text x="179.0446" y="82.0166" size="1.4224" layer="95" ratio="12" rot="R180">Termination</text>
 <text x="178.0286" y="84.5566" size="1.4224" layer="95" ratio="12" rot="R180">(optional)</text>
-<text x="133.3246" y="117.5766" size="2.54" layer="94" font="vector">Modbus Transceiver</text>
-<text x="350.52" y="228.6" size="2.54" layer="94" font="vector">Connector LED</text>
-<text x="274.32" y="243.84" size="2.54" layer="94" font="vector">Controll LED</text>
-<text x="271.78" y="119.38" size="2.54" layer="94" font="vector">Controll Relais</text>
-<text x="12.7" y="243.84" size="2.54" layer="94" font="vector">Connector 12VDC &amp; ACCU</text>
-<text x="48.26" y="180.34" size="2.1844" layer="94" ratio="12">UPS Supply</text>
-<text x="115.57" y="159.512" size="1.778" layer="94" ratio="10">Battery Monitor</text>
+<text x="133.3246" y="117.5766" size="1.778" layer="91" font="vector">Modbus Transceiver</text>
+<text x="350.52" y="228.6" size="1.778" layer="91" font="vector">Connector LED</text>
+<text x="281.94" y="246.38" size="1.778" layer="91" font="vector">Control LED</text>
+<text x="271.78" y="119.38" size="1.778" layer="91" font="vector">Control Relais</text>
+<text x="12.7" y="243.84" size="1.778" layer="91" font="vector">Connector 12VDC &amp; ACCU</text>
+<text x="48.26" y="180.34" size="1.778" layer="91" ratio="12">UPS Supply</text>
+<text x="115.57" y="159.512" size="1.778" layer="91" ratio="10">Battery Monitor</text>
 <text x="111.506" y="219.964" size="1.778" layer="94" ratio="10">Mains Monitor</text>
-<text x="73.66" y="246.38" size="2.1844" layer="94" ratio="12">Primary Supply</text>
-<text x="160.02" y="246.38" size="2.1844" layer="94" ratio="12">Logic Supply</text>
-<text x="10.16" y="152.4" size="2.032" layer="94" font="vector">Connector Banana Pro Power SATA</text>
+<text x="73.66" y="246.38" size="1.778" layer="91" ratio="12">Primary Supply</text>
+<text x="160.02" y="246.38" size="1.778" layer="91">Logic Supply</text>
+<text x="10.16" y="152.4" size="1.778" layer="91" font="vector">Connector Banana Pro Power SATA</text>
 <text x="68.58" y="177.8" size="1.778" layer="91">630mA</text>
 <text x="12.5984" y="211.7852" size="1.016" layer="94" font="vector">ACCU-</text>
 <text x="101.8286" y="142.8242" size="0.889" layer="94">B</text>
 <text x="108.204" y="147.8026" size="0.889" layer="94">C</text>
 <text x="108.1278" y="142.3924" size="0.889" layer="94">E</text>
-<text x="60.96" y="101.6" size="1.27" layer="94">ACHTUNG!!!
+<text x="60.96" y="101.6" size="1.27" layer="91">ACHTUNG!!!
 Connector erscheint gedreht
 im Vergleich zur PIN Belegung 
 des Banana Pro!</text>
