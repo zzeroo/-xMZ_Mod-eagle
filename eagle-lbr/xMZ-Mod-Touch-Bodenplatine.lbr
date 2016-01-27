@@ -1727,7 +1727,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/461166.pdf"&gt; Data sheet
 </device>
 </devices>
 </deviceset>
-<deviceset name="FPG4">
+<deviceset name="FPG4" prefix="F">
 <description>&lt;h1&gt;PL FPG4-40 :: Sicherungshalter, 5x20mm, max. 10A-250V&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href="http://www.reichelt.de/PL-FPG4-40/3/index.html?&amp;ACTION=3&amp;LA=446&amp;ARTICLE=35193&amp;artnr=PL+FPG4-40&amp;SEARCH=PL+FPG+4-40"&gt;http://www.reichelt.de/PL-FPG4-40/3/index.html?&amp;ACTION=3&amp;LA=446&amp;ARTICLE=35193&amp;artnr=PL+FPG4-40&amp;SEARCH=PL+FPG+4-40&lt;/a&gt;&lt;/p&gt;
