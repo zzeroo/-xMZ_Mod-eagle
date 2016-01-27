@@ -2580,9 +2580,9 @@ design rules under a new name.</description>
 </element>
 <element name="K2" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="63.75" y="85" rot="R270">
 <attribute name="OC_NEWARK" value="96B4867" x="63.75" y="85" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="63.75" y="85" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MF" value="" x="63.75" y="85" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="63.75" y="85" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="V23061B1005A301" x="63.75" y="85" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / SCHRACK" x="63.75" y="85" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1023958" x="63.75" y="85" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="X2" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="58.75" y="50">
 <attribute name="OC_FARNELL" value="unknown" x="58.75" y="50" size="1.778" layer="27" display="off"/>
@@ -2626,9 +2626,9 @@ design rules under a new name.</description>
 </element>
 <element name="D5" library="SparkFun-LED" package="LED-0603" value="Yellow" x="35.42" y="107.44" rot="R90">
 <attribute name="PROD_ID" value="DIO-09003" x="35.42" y="107.44" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.42" y="107.44" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="35.42" y="107.44" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="35.42" y="107.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="8529990" x="35.42" y="107.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="KINGBRIGHT" x="35.42" y="107.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="KP-3216SYC" x="35.42" y="107.44" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D9" library="xMZ-Mod-Touch-Bodenplatine" package="MINIMELF" value="1N4148W" x="63.75" y="102">
 <attribute name="OC_FARNELL" value="9549986" x="63.75" y="102" size="1.778" layer="27" display="off"/>
@@ -2643,9 +2643,9 @@ design rules under a new name.</description>
 </element>
 <element name="K3" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="92.5" y="85" rot="R270">
 <attribute name="OC_NEWARK" value="96B4867" x="120.44" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="120.44" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MF" value="" x="120.44" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="120.44" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="V23061B1005A301" x="120.44" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / SCHRACK" x="120.44" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1023958" x="120.44" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="X3" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="87.5" y="50">
 <attribute name="OC_FARNELL" value="unknown" x="87.5" y="50" size="1.778" layer="27" display="off"/>
@@ -2674,9 +2674,9 @@ design rules under a new name.</description>
 </element>
 <element name="D6" library="SparkFun-LED" package="LED-0603" value="Yellow" x="63.73" y="107.44" rot="R90">
 <attribute name="PROD_ID" value="DIO-09003" x="56.11" y="65.53" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="63.73" y="107.44" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="63.73" y="107.44" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="63.73" y="107.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="8529990" x="63.73" y="107.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="KINGBRIGHT" x="63.73" y="107.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="KP-3216SYC" x="63.73" y="107.44" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D10" library="xMZ-Mod-Touch-Bodenplatine" package="MINIMELF" value="1N4148W" x="92.5" y="102">
 <attribute name="OC_FARNELL" value="9549986" x="92.5" y="102" size="1.778" layer="27" display="off"/>
@@ -2691,9 +2691,9 @@ design rules under a new name.</description>
 </element>
 <element name="K4" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="121.25" y="85" rot="R270">
 <attribute name="OC_NEWARK" value="96B4867" x="164.43" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="164.43" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MF" value="" x="164.43" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="164.43" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="V23061B1005A301" x="164.43" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / SCHRACK" x="164.43" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1023958" x="164.43" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="X4" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="116.25" y="50">
 <attribute name="OC_FARNELL" value="unknown" x="116.25" y="50" size="1.778" layer="27" display="off"/>
@@ -2722,9 +2722,9 @@ design rules under a new name.</description>
 </element>
 <element name="D7" library="SparkFun-LED" package="LED-0603" value="Yellow" x="93.16" y="107.45" rot="R90">
 <attribute name="PROD_ID" value="DIO-09003" x="60.14" y="49.03" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="93.16" y="107.45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="93.16" y="107.45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="93.16" y="107.45" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="8529990" x="93.16" y="107.45" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="KINGBRIGHT" x="93.16" y="107.45" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="KP-3216SYC" x="93.16" y="107.45" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D11" library="xMZ-Mod-Touch-Bodenplatine" package="MINIMELF" value="1N4148W" x="121.25" y="102">
 <attribute name="OC_FARNELL" value="9549986" x="121.25" y="102" size="1.778" layer="27" display="off"/>
@@ -2739,9 +2739,9 @@ design rules under a new name.</description>
 </element>
 <element name="K5" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="150" y="85" rot="R270">
 <attribute name="OC_NEWARK" value="96B4867" x="153.81" y="140.88" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="153.81" y="140.88" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MF" value="" x="153.81" y="140.88" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="153.81" y="140.88" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="V23061B1005A301" x="153.81" y="140.88" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / SCHRACK" x="153.81" y="140.88" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1023958" x="153.81" y="140.88" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="X5" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="145" y="50">
 <attribute name="OC_FARNELL" value="unknown" x="145" y="50" size="1.778" layer="27" display="off"/>
@@ -2770,9 +2770,9 @@ design rules under a new name.</description>
 </element>
 <element name="D8" library="SparkFun-LED" package="LED-0603" value="Yellow" x="121.16" y="106.99" rot="R90">
 <attribute name="PROD_ID" value="DIO-09003" x="137.67" y="2.85" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="121.16" y="106.99" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="121.16" y="106.99" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="121.16" y="106.99" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="8529990" x="121.16" y="106.99" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="KINGBRIGHT" x="121.16" y="106.99" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="KP-3216SYC" x="121.16" y="106.99" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D12" library="xMZ-Mod-Touch-Bodenplatine" package="MINIMELF" value="1N4148W" x="150" y="102">
 <attribute name="OC_FARNELL" value="9549986" x="150" y="102" size="1.778" layer="27" display="off"/>
@@ -2787,9 +2787,9 @@ design rules under a new name.</description>
 </element>
 <element name="K6" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="178.75" y="85" rot="R270">
 <attribute name="OC_NEWARK" value="96B4867" x="233.36" y="112.94" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="233.36" y="112.94" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MF" value="" x="233.36" y="112.94" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="233.36" y="112.94" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="V23061B1005A301" x="233.36" y="112.94" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / SCHRACK" x="233.36" y="112.94" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1023958" x="233.36" y="112.94" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="X6" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="173.75" y="50">
 <attribute name="OC_FARNELL" value="unknown" x="173.75" y="50" size="1.778" layer="27" display="off"/>
@@ -2818,9 +2818,9 @@ design rules under a new name.</description>
 </element>
 <element name="D17" library="SparkFun-LED" package="LED-0603" value="Yellow" x="150.26" y="106.95" rot="R90">
 <attribute name="PROD_ID" value="DIO-09003" x="91.84" y="48.53" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="150.26" y="106.95" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="150.26" y="106.95" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="150.26" y="106.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="8529990" x="150.26" y="106.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="KINGBRIGHT" x="150.26" y="106.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="KP-3216SYC" x="150.26" y="106.95" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D21" library="xMZ-Mod-Touch-Bodenplatine" package="MINIMELF" value="1N4148W" x="178.75" y="102">
 <attribute name="OC_FARNELL" value="9549986" x="178.75" y="102" size="1.778" layer="27" display="off"/>
@@ -2835,9 +2835,9 @@ design rules under a new name.</description>
 </element>
 <element name="K7" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="207.5" y="85" rot="R270">
 <attribute name="OC_NEWARK" value="96B4867" x="212.58" y="184.06" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="212.58" y="184.06" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MF" value="" x="212.58" y="184.06" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="212.58" y="184.06" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="V23061B1005A301" x="212.58" y="184.06" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / SCHRACK" x="212.58" y="184.06" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1023958" x="212.58" y="184.06" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="X7" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="202.5" y="50">
 <attribute name="OC_FARNELL" value="unknown" x="202.5" y="50" size="1.778" layer="27" display="off"/>
@@ -2866,9 +2866,9 @@ design rules under a new name.</description>
 </element>
 <element name="D18" library="SparkFun-LED" package="LED-0603" value="Yellow" x="178.76" y="106.26" rot="R90">
 <attribute name="PROD_ID" value="DIO-09003" x="169.87" y="2.12" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="178.76" y="106.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="178.76" y="106.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="178.76" y="106.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="8529990" x="178.76" y="106.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="KINGBRIGHT" x="178.76" y="106.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="KP-3216SYC" x="178.76" y="106.26" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D22" library="xMZ-Mod-Touch-Bodenplatine" package="MINIMELF" value="1N4148W" x="207.5" y="102">
 <attribute name="OC_FARNELL" value="9549986" x="207.5" y="102" size="1.778" layer="27" display="off"/>
@@ -2883,9 +2883,9 @@ design rules under a new name.</description>
 </element>
 <element name="K8" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="236.25" y="85" rot="R270">
 <attribute name="OC_NEWARK" value="96B4867" x="208.31" y="182.79" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="208.31" y="182.79" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MF" value="" x="208.31" y="182.79" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="208.31" y="182.79" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="V23061B1005A301" x="208.31" y="182.79" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / SCHRACK" x="208.31" y="182.79" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1023958" x="208.31" y="182.79" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="X8" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="231.25" y="50">
 <attribute name="OC_FARNELL" value="unknown" x="231.25" y="50" size="1.778" layer="27" display="off"/>
@@ -2914,9 +2914,9 @@ design rules under a new name.</description>
 </element>
 <element name="D19" library="SparkFun-LED" package="LED-0603" value="Yellow" x="208.26" y="106.57" rot="R90">
 <attribute name="PROD_ID" value="DIO-09003" x="248.9" y="-43.29" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="208.26" y="106.57" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="208.26" y="106.57" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="208.26" y="106.57" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="8529990" x="208.26" y="106.57" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="KINGBRIGHT" x="208.26" y="106.57" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="KP-3216SYC" x="208.26" y="106.57" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D23" library="xMZ-Mod-Touch-Bodenplatine" package="MINIMELF" value="1N4148W" x="236.25" y="102">
 <attribute name="OC_FARNELL" value="9549986" x="236.25" y="102" size="1.778" layer="27" display="off"/>
@@ -2931,9 +2931,9 @@ design rules under a new name.</description>
 </element>
 <element name="K9" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="265" y="85" rot="R270">
 <attribute name="OC_NEWARK" value="96B4867" x="187.53" y="253.91" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="187.53" y="253.91" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MF" value="" x="187.53" y="253.91" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="187.53" y="253.91" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="V23061B1005A301" x="187.53" y="253.91" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / SCHRACK" x="187.53" y="253.91" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1023958" x="187.53" y="253.91" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="X9" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="260" y="50">
 <attribute name="OC_FARNELL" value="unknown" x="260" y="50" size="1.778" layer="27" display="off"/>
@@ -2962,9 +2962,9 @@ design rules under a new name.</description>
 </element>
 <element name="D20" library="SparkFun-LED" package="LED-0603" value="Yellow" x="236.76" y="105.61" rot="R90">
 <attribute name="PROD_ID" value="DIO-09003" x="326.93" y="-89.97" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="236.76" y="105.61" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="236.76" y="105.61" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="236.76" y="105.61" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="8529990" x="236.76" y="105.61" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="KINGBRIGHT" x="236.76" y="105.61" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="KP-3216SYC" x="236.76" y="105.61" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D24" library="xMZ-Mod-Touch-Bodenplatine" package="MINIMELF" value="1N4148W" x="265" y="102">
 <attribute name="OC_FARNELL" value="9549986" x="265" y="102" size="1.778" layer="27" display="off"/>
@@ -2979,9 +2979,9 @@ design rules under a new name.</description>
 </element>
 <element name="K1" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="35" y="85" rot="R270">
 <attribute name="OC_NEWARK" value="96B4867" x="62.94" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="62.94" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MF" value="" x="62.94" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="62.94" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="V23061B1005A301" x="62.94" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / SCHRACK" x="62.94" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1023958" x="62.94" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="X1" library="xMZ-Mod-Touch-Bodenplatine" package="SPRINGCON_AST125_5X2" value="SPRINGCON_AST125_5X2" x="30" y="50">
 <attribute name="OC_FARNELL" value="unknown" x="30" y="50" size="1.778" layer="27" display="off"/>
@@ -3010,9 +3010,9 @@ design rules under a new name.</description>
 </element>
 <element name="D26" library="SparkFun-LED" package="LED-0603" value="Yellow" x="265.53" y="106.15" rot="R270">
 <attribute name="PROD_ID" value="DIO-09003" x="273.15" y="148.06" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="265.53" y="106.15" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="" x="265.53" y="106.15" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="265.53" y="106.15" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="8529990" x="265.53" y="106.15" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="KINGBRIGHT" x="265.53" y="106.15" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="KP-3216SYC" x="265.53" y="106.15" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="D27" library="xMZ-Mod-Touch-Bodenplatine" package="MINIMELF" value="1N4148W" x="35" y="102">
 <attribute name="OC_FARNELL" value="9549986" x="35" y="102" size="1.778" layer="27" display="off"/>
@@ -3072,49 +3072,49 @@ design rules under a new name.</description>
 <attribute name="MPN" value="" x="8.5" y="100" size="1.778" layer="27" display="off"/>
 </element>
 <element name="S1" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="35" y="117" rot="R90">
-<attribute name="OC_FARNELL" value="unknown" x="35" y="117" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="35" y="117" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="35" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1818222" x="35" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH" x="35" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="A103SYCQ04" x="35" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="S2" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="63.75" y="117" rot="R90">
-<attribute name="OC_FARNELL" value="unknown" x="63.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="63.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="63.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1818222" x="63.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH" x="63.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="A103SYCQ04" x="63.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="S3" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="92.5" y="117" rot="R90">
-<attribute name="OC_FARNELL" value="unknown" x="92.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="92.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="92.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1818222" x="92.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH" x="92.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="A103SYCQ04" x="92.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="S4" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="121.25" y="117" rot="R90">
-<attribute name="OC_FARNELL" value="unknown" x="121.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="121.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="121.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1818222" x="121.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH" x="121.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="A103SYCQ04" x="121.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="S5" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="150" y="117" rot="R90">
-<attribute name="OC_FARNELL" value="unknown" x="150" y="117" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="150" y="117" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="150" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1818222" x="150" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH" x="150" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="A103SYCQ04" x="150" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="S6" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="178.75" y="117" rot="R90">
-<attribute name="OC_FARNELL" value="unknown" x="178.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="178.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="178.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1818222" x="178.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH" x="178.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="A103SYCQ04" x="178.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="S7" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="207.5" y="117" rot="R90">
-<attribute name="OC_FARNELL" value="unknown" x="207.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="207.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="207.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1818222" x="207.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH" x="207.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="A103SYCQ04" x="207.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="S8" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="236.25" y="117" rot="R90">
-<attribute name="OC_FARNELL" value="unknown" x="236.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="236.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="236.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1818222" x="236.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH" x="236.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="A103SYCQ04" x="236.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="S9" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="265" y="117" rot="R90">
-<attribute name="OC_FARNELL" value="unknown" x="265" y="117" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="265" y="117" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="265" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1818222" x="265" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH" x="265" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="A103SYCQ04" x="265" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="Q1" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BC846BLT1SMD" x="40.85" y="104.32" rot="R180">
 <attribute name="OC_FARNELL" value="2317836" x="40.85" y="104.32" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>

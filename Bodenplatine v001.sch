@@ -6201,8 +6201,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="K2" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="TE CONNECTIVITY / SCHRACK"/>
+<attribute name="MPN" value="V23061B1005A301"/>
+<attribute name="OC_FARNELL" value="1023958"/>
 </part>
 <part name="X2" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
 <attribute name="MF" value=""/>
@@ -6232,7 +6233,6 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="D1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="BAR43" device="">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR"/>
 <attribute name="MPN" value="BAR43"/>
-<attribute name="OC_FARNELL" value="2453275"/>
 </part>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
 <attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
@@ -6245,9 +6245,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="9331913"/>
 </part>
 <part name="D5" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="KINGBRIGHT"/>
+<attribute name="MPN" value="KP-3216SYC"/>
+<attribute name="OC_FARNELL" value="8529990"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="D9" library="xMZ-Mod-Touch-Bodenplatine" deviceset="LL4148" device="" value="1N4148W">
@@ -6260,8 +6260,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="K3" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="TE CONNECTIVITY / SCHRACK"/>
+<attribute name="MPN" value="V23061B1005A301"/>
+<attribute name="OC_FARNELL" value="1023958"/>
 </part>
 <part name="X3" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
 <attribute name="MF" value=""/>
@@ -6276,7 +6277,6 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="D2" library="xMZ-Mod-Touch-Bodenplatine" deviceset="BAR43" device="">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR"/>
 <attribute name="MPN" value="BAR43"/>
-<attribute name="OC_FARNELL" value="2453275"/>
 </part>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
 <attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
@@ -6289,9 +6289,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="9331913"/>
 </part>
 <part name="D6" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="KINGBRIGHT"/>
+<attribute name="MPN" value="KP-3216SYC"/>
+<attribute name="OC_FARNELL" value="8529990"/>
 </part>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="D10" library="xMZ-Mod-Touch-Bodenplatine" deviceset="LL4148" device="" value="1N4148W">
@@ -6304,8 +6304,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="K4" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="TE CONNECTIVITY / SCHRACK"/>
+<attribute name="MPN" value="V23061B1005A301"/>
+<attribute name="OC_FARNELL" value="1023958"/>
 </part>
 <part name="X4" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
 <attribute name="MF" value=""/>
@@ -6320,7 +6321,6 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="D3" library="xMZ-Mod-Touch-Bodenplatine" deviceset="BAR43" device="">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR"/>
 <attribute name="MPN" value="BAR43"/>
-<attribute name="OC_FARNELL" value="2453275"/>
 </part>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
 <attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
@@ -6333,9 +6333,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="9331913"/>
 </part>
 <part name="D7" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="KINGBRIGHT"/>
+<attribute name="MPN" value="KP-3216SYC"/>
+<attribute name="OC_FARNELL" value="8529990"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="D11" library="xMZ-Mod-Touch-Bodenplatine" deviceset="LL4148" device="" value="1N4148W">
@@ -6348,8 +6348,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="K5" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="TE CONNECTIVITY / SCHRACK"/>
+<attribute name="MPN" value="V23061B1005A301"/>
+<attribute name="OC_FARNELL" value="1023958"/>
 </part>
 <part name="X5" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
 <attribute name="MF" value=""/>
@@ -6364,7 +6365,6 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="D4" library="xMZ-Mod-Touch-Bodenplatine" deviceset="BAR43" device="">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR"/>
 <attribute name="MPN" value="BAR43"/>
-<attribute name="OC_FARNELL" value="2453275"/>
 </part>
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
 <attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
@@ -6377,9 +6377,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="9331913"/>
 </part>
 <part name="D8" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="KINGBRIGHT"/>
+<attribute name="MPN" value="KP-3216SYC"/>
+<attribute name="OC_FARNELL" value="8529990"/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="D12" library="xMZ-Mod-Touch-Bodenplatine" deviceset="LL4148" device="" value="1N4148W">
@@ -6392,8 +6392,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="K6" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="TE CONNECTIVITY / SCHRACK"/>
+<attribute name="MPN" value="V23061B1005A301"/>
+<attribute name="OC_FARNELL" value="1023958"/>
 </part>
 <part name="X6" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
 <attribute name="MF" value=""/>
@@ -6408,7 +6409,6 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="D13" library="xMZ-Mod-Touch-Bodenplatine" deviceset="BAR43" device="">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR"/>
 <attribute name="MPN" value="BAR43"/>
-<attribute name="OC_FARNELL" value="2453275"/>
 </part>
 <part name="R21" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
 <attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
@@ -6421,9 +6421,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="9331913"/>
 </part>
 <part name="D17" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="KINGBRIGHT"/>
+<attribute name="MPN" value="KP-3216SYC"/>
+<attribute name="OC_FARNELL" value="8529990"/>
 </part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="D21" library="xMZ-Mod-Touch-Bodenplatine" deviceset="LL4148" device="" value="1N4148W">
@@ -6436,8 +6436,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="K7" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="TE CONNECTIVITY / SCHRACK"/>
+<attribute name="MPN" value="V23061B1005A301"/>
+<attribute name="OC_FARNELL" value="1023958"/>
 </part>
 <part name="X7" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
 <attribute name="MF" value=""/>
@@ -6452,7 +6453,6 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="D14" library="xMZ-Mod-Touch-Bodenplatine" deviceset="BAR43" device="">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR"/>
 <attribute name="MPN" value="BAR43"/>
-<attribute name="OC_FARNELL" value="2453275"/>
 </part>
 <part name="R22" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
 <attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
@@ -6465,9 +6465,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="9331913"/>
 </part>
 <part name="D18" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="KINGBRIGHT"/>
+<attribute name="MPN" value="KP-3216SYC"/>
+<attribute name="OC_FARNELL" value="8529990"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="D22" library="xMZ-Mod-Touch-Bodenplatine" deviceset="LL4148" device="" value="1N4148W">
@@ -6480,8 +6480,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="K8" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="TE CONNECTIVITY / SCHRACK"/>
+<attribute name="MPN" value="V23061B1005A301"/>
+<attribute name="OC_FARNELL" value="1023958"/>
 </part>
 <part name="X8" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
 <attribute name="MF" value=""/>
@@ -6496,7 +6497,6 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="D15" library="xMZ-Mod-Touch-Bodenplatine" deviceset="BAR43" device="">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR"/>
 <attribute name="MPN" value="BAR43"/>
-<attribute name="OC_FARNELL" value="2453275"/>
 </part>
 <part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
 <attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
@@ -6509,9 +6509,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="9331913"/>
 </part>
 <part name="D19" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="KINGBRIGHT"/>
+<attribute name="MPN" value="KP-3216SYC"/>
+<attribute name="OC_FARNELL" value="8529990"/>
 </part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="D23" library="xMZ-Mod-Touch-Bodenplatine" deviceset="LL4148" device="" value="1N4148W">
@@ -6524,8 +6524,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="K9" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="TE CONNECTIVITY / SCHRACK"/>
+<attribute name="MPN" value="V23061B1005A301"/>
+<attribute name="OC_FARNELL" value="1023958"/>
 </part>
 <part name="X9" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
 <attribute name="MF" value=""/>
@@ -6540,7 +6541,6 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="D16" library="xMZ-Mod-Touch-Bodenplatine" deviceset="BAR43" device="">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR"/>
 <attribute name="MPN" value="BAR43"/>
-<attribute name="OC_FARNELL" value="2453275"/>
 </part>
 <part name="R24" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
 <attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
@@ -6553,9 +6553,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="9331913"/>
 </part>
 <part name="D20" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="KINGBRIGHT"/>
+<attribute name="MPN" value="KP-3216SYC"/>
+<attribute name="OC_FARNELL" value="8529990"/>
 </part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="D24" library="xMZ-Mod-Touch-Bodenplatine" deviceset="LL4148" device="" value="1N4148W">
@@ -6568,8 +6568,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="K1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="TE CONNECTIVITY / SCHRACK"/>
+<attribute name="MPN" value="V23061B1005A301"/>
+<attribute name="OC_FARNELL" value="1023958"/>
 </part>
 <part name="X1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
 <attribute name="MF" value=""/>
@@ -6584,7 +6585,6 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="D25" library="xMZ-Mod-Touch-Bodenplatine" deviceset="BAR43" device="">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR"/>
 <attribute name="MPN" value="BAR43"/>
-<attribute name="OC_FARNELL" value="2453275"/>
 </part>
 <part name="R27" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
 <attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
@@ -6597,9 +6597,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="9331913"/>
 </part>
 <part name="D26" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="KINGBRIGHT"/>
+<attribute name="MPN" value="KP-3216SYC"/>
+<attribute name="OC_FARNELL" value="8529990"/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="D27" library="xMZ-Mod-Touch-Bodenplatine" deviceset="LL4148" device="" value="1N4148W">
@@ -6657,49 +6657,49 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="S1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH"/>
+<attribute name="MPN" value="A103SYCQ04"/>
+<attribute name="OC_FARNELL" value="1818222"/>
 </part>
 <part name="S2" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH"/>
+<attribute name="MPN" value="A103SYCQ04"/>
+<attribute name="OC_FARNELL" value="1818222"/>
 </part>
 <part name="S3" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH"/>
+<attribute name="MPN" value="A103SYCQ04"/>
+<attribute name="OC_FARNELL" value="1818222"/>
 </part>
 <part name="S4" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH"/>
+<attribute name="MPN" value="A103SYCQ04"/>
+<attribute name="OC_FARNELL" value="1818222"/>
 </part>
 <part name="S5" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH"/>
+<attribute name="MPN" value="A103SYCQ04"/>
+<attribute name="OC_FARNELL" value="1818222"/>
 </part>
 <part name="S6" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH"/>
+<attribute name="MPN" value="A103SYCQ04"/>
+<attribute name="OC_FARNELL" value="1818222"/>
 </part>
 <part name="S7" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH"/>
+<attribute name="MPN" value="A103SYCQ04"/>
+<attribute name="OC_FARNELL" value="1818222"/>
 </part>
 <part name="S8" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH"/>
+<attribute name="MPN" value="A103SYCQ04"/>
+<attribute name="OC_FARNELL" value="1818222"/>
 </part>
 <part name="S9" library="xMZ-Mod-Touch-Bodenplatine" deviceset="TL39PO" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH"/>
+<attribute name="MPN" value="A103SYCQ04"/>
+<attribute name="OC_FARNELL" value="1818222"/>
 </part>
 <part name="Q1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="BC846*" device="SMD" technology="BLT1">
 <attribute name="MF" value="ON SEMICONDUCTOR"/>
