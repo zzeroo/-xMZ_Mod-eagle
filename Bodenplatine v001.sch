@@ -471,6 +471,21 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
+<package name="MINIMELF">
+<description>&lt;b&gt;Mini Melf Diode&lt;/b&gt;</description>
+<wire x1="1.3208" y1="0.7874" x2="-1.3208" y2="0.7874" width="0.1524" layer="51"/>
+<wire x1="1.3208" y1="-0.7874" x2="-1.3208" y2="-0.7874" width="0.1524" layer="51"/>
+<wire x1="0.5" y1="0.5" x2="-0.5" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="-0.5" width="0.2032" layer="21"/>
+<wire x1="0.5" y1="-0.5" x2="0.5" y2="0.5" width="0.2032" layer="21"/>
+<smd name="C" x="-1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
+<smd name="A" x="1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
+<text x="-1.651" y="1.143" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.651" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.8542" y1="-0.8636" x2="-1.2954" y2="0.8636" layer="51"/>
+<rectangle x1="1.2954" y1="-0.8636" x2="1.8542" y2="0.8636" layer="51"/>
+<rectangle x1="-0.8636" y1="-0.7874" x2="-0.254" y2="0.7874" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="A3L-LOC">
@@ -632,6 +647,22 @@ Mail: info@gaswarnanlagen.com</text>
 <pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
 <pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+</symbol>
+<symbol name="DIODE-SCHOTTKY">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.778" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.762" y2="-1.524" width="0.254" layer="94"/>
+<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1315,6 +1346,35 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </device>
 </devices>
 </deviceset>
+<deviceset name="LL4148">
+<description>&lt;h1&gt;VISHAY  LL4148-GS08  Kleinsignaldiode, Einfach, 100 V, 150 mA, 1 V, 8 ns, 2 A &lt;/h1&gt;
+
+&lt;p&gt;&lt;a href="http://www.farnell.com/datasheets/1353494.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1469399&lt;/td&gt;&lt;td&gt;Farnell&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9549986&lt;/td&gt;&lt;td&gt;Farnell&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2409162&lt;/td&gt;&lt;td&gt;Farnell&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9549986RL&lt;/td&gt;&lt;td&gt;Farnell&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1469399RL&lt;/td&gt;&lt;td&gt;Farnell&lt;/td&gt;&lt;/tr&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE-SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="OC_FARNELL" value="9549986" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="diode">
@@ -1328,62 +1388,6 @@ Based on the following sources:
 &lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="DO35-10">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 2 mm, horizontal, grid 10.16 mm</description>
-<wire x1="5.08" y1="0" x2="4.191" y2="0" width="0.508" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-4.191" y2="0" width="0.508" layer="51"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="1.016" x2="2.286" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="0.762" x2="-2.032" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="-0.762" x2="-2.032" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.032" y1="-1.016" x2="2.286" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.286" y1="-0.762" x2="2.286" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="0.762" x2="-2.286" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
-<pad name="C" x="-5.08" y="0" drill="0.8128" shape="long"/>
-<pad name="A" x="5.08" y="0" drill="0.8128" shape="long"/>
-<text x="-2.159" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.159" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.905" y1="-1.016" x2="-1.397" y2="1.016" layer="21"/>
-<rectangle x1="2.286" y1="-0.254" x2="4.191" y2="0.254" layer="21"/>
-<rectangle x1="-4.191" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
-</package>
-<package name="DO35-7">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 2 mm, horizontal, grid 7.62 mm</description>
-<wire x1="3.81" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
-<wire x1="-3.81" y1="0" x2="-2.921" y2="0" width="0.508" layer="51"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="1.016" x2="2.286" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="2.286" y1="0.762" x2="2.286" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="-1.016" x2="2.286" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="-2.286" y1="0.762" x2="-2.032" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="-0.762" x2="-2.032" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="0.762" x2="-2.286" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.1524" layer="21"/>
-<pad name="C" x="-3.81" y="0" drill="0.8128" shape="long"/>
-<pad name="A" x="3.81" y="0" drill="0.8128" shape="long"/>
-<text x="-2.286" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.905" y1="-1.016" x2="-1.397" y2="1.016" layer="21"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
-<rectangle x1="-2.921" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
-</package>
 <package name="SOT23">
 <description>&lt;B&gt;DIODE&lt;/B&gt;</description>
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
@@ -1405,19 +1409,6 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 </package>
 </packages>
 <symbols>
-<symbol name="D">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
-<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
-</symbol>
 <symbol name="SCHOTTKY">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
@@ -1435,33 +1426,6 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1N4148" prefix="D">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-high speed (Philips)</description>
-<gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="DO35-10" package="DO35-10">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="DO35-7" package="DO35-7">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="BAT54" prefix="D">
 <description>&lt;b&gt;Schottky Diodes&lt;/b&gt;&lt;p&gt;
 Source: Fairchild .. BAT54.pdf</description>
@@ -6241,8 +6205,16 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 </classes>
 <parts>
 <part name="FRAME1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="A3L-LOC-RA-GAS" device="" value="A3"/>
-<part name="F10" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="10AT"/>
-<part name="F2" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT"/>
+<part name="F10" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="10AT">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="F2" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="K2" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -6263,9 +6235,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X10" device="" value="Stiftleiste 2x20 pol">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="TE CONNECTIVITY / AMP"/>
+<attribute name="MPN" value="825440-5"/>
+<attribute name="OC_FARNELL" value="3417773"/>
 </part>
 <part name="R1" library="rcl" deviceset="R-EU_" device="M0805" value="270R">
 <attribute name="MF" value="MULTICOMP"/>
@@ -6293,12 +6265,16 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="D9" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W">
+<part name="D9" library="xMZ-Mod-Touch-Bodenplatine" deviceset="LL4148" device="" value="1N4148W">
+<attribute name="MF" value="VISHAY"/>
+<attribute name="MPN" value="LL4148-GS08"/>
+<attribute name="OC_FARNELL" value="9549986"/>
+</part>
+<part name="F3" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="F3" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT"/>
 <part name="K3" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -6334,12 +6310,16 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="D10" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W">
+<part name="D10" library="xMZ-Mod-Touch-Bodenplatine" deviceset="LL4148" device="" value="1N4148W">
+<attribute name="MF" value="VISHAY"/>
+<attribute name="MPN" value="LL4148-GS08"/>
+<attribute name="OC_FARNELL" value="9549986"/>
+</part>
+<part name="F4" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="F4" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT"/>
 <part name="K4" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -6375,12 +6355,16 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="D11" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W">
+<part name="D11" library="xMZ-Mod-Touch-Bodenplatine" deviceset="LL4148" device="" value="1N4148W">
+<attribute name="MF" value="VISHAY"/>
+<attribute name="MPN" value="LL4148-GS08"/>
+<attribute name="OC_FARNELL" value="9549986"/>
+</part>
+<part name="F5" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="F5" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT"/>
 <part name="K5" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -6416,12 +6400,16 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="D12" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W">
+<part name="D12" library="xMZ-Mod-Touch-Bodenplatine" deviceset="LL4148" device="" value="1N4148W">
+<attribute name="MF" value="VISHAY"/>
+<attribute name="MPN" value="LL4148-GS08"/>
+<attribute name="OC_FARNELL" value="9549986"/>
+</part>
+<part name="F6" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="F6" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT"/>
 <part name="K6" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -6457,12 +6445,16 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="D21" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W">
+<part name="D21" library="xMZ-Mod-Touch-Bodenplatine" deviceset="LL4148" device="" value="1N4148W">
+<attribute name="MF" value="VISHAY"/>
+<attribute name="MPN" value="LL4148-GS08"/>
+<attribute name="OC_FARNELL" value="9549986"/>
+</part>
+<part name="F7" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="F7" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT"/>
 <part name="K7" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -6498,12 +6490,16 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="D22" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W">
+<part name="D22" library="xMZ-Mod-Touch-Bodenplatine" deviceset="LL4148" device="" value="1N4148W">
+<attribute name="MF" value="VISHAY"/>
+<attribute name="MPN" value="LL4148-GS08"/>
+<attribute name="OC_FARNELL" value="9549986"/>
+</part>
+<part name="F8" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="F8" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT"/>
 <part name="K8" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -6539,12 +6535,16 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="D23" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W">
+<part name="D23" library="xMZ-Mod-Touch-Bodenplatine" deviceset="LL4148" device="" value="1N4148W">
+<attribute name="MF" value="VISHAY"/>
+<attribute name="MPN" value="LL4148-GS08"/>
+<attribute name="OC_FARNELL" value="9549986"/>
+</part>
+<part name="F9" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="F9" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT"/>
 <part name="K9" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -6580,12 +6580,16 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="D24" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W">
+<part name="D24" library="xMZ-Mod-Touch-Bodenplatine" deviceset="LL4148" device="" value="1N4148W">
+<attribute name="MF" value="VISHAY"/>
+<attribute name="MPN" value="LL4148-GS08"/>
+<attribute name="OC_FARNELL" value="9549986"/>
+</part>
+<part name="F1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="F1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT"/>
 <part name="K1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="RY?1*" device="6" technology="2012">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -6621,23 +6625,31 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="D27" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148W">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="D27" library="xMZ-Mod-Touch-Bodenplatine" deviceset="LL4148" device="" value="1N4148W">
+<attribute name="MF" value="VISHAY"/>
+<attribute name="MPN" value="LL4148-GS08"/>
+<attribute name="OC_FARNELL" value="9549986"/>
 </part>
 <part name="X12" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_4X2" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="F12" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="6,3AT"/>
+<part name="F12" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="6,3AT">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="X13" library="xMZ-Mod-Touch-Bodenplatine" deviceset="SPRINGCON_AST125_5X2" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="F13" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT"/>
+<part name="F13" library="xMZ-Mod-Touch-Bodenplatine" deviceset="FPG4" device="" value="3,15AT">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="X14" library="con-wago_236" deviceset="236-403" device="">
 <attribute name="MF" value="WAGO"/>
 <attribute name="MPN" value="236-403"/>
@@ -6784,8 +6796,15 @@ oder externer Akku</text>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="F10" gate="G$1" x="292.1" y="132.08">
 <attribute name="REICHELT" x="292.1" y="132.08" size="1.27" layer="96" display="off"/>
+<attribute name="OC_FARNELL" x="292.1" y="132.08" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="292.1" y="132.08" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="292.1" y="132.08" size="1.27" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="F2" gate="G$1" x="83.82" y="236.22" rot="R180"/>
+<instance part="F2" gate="G$1" x="83.82" y="236.22" rot="R180">
+<attribute name="OC_FARNELL" x="83.82" y="236.22" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="83.82" y="236.22" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="83.82" y="236.22" size="1.27" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="K2" gate="1" x="63.5" y="241.3"/>
 <instance part="K2" gate="2" x="76.2" y="238.76"/>
 <instance part="X2" gate="G$1" x="101.6" y="231.14">
@@ -6839,7 +6858,11 @@ oder externer Akku</text>
 <attribute name="MF" x="48.26" y="241.3" size="1.27" layer="96" display="off"/>
 <attribute name="MPN" x="48.26" y="241.3" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="F3" gate="G$1" x="83.82" y="185.42" rot="R180"/>
+<instance part="F3" gate="G$1" x="83.82" y="185.42" rot="R180">
+<attribute name="OC_FARNELL" x="83.82" y="185.42" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="83.82" y="185.42" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="83.82" y="185.42" size="1.27" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="K3" gate="1" x="63.5" y="190.5"/>
 <instance part="K3" gate="2" x="76.2" y="187.96"/>
 <instance part="X3" gate="G$1" x="99.06" y="180.34">
@@ -6878,7 +6901,11 @@ oder externer Akku</text>
 <attribute name="MF" x="48.26" y="190.5" size="1.27" layer="96" display="off"/>
 <attribute name="MPN" x="48.26" y="190.5" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="F4" gate="G$1" x="86.36" y="134.62" rot="R180"/>
+<instance part="F4" gate="G$1" x="86.36" y="134.62" rot="R180">
+<attribute name="OC_FARNELL" x="86.36" y="134.62" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="86.36" y="134.62" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="86.36" y="134.62" size="1.27" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="K4" gate="1" x="66.04" y="139.7"/>
 <instance part="K4" gate="2" x="78.74" y="137.16"/>
 <instance part="X4" gate="G$1" x="101.6" y="129.54">
@@ -6917,7 +6944,11 @@ oder externer Akku</text>
 <attribute name="MF" x="50.8" y="139.7" size="1.27" layer="96" display="off"/>
 <attribute name="MPN" x="50.8" y="139.7" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="F5" gate="G$1" x="86.36" y="83.82" rot="R180"/>
+<instance part="F5" gate="G$1" x="86.36" y="83.82" rot="R180">
+<attribute name="OC_FARNELL" x="86.36" y="83.82" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="86.36" y="83.82" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="86.36" y="83.82" size="1.27" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="K5" gate="1" x="66.04" y="88.9"/>
 <instance part="K5" gate="2" x="78.74" y="86.36"/>
 <instance part="X5" gate="G$1" x="101.6" y="78.74">
@@ -6956,7 +6987,11 @@ oder externer Akku</text>
 <attribute name="MF" x="50.8" y="88.9" size="1.27" layer="96" display="off"/>
 <attribute name="MPN" x="50.8" y="88.9" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="F6" gate="G$1" x="208.28" y="236.22" rot="R180"/>
+<instance part="F6" gate="G$1" x="208.28" y="236.22" rot="R180">
+<attribute name="OC_FARNELL" x="208.28" y="236.22" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="208.28" y="236.22" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="208.28" y="236.22" size="1.27" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="K6" gate="1" x="187.96" y="241.3"/>
 <instance part="K6" gate="2" x="200.66" y="238.76"/>
 <instance part="X6" gate="G$1" x="223.52" y="231.14">
@@ -6995,7 +7030,11 @@ oder externer Akku</text>
 <attribute name="MF" x="172.72" y="241.3" size="1.27" layer="96" display="off"/>
 <attribute name="MPN" x="172.72" y="241.3" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="F7" gate="G$1" x="208.28" y="185.42" rot="R180"/>
+<instance part="F7" gate="G$1" x="208.28" y="185.42" rot="R180">
+<attribute name="OC_FARNELL" x="208.28" y="185.42" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="208.28" y="185.42" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="208.28" y="185.42" size="1.27" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="K7" gate="1" x="187.96" y="190.5"/>
 <instance part="K7" gate="2" x="200.66" y="187.96"/>
 <instance part="X7" gate="G$1" x="223.52" y="180.34">
@@ -7034,7 +7073,11 @@ oder externer Akku</text>
 <attribute name="MF" x="172.72" y="190.5" size="1.27" layer="96" display="off"/>
 <attribute name="MPN" x="172.72" y="190.5" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="F8" gate="G$1" x="213.36" y="134.62" rot="R180"/>
+<instance part="F8" gate="G$1" x="213.36" y="134.62" rot="R180">
+<attribute name="OC_FARNELL" x="213.36" y="134.62" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="213.36" y="134.62" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="213.36" y="134.62" size="1.27" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="K8" gate="1" x="190.5" y="139.7"/>
 <instance part="K8" gate="2" x="203.2" y="137.16"/>
 <instance part="X8" gate="G$1" x="226.06" y="129.54">
@@ -7073,7 +7116,11 @@ oder externer Akku</text>
 <attribute name="MF" x="175.26" y="139.7" size="1.27" layer="96" display="off"/>
 <attribute name="MPN" x="175.26" y="139.7" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="F9" gate="G$1" x="210.82" y="83.82" rot="R180"/>
+<instance part="F9" gate="G$1" x="210.82" y="83.82" rot="R180">
+<attribute name="OC_FARNELL" x="210.82" y="83.82" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="210.82" y="83.82" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="210.82" y="83.82" size="1.27" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="K9" gate="1" x="190.5" y="88.9"/>
 <instance part="K9" gate="2" x="203.2" y="86.36"/>
 <instance part="X9" gate="G$1" x="226.06" y="78.74">
@@ -7112,7 +7159,11 @@ oder externer Akku</text>
 <attribute name="MF" x="175.26" y="88.9" size="1.27" layer="96" display="off"/>
 <attribute name="MPN" x="175.26" y="88.9" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="F1" gate="G$1" x="335.28" y="236.22" rot="R180"/>
+<instance part="F1" gate="G$1" x="335.28" y="236.22" rot="R180">
+<attribute name="OC_FARNELL" x="335.28" y="236.22" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="335.28" y="236.22" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="335.28" y="236.22" size="1.27" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="K1" gate="1" x="314.96" y="241.3"/>
 <instance part="K1" gate="2" x="327.66" y="238.76"/>
 <instance part="X1" gate="G$1" x="350.52" y="231.14">
@@ -7156,13 +7207,21 @@ oder externer Akku</text>
 <attribute name="MF" x="350.52" y="86.36" size="1.27" layer="96" display="off"/>
 <attribute name="MPN" x="350.52" y="86.36" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="F12" gate="G$1" x="332.74" y="93.98"/>
+<instance part="F12" gate="G$1" x="332.74" y="93.98">
+<attribute name="OC_FARNELL" x="332.74" y="93.98" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="332.74" y="93.98" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="332.74" y="93.98" size="1.27" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="X13" gate="G$1" x="350.52" y="45.72">
 <attribute name="OC_FARNELL" x="350.52" y="45.72" size="1.27" layer="96" display="off"/>
 <attribute name="MF" x="350.52" y="45.72" size="1.27" layer="96" display="off"/>
 <attribute name="MPN" x="350.52" y="45.72" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="F13" gate="G$1" x="335.28" y="55.88"/>
+<instance part="F13" gate="G$1" x="335.28" y="55.88">
+<attribute name="OC_FARNELL" x="335.28" y="55.88" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="335.28" y="55.88" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="335.28" y="55.88" size="1.27" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="X14" gate="G$1" x="350.52" y="172.72">
 <attribute name="OC_FARNELL" x="350.52" y="172.72" size="1.27" layer="96" display="off"/>
 <attribute name="MF" x="350.52" y="172.72" size="1.27" layer="96" display="off"/>
