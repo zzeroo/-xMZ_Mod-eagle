@@ -1772,18 +1772,21 @@ Source: &lt;a href="http://www.farnell.com/datasheets/461166.pdf"&gt; Data sheet
 </device>
 </devices>
 </deviceset>
-<deviceset name="LL4148">
+<deviceset name="LL4148" prefix="V">
 <description>&lt;h1&gt;VISHAY  LL4148-GS08  Kleinsignaldiode, Einfach, 100 V, 150 mA, 1 V, 8 ns, 2 A &lt;/h1&gt;
 
 &lt;p&gt;&lt;a href="http://www.farnell.com/datasheets/1353494.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;1469399&lt;/td&gt;&lt;td&gt;Farnell&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;9549986&lt;/td&gt;&lt;td&gt;Farnell&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;2409162&lt;/td&gt;&lt;td&gt;Farnell&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;9549986RL&lt;/td&gt;&lt;td&gt;Farnell&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;1469399RL&lt;/td&gt;&lt;td&gt;Farnell&lt;/td&gt;&lt;/tr&gt;</description>
+&lt;tr&gt;&lt;td&gt;1469399RL&lt;/td&gt;&lt;td&gt;Farnell&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="DIODE-SCHOTTKY" x="0" y="0"/>
 </gates>
@@ -1796,6 +1799,36 @@ Source: &lt;a href="http://www.farnell.com/datasheets/461166.pdf"&gt; Data sheet
 <technologies>
 <technology name="">
 <attribute name="OC_FARNELL" value="9549986" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAR43" prefix="V">
+<description>&lt;h1&gt;FAIRCHILD SEMICONDUCTOR  BAR43  Kleinsignal-Schottky-Diode, Einfach, 30 V, 200 mA, 800 mV, 750 mA, 150 °C&lt;/h1&gt;
+
+&lt;p&gt;Supplier &lt;a href="http://de.farnell.com/fairchild-semiconductor/bar43/schottky-diode-30v-sot-23-3/dp/2453275?ost=2453275&amp;selectedCategoryId=&amp;categoryName=Alle+Kategorien&amp;categoryNameResp=Alle+Kategorien"&gt;http://de.farnell.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.farnell.com/datasheets/1963228.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Order Number&lt;/th&gt;&lt;th&gt;Supplier&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2453275&lt;/td&gt;&lt;td&gt;Farnell&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE-SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT323">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="OC_FARNELL" value="2453275" constant="no"/>
 </technology>
 </technologies>
 </device>
