@@ -6481,6 +6481,15 @@ ERSETZEN!</text>
 <text x="24.22" y="2.23" size="1.4224" layer="21" font="vector" ratio="9">v</text>
 <text x="25.72" y="2.23" size="1.4224" layer="21" font="vector">&gt;VERSION</text>
 </package>
+<package name="TEXT_FUSE-SMALL">
+<text x="-0.03" y="0" size="1.016" layer="21" font="vector" align="center">SICHERUNGEN NUR DURCH
+GLEICHEN TYP UND WERT
+ERSETZEN!</text>
+<wire x1="-11.34" y1="-3.73" x2="10.07" y2="-3.73" width="0.127" layer="21"/>
+<wire x1="10.07" y1="-3.73" x2="10.07" y2="3.73" width="0.127" layer="21"/>
+<wire x1="10.07" y1="3.73" x2="-11.34" y2="3.73" width="0.127" layer="21"/>
+<wire x1="-11.34" y1="3.73" x2="-11.34" y2="-3.73" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="A3L-LOC">
