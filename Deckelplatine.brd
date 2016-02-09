@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -167,7 +167,7 @@
 <text x="2.5" y="10" size="1.5" layer="21" font="vector" ratio="10" rot="R90">Con. Bodenplatine</text>
 <text x="109" y="29.85" size="1.5" layer="21" font="vector" ratio="10" rot="R90">Con. Banana Pro</text>
 <text x="30.5" y="18.5" size="1" layer="21" font="vector" ratio="15">RS485 Modbus</text>
-<text x="30" y="8" size="0.8" layer="21" font="vector" ratio="10">BUS Terminator</text>
+<text x="29.238" y="7.619" size="0.8" layer="21" font="vector" ratio="10">BUS Terminator</text>
 <text x="84.2018" y="73.77" size="1.016" layer="21" font="vector" ratio="10">PWR Banana Pro</text>
 <text x="91.29" y="71.45" size="1.778" layer="21" font="vector" ratio="15">+</text>
 <text x="87.374" y="71.485" size="1.778" layer="21" font="vector" ratio="15">-</text>
@@ -5514,6 +5514,15 @@ CatalogNumber: &lt;b&gt;0111 0005MR&lt;/b&gt;
 <text x="24.22" y="2.23" size="1.4224" layer="21" font="vector" ratio="9">v</text>
 <text x="25.72" y="2.23" size="1.4224" layer="21" font="vector">&gt;VERSION</text>
 </package>
+<package name="TEXT_FUSE-SMALL">
+<text x="-0.03" y="0" size="1.016" layer="21" font="vector" align="center">SICHERUNGEN NUR DURCH
+GLEICHEN TYP UND WERT
+ERSETZEN!</text>
+<wire x1="-11.34" y1="-3.73" x2="10.07" y2="-3.73" width="0.127" layer="21"/>
+<wire x1="10.07" y1="-3.73" x2="10.07" y2="3.73" width="0.127" layer="21"/>
+<wire x1="10.07" y1="3.73" x2="-11.34" y2="3.73" width="0.127" layer="21"/>
+<wire x1="-11.34" y1="3.73" x2="-11.34" y2="-3.73" width="0.127" layer="21"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -6025,7 +6034,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="236-406" x="14" y="54.08" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1283529" x="14" y="54.08" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="21.655" y="69.5127" size="2" layer="25" font="vector" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="21.65" y="49.1927" size="2" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="21.65" y="68.2427" size="2" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="X2" library="con-wago_233" package="P-233-502" value="233-502" x="90" y="65" rot="R270">
 <attribute name="PARTNO" value="WAGO 233-502" x="90" y="65" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -6070,14 +6079,14 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="105.41" y="3.81" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="105.41" y="3.81" size="1.778" layer="27" display="off"/>
 </element>
-<element name="F1" library="fuse-littlefuse" package="01110005MR" value="0.63AT" x="36.8092" y="69.99">
+<element name="F1" library="fuse-littlefuse" package="01110005MR" value="2AT" x="36.8092" y="69.99">
 <attribute name="OC_FARNELL" value="1155771" x="36.8092" y="69.99" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL_ALTERNATIVE" value="01110005MR" x="36.8092" y="69.99" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="LITTELFUSE" x="36.8092" y="69.99" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="01110005MR" x="36.8092" y="69.99" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$2" library="xMZ-Mod-Touch-Bodenplatine" package="LOGO_RA-GAS-SMALL" value="" x="10.27" y="71.5"/>
-<element name="U$3" library="xMZ-Mod-Touch-Bodenplatine" package="TEXT_NAME_VERSION_AUTHOR-SMALL" value="" x="10.16" y="2.54"/>
+<element name="U$2" library="xMZ-Mod-Touch-Bodenplatine" package="LOGO_RA-GAS-SMALL" value="" x="57.26" y="58.8"/>
+<element name="U$3" library="xMZ-Mod-Touch-Bodenplatine" package="TEXT_NAME_VERSION_AUTHOR-SMALL" value="" x="57.15" y="53.34"/>
 <element name="F2" library="fuse-littlefuse" package="01110005MR" value="2AT" x="36.83" y="62.23">
 <attribute name="OC_FARNELL_ALTERNATIVE" value="01110005MR" x="36.83" y="62.23" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MPN" value="01110005MR" x="36.83" y="62.23" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -6089,6 +6098,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="TAIWAN SEMICONDUCTOR" x="53.34" y="69.85" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1625106" x="53.34" y="69.85" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
+<element name="U$4" library="xMZ-Mod-Touch-Bodenplatine" package="TEXT_FUSE-SMALL" value="" x="68.58" y="68.58"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -7187,4 +7197,10 @@ design rules under a new name.</description>
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

@@ -16447,7 +16447,7 @@ CatalogNumber: &lt;b&gt;0111 0005MR&lt;/b&gt;
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="F1" library="fuse-littlefuse" deviceset="01110005MR" device="" value="0.63AT">
+<part name="F1" library="fuse-littlefuse" deviceset="01110005MR" device="" value="2AT">
 <attribute name="MF" value="LITTELFUSE"/>
 <attribute name="MPN" value="01110005MR"/>
 </part>
@@ -18018,8 +18018,8 @@ des Banana Pro!</text>
 <wire x1="81.28" y1="170.18" x2="81.28" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="IN"/>
 <wire x1="76.2" y1="233.68" x2="81.28" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="233.68" x2="124.46" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="233.68" x2="137.16" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="233.68" x2="91.44" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="233.68" x2="137.16" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="233.68" x2="152.4" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="C4" gate="A" pin="1"/>
 <wire x1="152.4" y1="220.98" x2="152.4" y2="233.68" width="0.1524" layer="91"/>
@@ -18031,9 +18031,9 @@ des Banana Pro!</text>
 <wire x1="137.16" y1="228.6" x2="137.16" y2="233.68" width="0.1524" layer="91"/>
 <junction x="137.16" y="228.6"/>
 <junction x="137.16" y="233.68"/>
-<wire x1="124.46" y1="180.34" x2="81.28" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="180.34" x2="124.46" y2="233.68" width="0.1524" layer="91"/>
-<junction x="124.46" y="233.68"/>
+<wire x1="91.44" y1="180.34" x2="81.28" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="180.34" x2="91.44" y2="233.68" width="0.1524" layer="91"/>
+<junction x="91.44" y="233.68"/>
 <pinref part="F2" gate="G$1" pin="2A"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="81.28" y1="223.52" x2="81.28" y2="233.68" width="0.1524" layer="91"/>
