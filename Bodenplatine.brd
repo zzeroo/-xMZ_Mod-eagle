@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mic" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -110,6 +110,8 @@
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="160" name="BlindViaText" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="161" name="BlindViaDraw" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
@@ -246,6 +248,42 @@ A
 <text x="6.5" y="119.5" size="1.778" layer="21" font="vector" ratio="15">L</text>
 <text x="15.5" y="119.5" size="1.778" layer="21" font="vector" ratio="15">PE</text>
 <text x="11" y="119.5" size="1.778" layer="21" font="vector" ratio="15">N</text>
+<text x="33.65625" y="107.0390625" size="0.05" layer="160" font="vector" ratio="15" rot="R10">FillOverPAD:GND:2:420</text>
+<wire x1="33.5" y1="107" x2="33.65625" y2="107.0390625" width="0.025" layer="160"/>
+<text x="62.40625" y="107.0390625" size="0.05" layer="160" font="vector" ratio="15" rot="R10">FillOverPAD:GND:4:420</text>
+<wire x1="62.25" y1="107" x2="62.40625" y2="107.0390625" width="0.025" layer="160"/>
+<text x="91.15625" y="107.0390625" size="0.05" layer="160" font="vector" ratio="15" rot="R10">FillOverPAD:GND:6:420</text>
+<wire x1="91" y1="107" x2="91.15625" y2="107.0390625" width="0.025" layer="160"/>
+<text x="119.90625" y="107.0390625" size="0.05" layer="160" font="vector" ratio="15" rot="R10">FillOverPAD:GND:8:420</text>
+<wire x1="119.75" y1="107" x2="119.90625" y2="107.0390625" width="0.025" layer="160"/>
+<text x="148.65625" y="107.0390625" size="0.05" layer="160" font="vector" ratio="15" rot="R10">FillOverPAD:GND:10:420</text>
+<wire x1="148.5" y1="107" x2="148.65625" y2="107.0390625" width="0.025" layer="160"/>
+<text x="177.40625" y="107.0390625" size="0.05" layer="160" font="vector" ratio="15" rot="R10">FillOverPAD:GND:12:420</text>
+<wire x1="177.25" y1="107" x2="177.40625" y2="107.0390625" width="0.025" layer="160"/>
+<text x="206.15625" y="107.0390625" size="0.05" layer="160" font="vector" ratio="15" rot="R10">FillOverPAD:GND:14:420</text>
+<wire x1="206" y1="107" x2="206.15625" y2="107.0390625" width="0.025" layer="160"/>
+<text x="234.90625" y="107.0390625" size="0.05" layer="160" font="vector" ratio="15" rot="R10">FillOverPAD:GND:16:420</text>
+<wire x1="234.75" y1="107" x2="234.90625" y2="107.0390625" width="0.025" layer="160"/>
+<text x="263.65625" y="107.0390625" size="0.05" layer="160" font="vector" ratio="15" rot="R10">FillOverPAD:GND:18:420</text>
+<wire x1="263.5" y1="107" x2="263.65625" y2="107.0390625" width="0.025" layer="160"/>
+<text x="40.20625" y="106.1390625" size="0.05" layer="160" font="vector" ratio="15" rot="R10">FillOverPAD:GND:137:420</text>
+<wire x1="40.05" y1="106.1" x2="40.20625" y2="106.1390625" width="0.025" layer="160"/>
+<text x="68.95625" y="106.1390625" size="0.05" layer="160" font="vector" ratio="15" rot="R10">FillOverPAD:GND:140:420</text>
+<wire x1="68.8" y1="106.1" x2="68.95625" y2="106.1390625" width="0.025" layer="160"/>
+<text x="97.70625" y="106.1390625" size="0.05" layer="160" font="vector" ratio="15" rot="R10">FillOverPAD:GND:143:420</text>
+<wire x1="97.55" y1="106.1" x2="97.70625" y2="106.1390625" width="0.025" layer="160"/>
+<text x="126.45625" y="106.1390625" size="0.05" layer="160" font="vector" ratio="15" rot="R10">FillOverPAD:GND:146:420</text>
+<wire x1="126.3" y1="106.1" x2="126.45625" y2="106.1390625" width="0.025" layer="160"/>
+<text x="155.20625" y="106.1390625" size="0.05" layer="160" font="vector" ratio="15" rot="R10">FillOverPAD:GND:149:420</text>
+<wire x1="155.05" y1="106.1" x2="155.20625" y2="106.1390625" width="0.025" layer="160"/>
+<text x="183.95625" y="106.1390625" size="0.05" layer="160" font="vector" ratio="15" rot="R10">FillOverPAD:GND:152:420</text>
+<wire x1="183.8" y1="106.1" x2="183.95625" y2="106.1390625" width="0.025" layer="160"/>
+<text x="212.70625" y="106.1390625" size="0.05" layer="160" font="vector" ratio="15" rot="R10">FillOverPAD:GND:155:420</text>
+<wire x1="212.55" y1="106.1" x2="212.70625" y2="106.1390625" width="0.025" layer="160"/>
+<text x="241.45625" y="106.1390625" size="0.05" layer="160" font="vector" ratio="15" rot="R10">FillOverPAD:GND:158:420</text>
+<wire x1="241.3" y1="106.1" x2="241.45625" y2="106.1390625" width="0.025" layer="160"/>
+<text x="270.20625" y="106.1390625" size="0.05" layer="160" font="vector" ratio="15" rot="R10">FillOverPAD:GND:161:420</text>
+<wire x1="270.05" y1="106.1" x2="270.20625" y2="106.1390625" width="0.025" layer="160"/>
 </plain>
 <libraries>
 <library name="xMZ-Mod-Touch-Bodenplatine">
