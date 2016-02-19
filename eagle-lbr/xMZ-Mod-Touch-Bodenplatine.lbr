@@ -1277,8 +1277,8 @@ ERSETZEN!</text>
 <package name="TEXT_NAME_VERSION_AUTHOR">
 <text x="0" y="3.5" size="3.81" layer="21" font="vector" ratio="13">&gt;PROJEKTNAME</text>
 <text x="0" y="0" size="1.778" layer="21" font="vector">&gt;AUTHOR</text>
-<text x="42" y="3.5" size="1.778" layer="21" font="vector" ratio="9">v</text>
-<text x="43.5" y="3.5" size="1.778" layer="21" font="vector">&gt;VERSION</text>
+<text x="46.736" y="0" size="1.778" layer="21" font="vector" ratio="9">v</text>
+<text x="48.26" y="0" size="1.778" layer="21" font="vector">&gt;VERSION</text>
 </package>
 <package name="LOGO_RA-GAS">
 <rectangle x1="34.7091" y1="0.4191" x2="35.3187" y2="0.4953" layer="21"/>

@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -167,10 +167,10 @@
 <text x="109.17" y="31.96" size="1.778" layer="21" font="vector" ratio="15">Stützklemme Phase</text>
 <text x="159.43" y="32.46" size="1.778" layer="21" font="vector" ratio="15">Stützklemme 12 Volt</text>
 <text x="239.72" y="31.94" size="1.778" layer="21" font="vector" ratio="15">BUS</text>
-<text x="131.71" y="138.92" size="1.778" layer="21" font="vector" ratio="15">Verbindung zur Deckelplatine</text>
-<text x="55" y="139" size="1.778" layer="21" font="vector" ratio="15">12 Volt 
+<text x="131.71" y="144.018" size="1.778" layer="21" font="vector" ratio="15" align="top-left">Verbindung zur Deckelplatine</text>
+<text x="44.704" y="144.018" size="1.778" layer="21" font="vector" ratio="15" align="top-left">12 Volt 
 Spannungsversorgung BUS</text>
-<text x="10.3" y="138.5" size="1.778" layer="21" font="vector" ratio="15">Spannung zu 
+<text x="5.22" y="144.018" size="1.778" layer="21" font="vector" ratio="15" align="top-left">Spannung zu 
 12V Netzteil</text>
 <text x="32" y="120" size="1.778" layer="21" font="vector" ratio="15" rot="R180">0
 A
@@ -1124,8 +1124,8 @@ ERSETZEN!</text>
 <package name="TEXT_NAME_VERSION_AUTHOR">
 <text x="0" y="3.5" size="3.81" layer="21" font="vector" ratio="13">&gt;PROJEKTNAME</text>
 <text x="0" y="0" size="1.778" layer="21" font="vector">&gt;AUTHOR</text>
-<text x="42" y="3.5" size="1.778" layer="21" font="vector" ratio="9">v</text>
-<text x="43.5" y="3.5" size="1.778" layer="21" font="vector">&gt;VERSION</text>
+<text x="46.736" y="0" size="1.778" layer="21" font="vector" ratio="9">v</text>
+<text x="48.26" y="0" size="1.778" layer="21" font="vector">&gt;VERSION</text>
 </package>
 <package name="LOGO_RA-GAS">
 <rectangle x1="34.7091" y1="0.4191" x2="35.3187" y2="0.4953" layer="21"/>
@@ -4874,27 +4874,25 @@ MELF 0.10 W</description>
 <description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="3,3">
-<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.3 mm with drill center</description>
+<package name="3,3-PAD">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 3.3 mm, round</description>
 <wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
 <wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
 <circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
-<circle x="0" y="0" radius="3.048" width="2.54" layer="39"/>
-<circle x="0" y="0" radius="3.048" width="2.54" layer="40"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
-<circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
-<hole x="0" y="0" drill="3.3"/>
+<circle x="0" y="0" radius="3.683" width="1.27" layer="39"/>
+<circle x="0" y="0" radius="3.683" width="1.27" layer="40"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="43"/>
+<circle x="0" y="0" radius="1.7" width="0.2032" layer="21"/>
+<pad name="B3,3" x="0" y="0" drill="3.3" diameter="5.842"/>
 </package>
 </packages>
 </library>
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="Stefan Müller"/>
-<attribute name="PROJEKTNAME" value="Bodenplatine"/>
-<attribute name="VERSION" value="0.9.2"/>
+<attribute name="PROJEKTNAME" value="xMZ-Mod-Touch-Bodenplatine"/>
+<attribute name="VERSION" value="0.9.5"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -5087,7 +5085,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="49.75" y="75.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="49.75" y="75.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="44.75" y="84" size="1.778" layer="25" ratio="10"/>
-<attribute name="VALUE" x="58.64" y="69.15" size="1.778" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="45.72" y="66.548" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="K2" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="63.75" y="85" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="96B4867" x="63.75" y="85" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -5122,9 +5120,11 @@ design rules under a new name.</description>
 <attribute name="MF" value="MULTICOMP" x="73.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="MC01W08055270R" x="73.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="V2" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BAR43SOT233" x="68.75" y="117" rot="R90">
+<element name="V2" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BAR43SOT233" x="68.75" y="117" smashed="yes" rot="R90">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR" x="68.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="BAR43" x="68.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="68.105" y="119.845" size="1.27" layer="25"/>
+<attribute name="VALUE" x="71.925" y="115.095" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R10" library="rcl" package="R0603" value="10k" x="69.75" y="110">
 <attribute name="OC_FARNELL" value="1697388" x="69.75" y="110" size="1.778" layer="27" display="off"/>
@@ -5153,7 +5153,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="78.5" y="75.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="78.5" y="75.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="73.5" y="84" size="1.778" layer="25" ratio="10"/>
-<attribute name="VALUE" x="87.39" y="69.15" size="1.778" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="75.5" y="66.548" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="K3" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="92.5" y="85" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="96B4867" x="120.44" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -5173,9 +5173,11 @@ design rules under a new name.</description>
 <attribute name="MF" value="MULTICOMP" x="102.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="MC01W08055270R" x="102.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="V3" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BAR43SOT233" x="97.5" y="117" rot="R90">
+<element name="V3" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BAR43SOT233" x="97.5" y="117" smashed="yes" rot="R90">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR" x="97.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="BAR43" x="97.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="97.315" y="120.305" size="1.27" layer="25"/>
+<attribute name="VALUE" x="100.675" y="115.095" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R11" library="rcl" package="R0603" value="10k" x="98.5" y="110">
 <attribute name="OC_FARNELL" value="1697388" x="98.5" y="110" size="1.778" layer="27" display="off"/>
@@ -5204,7 +5206,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="107.25" y="75.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="107.25" y="75.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="102.25" y="84" size="1.778" layer="25" ratio="10"/>
-<attribute name="VALUE" x="116.14" y="69.15" size="1.778" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="103.44" y="66.548" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="K4" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="121.25" y="85" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="96B4867" x="164.43" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -5224,9 +5226,11 @@ design rules under a new name.</description>
 <attribute name="MF" value="MULTICOMP" x="131.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="MC01W08055270R" x="131.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="V4" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BAR43SOT233" x="126.25" y="117" rot="R90">
+<element name="V4" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BAR43SOT233" x="126.25" y="117" smashed="yes" rot="R90">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR" x="126.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="BAR43" x="126.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="125.255" y="119.495" size="1.27" layer="25"/>
+<attribute name="VALUE" x="129.425" y="115.095" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R12" library="rcl" package="R0603" value="10k" x="127.25" y="110">
 <attribute name="OC_FARNELL" value="1697388" x="127.25" y="110" size="1.778" layer="27" display="off"/>
@@ -5255,7 +5259,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="136" y="75.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="136" y="75.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="131" y="84" size="1.778" layer="25" ratio="10"/>
-<attribute name="VALUE" x="144.89" y="69.15" size="1.778" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="132.65" y="66.548" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="K5" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="150" y="85" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="96B4867" x="153.81" y="140.88" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -5275,9 +5279,11 @@ design rules under a new name.</description>
 <attribute name="MF" value="MULTICOMP" x="160" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="MC01W08055270R" x="160" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="V9" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BAR43SOT233" x="155" y="117" rot="R90">
+<element name="V9" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BAR43SOT233" x="155" y="117" smashed="yes" rot="R90">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR" x="155" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="BAR43" x="155" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="154.465" y="119.955" size="1.27" layer="25"/>
+<attribute name="VALUE" x="158.175" y="115.095" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R21" library="rcl" package="R0603" value="10k" x="156" y="110">
 <attribute name="OC_FARNELL" value="1697388" x="156" y="110" size="1.778" layer="27" display="off"/>
@@ -5306,7 +5312,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="164.25" y="75.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="164.25" y="75.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="159.75" y="84" size="1.778" layer="25" ratio="10"/>
-<attribute name="VALUE" x="173.14" y="69.15" size="1.778" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="160.59" y="66.548" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="K6" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="178.75" y="85" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="96B4867" x="233.36" y="112.94" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -5326,9 +5332,11 @@ design rules under a new name.</description>
 <attribute name="MF" value="MULTICOMP" x="188.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="MC01W08055270R" x="188.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="V10" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BAR43SOT233" x="183.75" y="117" rot="R90">
+<element name="V10" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BAR43SOT233" x="183.75" y="117" smashed="yes" rot="R90">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR" x="183.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="BAR43" x="183.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="182.405" y="119.145" size="1.27" layer="25"/>
+<attribute name="VALUE" x="186.925" y="115.095" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R22" library="rcl" package="R0603" value="10k" x="184.75" y="110">
 <attribute name="OC_FARNELL" value="1697388" x="184.75" y="110" size="1.778" layer="27" display="off"/>
@@ -5357,7 +5365,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="193.5" y="75.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="193.5" y="75.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="188.5" y="84" size="1.778" layer="25" ratio="10"/>
-<attribute name="VALUE" x="202.39" y="69.15" size="1.778" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="189.8" y="66.548" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="K7" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="207.5" y="85" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="96B4867" x="212.58" y="184.06" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -5377,9 +5385,11 @@ design rules under a new name.</description>
 <attribute name="MF" value="MULTICOMP" x="217.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="MC01W08055270R" x="217.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="V11" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BAR43SOT233" x="212.5" y="117" rot="R90">
+<element name="V11" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BAR43SOT233" x="212.5" y="117" smashed="yes" rot="R90">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR" x="212.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="BAR43" x="212.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="211.615" y="119.605" size="1.27" layer="25"/>
+<attribute name="VALUE" x="215.675" y="115.095" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R23" library="rcl" package="R0603" value="10k" x="213.5" y="110">
 <attribute name="OC_FARNELL" value="1697388" x="213.5" y="110" size="1.778" layer="27" display="off"/>
@@ -5408,7 +5418,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="222.25" y="75.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="222.25" y="75.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="217.25" y="84" size="1.778" layer="25" ratio="10"/>
-<attribute name="VALUE" x="231.14" y="69.15" size="1.778" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="219.01" y="66.548" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="K8" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="236.25" y="85" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="96B4867" x="208.31" y="182.79" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -5428,9 +5438,11 @@ design rules under a new name.</description>
 <attribute name="MF" value="MULTICOMP" x="246.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="MC01W08055270R" x="246.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="V12" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BAR43SOT233" x="241.25" y="117" rot="R90">
+<element name="V12" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BAR43SOT233" x="241.25" y="117" smashed="yes" rot="R90">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR" x="241.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="BAR43" x="241.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="239.555" y="120.065" size="1.27" layer="25"/>
+<attribute name="VALUE" x="244.425" y="115.095" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R24" library="rcl" package="R0603" value="10k" x="242.25" y="110">
 <attribute name="OC_FARNELL" value="1697388" x="242.25" y="110" size="1.778" layer="27" display="off"/>
@@ -5459,7 +5471,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="251" y="75.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="251" y="75.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="246" y="84" size="1.778" layer="25" ratio="10"/>
-<attribute name="VALUE" x="259.89" y="69.15" size="1.778" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="247.65" y="66.548" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="K9" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="265" y="85" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="96B4867" x="187.53" y="253.91" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -5479,9 +5491,11 @@ design rules under a new name.</description>
 <attribute name="MF" value="MULTICOMP" x="275" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="MC01W08055270R" x="275" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="V17" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BAR43SOT233" x="270" y="117" rot="R90">
+<element name="V17" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BAR43SOT233" x="270" y="117" smashed="yes" rot="R90">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR" x="270" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="BAR43" x="270" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="268.765" y="119.255" size="1.27" layer="25"/>
+<attribute name="VALUE" x="273.175" y="115.095" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R27" library="rcl" package="R0603" value="10k" x="271" y="110">
 <attribute name="OC_FARNELL" value="1697388" x="271" y="110" size="1.778" layer="27" display="off"/>
@@ -5510,7 +5524,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="21" y="75.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="21" y="75.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="16" y="84" size="1.778" layer="25" ratio="10"/>
-<attribute name="VALUE" x="29.89" y="69.15" size="1.778" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="17.08" y="66.548" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="K1" library="xMZ-Mod-Touch-Bodenplatine" package="RY-II" value="RY612012" x="35" y="85" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="96B4867" x="62.94" y="98.97" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -5530,9 +5544,11 @@ design rules under a new name.</description>
 <attribute name="MF" value="MULTICOMP" x="45" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="MC01W08055270R" x="45" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="V1" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BAR43SOT233" x="40" y="117" rot="R90">
+<element name="V1" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BAR43SOT233" x="40" y="117" smashed="yes" rot="R90">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR" x="40" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="BAR43" x="40" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="38.895" y="119.385" size="1.27" layer="25"/>
+<attribute name="VALUE" x="43.175" y="115.095" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R9" library="rcl" package="R0603" value="10k" x="41" y="110">
 <attribute name="OC_FARNELL" value="1697388" x="41" y="110" size="1.778" layer="27" display="off"/>
@@ -5582,75 +5598,95 @@ design rules under a new name.</description>
 <attribute name="MF" value="WAGO" x="12" y="129.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="236-403" x="12" y="129.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="X15" library="xMZ-Mod-Touch-Bodenplatine" package="P-236-402" value="236-402" x="53" y="128" rot="R90">
+<element name="X15" library="xMZ-Mod-Touch-Bodenplatine" package="P-236-402" value="236-402" x="53" y="128" smashed="yes" rot="R90">
 <attribute name="OC_FARNELL" value="1283526" x="53" y="128" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="WAGO" x="53" y="128" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="236-402" x="53" y="128" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="46.27" y="130.4073" size="2" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="62.19" y="123.9173" size="2" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="H4" library="holes" package="3,3" value="MOUNT-HOLE3.3" x="8.5" y="15">
+<element name="H4" library="holes" package="3,3-PAD" value="MOUNT-PAD-ROUND3.3" x="8.5" y="15">
 <attribute name="OC_FARNELL" value="unknown" x="8.5" y="15" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="8.5" y="15" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="8.5" y="15" size="1.778" layer="27" display="off"/>
 </element>
-<element name="H3" library="holes" package="3,3" value="MOUNT-HOLE3.3" x="281.5" y="15">
+<element name="H3" library="holes" package="3,3-PAD" value="MOUNT-PAD-ROUND3.3" x="281.5" y="15">
 <attribute name="OC_FARNELL" value="unknown" x="281.5" y="15" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="281.5" y="15" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="281.5" y="15" size="1.778" layer="27" display="off"/>
 </element>
-<element name="H2" library="holes" package="3,3" value="MOUNT-HOLE3.3" x="281.5" y="100">
+<element name="H2" library="holes" package="3,3-PAD" value="MOUNT-PAD-ROUND3.3" x="281.5" y="100">
 <attribute name="OC_FARNELL" value="unknown" x="281.5" y="100" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="281.5" y="100" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="281.5" y="100" size="1.778" layer="27" display="off"/>
 </element>
-<element name="H1" library="holes" package="3,3" value="MOUNT-HOLE3.3" x="8.5" y="100">
+<element name="H1" library="holes" package="3,3-PAD" value="MOUNT-PAD-ROUND3.3" x="8.5" y="100">
 <attribute name="OC_FARNELL" value="unknown" x="8.5" y="100" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="8.5" y="100" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="8.5" y="100" size="1.778" layer="27" display="off"/>
 </element>
-<element name="S1" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="35" y="117" rot="R90">
+<element name="S1" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="35" y="117" smashed="yes" rot="R90">
 <attribute name="OC_FARNELL" value="1818222" x="35" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH" x="35" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="A103SYCQ04" x="35" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="34.45" y="122.428" size="1.778" layer="25"/>
+<attribute name="VALUE" x="40.08" y="111.92" size="1.778" layer="27" rot="R90"/>
 </element>
-<element name="S2" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="63.75" y="117" rot="R90">
+<element name="S2" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="63.75" y="117" smashed="yes" rot="R90">
 <attribute name="OC_FARNELL" value="1818222" x="63.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH" x="63.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="A103SYCQ04" x="63.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="62.39" y="122.428" size="1.778" layer="25"/>
+<attribute name="VALUE" x="68.83" y="111.92" size="1.778" layer="27" rot="R90"/>
 </element>
-<element name="S3" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="92.5" y="117" rot="R90">
+<element name="S3" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="92.5" y="117" smashed="yes" rot="R90">
 <attribute name="OC_FARNELL" value="1818222" x="92.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH" x="92.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="A103SYCQ04" x="92.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="90.33" y="122.428" size="1.778" layer="25"/>
+<attribute name="VALUE" x="97.58" y="111.92" size="1.778" layer="27" rot="R90"/>
 </element>
-<element name="S4" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="121.25" y="117" rot="R90">
+<element name="S4" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="121.25" y="117" smashed="yes" rot="R90">
 <attribute name="OC_FARNELL" value="1818222" x="121.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH" x="121.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="A103SYCQ04" x="121.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="119.54" y="122.428" size="1.778" layer="25"/>
+<attribute name="VALUE" x="126.33" y="111.92" size="1.778" layer="27" rot="R90"/>
 </element>
-<element name="S5" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="150" y="117" rot="R90">
+<element name="S5" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="150" y="117" smashed="yes" rot="R90">
 <attribute name="OC_FARNELL" value="1818222" x="150" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH" x="150" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="A103SYCQ04" x="150" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="148.75" y="122.428" size="1.778" layer="25"/>
+<attribute name="VALUE" x="155.08" y="111.92" size="1.778" layer="27" rot="R90"/>
 </element>
-<element name="S6" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="178.75" y="117" rot="R90">
+<element name="S6" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="178.75" y="117" smashed="yes" rot="R90">
 <attribute name="OC_FARNELL" value="1818222" x="178.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH" x="178.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="A103SYCQ04" x="178.75" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="176.69" y="122.428" size="1.778" layer="25"/>
+<attribute name="VALUE" x="183.83" y="111.92" size="1.778" layer="27" rot="R90"/>
 </element>
-<element name="S7" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="207.5" y="117" rot="R90">
+<element name="S7" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="207.5" y="117" smashed="yes" rot="R90">
 <attribute name="OC_FARNELL" value="1818222" x="207.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH" x="207.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="A103SYCQ04" x="207.5" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="205.9" y="122.428" size="1.778" layer="25"/>
+<attribute name="VALUE" x="212.58" y="111.92" size="1.778" layer="27" rot="R90"/>
 </element>
-<element name="S8" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="236.25" y="117" rot="R90">
+<element name="S8" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="236.25" y="117" smashed="yes" rot="R90">
 <attribute name="OC_FARNELL" value="1818222" x="236.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH" x="236.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="A103SYCQ04" x="236.25" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="235.11" y="122.428" size="1.778" layer="25"/>
+<attribute name="VALUE" x="241.33" y="111.92" size="1.778" layer="27" rot="R90"/>
 </element>
-<element name="S9" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="265" y="117" rot="R90">
+<element name="S9" library="xMZ-Mod-Touch-Bodenplatine" package="TL3XPO" value="TL39PO" x="265" y="117" smashed="yes" rot="R90">
 <attribute name="OC_FARNELL" value="1818222" x="265" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="TE CONNECTIVITY / ALCOSWITCH" x="265" y="117" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="A103SYCQ04" x="265" y="117" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="263.05" y="122.428" size="1.778" layer="25"/>
+<attribute name="VALUE" x="270.08" y="111.92" size="1.778" layer="27" rot="R90"/>
 </element>
 <element name="Q1" library="xMZ-Mod-Touch-Bodenplatine" package="SOT23" value="BC846BLT1SMD" x="41" y="105" rot="R180">
 <attribute name="OC_FARNELL" value="2317836" x="41" y="105" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
@@ -5698,8 +5734,8 @@ design rules under a new name.</description>
 <attribute name="MPN" value="BC846BWT1G" x="271" y="105" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$1" library="xMZ-Mod-Touch-Bodenplatine" package="TEXT_FUSE" value="" x="84.5" y="15"/>
-<element name="U$2" library="xMZ-Mod-Touch-Bodenplatine" package="TEXT_NAME_VERSION_AUTHOR" value="" x="236.39" y="125.88"/>
-<element name="U$3" library="xMZ-Mod-Touch-Bodenplatine" package="LOGO_RA-GAS" value="" x="227.33" y="134.62"/>
+<element name="U$2" library="xMZ-Mod-Touch-Bodenplatine" package="TEXT_NAME_VERSION_AUTHOR" value="" x="191.94" y="125.88"/>
+<element name="U$3" library="xMZ-Mod-Touch-Bodenplatine" package="LOGO_RA-GAS" value="" x="191.77" y="134.62"/>
 <element name="U$4" library="xMZ-Mod-Touch-Bodenplatine" package="LOGO_RA-GAS_BOTTOM" value="" x="187.96" y="2.54"/>
 <element name="U$5" library="xMZ-Mod-Touch-Bodenplatine" package="LOGO_RA-GAS_BOTTOM" value="" x="227.33" y="2.54" rot="MR0"/>
 </elements>
@@ -5809,6 +5845,10 @@ design rules under a new name.</description>
 <vertex x="290" y="145"/>
 <vertex x="290" y="0"/>
 </polygon>
+<contactref element="H1" pad="B3,3"/>
+<contactref element="H2" pad="B3,3"/>
+<contactref element="H4" pad="B3,3"/>
+<contactref element="H3" pad="B3,3"/>
 </signal>
 <signal name="N$10">
 <contactref element="R10" pad="2"/>
@@ -6647,7 +6687,6 @@ design rules under a new name.</description>
 <wire x1="146.27" y1="138.65" x2="146.685" y2="139.065" width="2.54" layer="16"/>
 <wire x1="146.685" y1="139.065" x2="149.86" y2="142.24" width="2.54" layer="16"/>
 <wire x1="149.86" y1="142.24" x2="276.86" y2="142.24" width="2.54" layer="16"/>
-<wire x1="276.86" y1="142.24" x2="287.02" y2="132.08" width="2.54" layer="16"/>
 <wire x1="275.59" y1="31.75" x2="227.19" y2="31.75" width="2.54" layer="16"/>
 <wire x1="227.19" y1="31.75" x2="222.25" y2="26.81" width="2.54" layer="16"/>
 <wire x1="50.65" y1="125.9573" x2="50.65" y2="130.9573" width="2.54" layer="16"/>
@@ -6655,9 +6694,8 @@ design rules under a new name.</description>
 <wire x1="50.65" y1="131.93" x2="60.96" y2="142.24" width="2.54" layer="16"/>
 <wire x1="60.96" y1="142.24" x2="143.51" y2="142.24" width="2.54" layer="16"/>
 <wire x1="143.51" y1="142.24" x2="146.685" y2="139.065" width="2.54" layer="16"/>
-<wire x1="287.02" y1="132.08" x2="287.02" y2="93.98" width="2.54" layer="16"/>
-<wire x1="287.02" y1="93.98" x2="281.94" y2="88.9" width="2.54" layer="16"/>
-<wire x1="281.94" y1="88.9" x2="281.94" y2="38.1" width="2.54" layer="16"/>
+<wire x1="287.655" y1="131.445" x2="287.655" y2="90.805" width="2.54" layer="16"/>
+<wire x1="281.94" y1="85.09" x2="281.94" y2="38.1" width="2.54" layer="16"/>
 <wire x1="281.94" y1="38.1" x2="275.59" y2="31.75" width="2.54" layer="16"/>
 <contactref element="V18" pad="C"/>
 <contactref element="K9" pad="A1"/>
@@ -6728,6 +6766,8 @@ design rules under a new name.</description>
 <wire x1="50.65" y1="125.58" x2="49.53" y2="124.46" width="2.54" layer="1"/>
 <wire x1="31.19" y1="97.7" x2="31.19" y2="94.54" width="2.54" layer="1"/>
 <wire x1="31.19" y1="94.54" x2="33.02" y2="92.71" width="2.54" layer="1"/>
+<wire x1="287.655" y1="131.445" x2="276.86" y2="142.24" width="2.54" layer="16"/>
+<wire x1="287.655" y1="90.805" x2="281.94" y2="85.09" width="2.54" layer="16"/>
 </signal>
 <signal name="A-">
 <contactref element="JP1" pad="20"/>
@@ -6735,15 +6775,15 @@ design rules under a new name.</description>
 <contactref element="X13" pad="4'"/>
 <wire x1="237.5" y1="13" x2="242.5" y2="13" width="2.54" layer="16"/>
 <wire x1="156.43" y1="136.27" x2="269.73" y2="136.27" width="0.6096" layer="1"/>
-<wire x1="269.73" y1="136.27" x2="279.5" y2="126.5" width="0.6096" layer="1"/>
 <wire x1="279.5" y1="35" x2="257.5" y2="13" width="0.6096" layer="1"/>
 <wire x1="257.5" y1="13" x2="242.5" y2="13" width="0.6096" layer="1"/>
-<wire x1="279.5" y1="35" x2="279.5" y2="90.07" width="0.6096" layer="1"/>
-<wire x1="279.5" y1="90.07" x2="276.86" y2="92.71" width="0.6096" layer="1"/>
-<wire x1="276.86" y1="92.71" x2="276.86" y2="102.87" width="0.6096" layer="1"/>
-<wire x1="276.86" y1="102.87" x2="279.4" y2="105.41" width="0.6096" layer="1"/>
-<wire x1="279.4" y1="105.41" x2="279.4" y2="126.4" width="0.6096" layer="1"/>
-<wire x1="279.4" y1="126.4" x2="279.5" y2="126.5" width="0.6096" layer="1"/>
+<wire x1="279.5" y1="35" x2="279.5" y2="86.26" width="0.6096" layer="1"/>
+<wire x1="275.59" y1="90.17" x2="275.59" y2="102.87" width="0.6096" layer="1"/>
+<wire x1="279.4" y1="106.68" x2="279.4" y2="126.4" width="0.6096" layer="1"/>
+<wire x1="269.73" y1="136.27" x2="269.73" y2="136.07" width="0.6096" layer="1"/>
+<wire x1="269.73" y1="136.07" x2="279.4" y2="126.4" width="0.6096" layer="1"/>
+<wire x1="279.4" y1="106.68" x2="275.59" y2="102.87" width="0.6096" layer="1"/>
+<wire x1="275.59" y1="90.17" x2="279.5" y2="86.26" width="0.6096" layer="1"/>
 </signal>
 <signal name="5V">
 <contactref element="JP1" pad="9"/>
@@ -6780,11 +6820,11 @@ design rules under a new name.</description>
 <wire x1="278" y1="125" x2="269" y2="134" width="0.6096" layer="1"/>
 <wire x1="269" y1="134" x2="156.7" y2="134" width="0.6096" layer="1"/>
 <wire x1="156.7" y1="134" x2="156.43" y2="133.73" width="1.016" layer="1"/>
-<wire x1="278" y1="125" x2="278" y2="106.55" width="0.6096" layer="1"/>
-<wire x1="278" y1="106.55" x2="275.59" y2="104.14" width="0.6096" layer="1"/>
-<wire x1="275.59" y1="104.14" x2="275.59" y2="91.44" width="0.6096" layer="1"/>
-<wire x1="275.59" y1="91.44" x2="278.13" y2="88.9" width="0.6096" layer="1"/>
-<wire x1="278.13" y1="88.9" x2="278.13" y2="36.63" width="0.6096" layer="1"/>
+<wire x1="278" y1="125" x2="278" y2="107.82" width="0.6096" layer="1"/>
+<wire x1="274.32" y1="104.14" x2="274.32" y2="88.9" width="0.6096" layer="1"/>
+<wire x1="278.13" y1="85.09" x2="278.13" y2="36.63" width="0.6096" layer="1"/>
+<wire x1="278" y1="107.82" x2="274.32" y2="104.14" width="0.6096" layer="1"/>
+<wire x1="274.32" y1="88.9" x2="278.13" y2="85.09" width="0.6096" layer="1"/>
 </signal>
 <signal name="L">
 <contactref element="F10" pad="1"/>
@@ -6812,9 +6852,9 @@ design rules under a new name.</description>
 <wire x1="7.15" y1="132.4573" x2="7.15" y2="127.4573" width="2.54" layer="16"/>
 <wire x1="7.15" y1="127.4573" x2="7.15" y2="121.65" width="2.54" layer="16"/>
 <wire x1="8.08" y1="36.65" x2="20.46" y2="26.81" width="2.54" layer="16"/>
-<wire x1="8.08" y1="36.65" x2="8.08" y2="57.96" width="2.54" layer="16"/>
-<wire x1="8.08" y1="57.96" x2="2.54" y2="63.5" width="2.54" layer="16"/>
-<wire x1="2.54" y1="63.5" x2="2.54" y2="117.04" width="2.54" layer="16"/>
+<wire x1="8.08" y1="36.65" x2="8.08" y2="59.23" width="2.54" layer="16"/>
+<wire x1="8.08" y1="59.23" x2="2.54" y2="64.77" width="2.54" layer="16"/>
+<wire x1="2.54" y1="64.77" x2="2.54" y2="117.04" width="2.54" layer="16"/>
 <wire x1="2.54" y1="117.04" x2="7.15" y2="121.65" width="2.54" layer="16"/>
 </signal>
 <signal name="N$94">
