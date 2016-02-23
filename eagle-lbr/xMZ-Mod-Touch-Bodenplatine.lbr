@@ -7128,7 +7128,6 @@ ERSETZEN!</text>
 <wire x1="46.863" y1="-127" x2="46.863" y2="-106.68" width="0.1016" layer="48"/>
 <wire x1="46.863" y1="-106.68" x2="147.955" y2="-106.68" width="0.1016" layer="48"/>
 <wire x1="147.955" y1="-106.68" x2="189.23" y2="-106.68" width="0.1016" layer="48"/>
-<wire x1="179.07" y1="-127" x2="179.07" y2="-121.92" width="0.1016" layer="48"/>
 <wire x1="179.07" y1="-121.92" x2="189.23" y2="-121.92" width="0.1016" layer="48"/>
 <wire x1="179.07" y1="-121.92" x2="147.955" y2="-121.92" width="0.1016" layer="48"/>
 <wire x1="147.955" y1="-121.92" x2="147.955" y2="-127" width="0.1016" layer="48"/>
@@ -7139,8 +7138,6 @@ ERSETZEN!</text>
 <wire x1="147.955" y1="-111.76" x2="147.955" y2="-106.68" width="0.1016" layer="48"/>
 <text x="149.86" y="-115.57" size="2.54" layer="48">&gt;DRAWING_NAME</text>
 <text x="149.86" y="-120.65" size="2.286" layer="48">&gt;LAST_DATE_TIME</text>
-<text x="163.195" y="-125.73" size="2.54" layer="48">&gt;SHEET</text>
-<text x="149.606" y="-125.857" size="2.54" layer="48">Sheet:</text>
 <frame x1="-194.31" y1="-130.81" x2="193.04" y2="129.54" columns="8" rows="5" layer="48"/>
 <wire x1="-95.504" y1="-127" x2="-95.504" y2="-106.68" width="0.1016" layer="48"/>
 <wire x1="-95.504" y1="-106.68" x2="46.863" y2="-106.68" width="0.1016" layer="48"/>
@@ -8421,6 +8418,7 @@ Mail: info@gaswarnanlagen.com</text>
 <rectangle x1="108.2327" y1="-107.8605" x2="110.5949" y2="-107.7843" layer="48"/>
 <rectangle x1="108.5375" y1="-107.7843" x2="110.3663" y2="-107.7081" layer="48"/>
 <rectangle x1="108.9185" y1="-107.7081" x2="109.9091" y2="-107.6319" layer="48"/>
+<text x="149.86" y="-125.73" size="2.286" layer="48">&gt;DESCRIPTION</text>
 </package>
 </packages>
 <symbols>
