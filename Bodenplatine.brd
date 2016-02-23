@@ -6308,7 +6308,7 @@ MELF 0.10 W</description>
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="Stefan Müller"/>
-<attribute name="DESCRIPTION" value="PCB: BOTTOM Layer"/>
+<attribute name="DESCRIPTION" value=""/>
 <attribute name="PROJEKTNAME" value="xMZ-Mod-Touch-Bodenplatine"/>
 <attribute name="VERSION" value="0.9.5"/>
 </attributes>
