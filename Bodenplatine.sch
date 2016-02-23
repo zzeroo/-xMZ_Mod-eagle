@@ -7429,6 +7429,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+<clearance class="0" value="0.205"/>
 </class>
 </classes>
 <parts>
