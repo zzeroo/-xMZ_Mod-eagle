@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -24,14 +24,14 @@
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -52,13 +52,13 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -6319,35 +6319,72 @@ MELF 0.10 W</description>
 <clearance class="0" value="0.205"/>
 </class>
 </classes>
-<designrules name="SparkFun-2-layer">
-<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+<designrules name="Multi-CB_2L_125æm-Tracks_OL35æm">
+<description language="de">&lt;b&gt;Multi-CB EAGLE Design Rules für 2 Lagen Standard (ohne Aufpreis)&lt;/b&gt;
+&lt;br&gt;
+125µm Leiter, 0.2mm Drill, ca. 35µm End-Kupfer (18µm Startkupfer)
 &lt;p&gt;
-The default Design Rules have been set to cover
-a wide range of applications. Your particular design
-may have different requirements, so please make the
-necessary adjustments and save your customized
-design rules under a new name.</description>
+&lt;b&gt;Bitte beachten:&lt;/b&gt;
+&lt;ul type=&quot;square&quot;&gt;
+	&lt;li&gt;Vias kleiner/gleich 0.45mm werden mit Lötstopp abgedeckt. Eine Freistellung der Vias kann unter Masks/Limit gesetzt werden.&lt;/li&gt;
+	&lt;li&gt;Bitte nur Vektorschrift verwenden! Im Control-Panel unter Optionen/Benutzeroberfläche: Immer Vektor-Schrift.&lt;/li&gt;
+	&lt;li&gt;Langlöcher im Layer 46 werden als durchkontaktierte Schlitze (DK) gefertigt, falls von Kupfer umgeben. NDK-Langlöcher müssen im Layer 20 definiert sein (Preisvorteil).&lt;/li&gt;
+	&lt;li&gt;Dieses .dru-File ist für Boards mit Fräskontur. Geritzte Kontur erfordert Distance/Copper/Dimension: 0.5mm.&lt;/li&gt;
+	&lt;li&gt;Falls Lötstopp-Brücken im gleichen Netz erwünscht: Clearance/Same Signals anpassen (empfohlen: 8mil)&lt;/li&gt;
+	&lt;li&gt;Supply/ Generate thermals ist standardmäßig aktiviert; kann auch deaktiviert werden.&lt;/li&gt;
+	&lt;li&gt;Zum Reduzieren der Pad-Größe für SMD-Schablonen kann Masks/Cream angepasst werden.&lt;/li&gt;
+&lt;/ul&gt;
+Für kleinere Werte (Leiterbahn, Drill) verwenden Sie bitte ein Advanced .dru-File von Multi-CB.&lt;br&gt;
+Weitere Hinweise finden Sie unter &lt;b&gt;Design-Hilfe&lt;/b&gt; auf unserer Webseite &lt;a href=&quot;http://www.multi-circuit-boards.eu/leiterplatten-design-hilfe/einfuehrung.html&quot;&gt;www.multi-cb.de&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+Ihr Multi-CB Team
+&lt;br&gt;&lt;br&gt;
+&lt;em&gt;Alle Angaben ohne Gewähr! Eine perfekte Einstellung der Design-Rules kann verständlicherweise nur durch den Anwender erfolgen.&lt;/em&gt;
+&lt;/p&gt;</description>
+<description language="en">&lt;b&gt;Multi-CB EAGLE Design Rules for 2 layers standard (w/o surcharge)&lt;/b&gt;
+&lt;br&gt;
+125µm tracks, 0.2mm drills, ca. 35µm final copper (18µm start copper)
+&lt;p&gt;
+&lt;b&gt;Please note:&lt;/b&gt;
+&lt;ul type=&quot;square&quot;&gt;
+	&lt;li&gt;Vias less/equal 0.45mm will be covered with solder mask. An exemption of the vias can be placed under Masks / Limit.&lt;/li&gt;
+	&lt;li&gt;Please only use vector fonts! In Control Panel under Options / User Interface: Always vector font.&lt;/li&gt;
+	&lt;li&gt;Oblong holes in the layer 46 are manufactured as plated-through slots (PTH), if surrounded by copper. NPTH-slots must be defined in the layer 20 (price advantage).&lt;/li&gt;
+	&lt;li&gt;This .dru-File is for boards with milling contour. V-scoring contour requires Distance / Copper / Dimension: 0.5mm.&lt;/li&gt;
+	&lt;li&gt;If solder-stop bridges on the same network are desired: Adjust Clearance / Same signal (recommended 8mil)&lt;/li&gt;
+	&lt;li&gt;Supply / Generate thermals is enabled by default; can also be deactivated.&lt;/li&gt;
+	&lt;li&gt;To reduce the pad size for SMD-Stencils: Masks/Cream can be customized.&lt;/li&gt;
+&lt;/ul&gt;
+For smaller values (conductors, drill) please use an Advanced .dru file of Multi-CB.&lt;br&gt;
+For more information, see &lt;b&gt;Design-Aid&lt;/b&gt; on our website &lt;a href=&quot;http://www.multi-circuit-boards.eu/en/pcb-design-aid/introduction.html&quot;&gt;www.multi-cb.de&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+Your Multi-CB Team
+&lt;br&gt;&lt;br&gt;
+&lt;em&gt;All statements without guarantee! A perfect setting of design rules can understandably only be performed by the user.&lt;/em&gt;
+&lt;/p&gt;</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="8mil"/>
-<param name="mdWirePad" value="8mil"/>
-<param name="mdWireVia" value="8mil"/>
-<param name="mdPadPad" value="8mil"/>
-<param name="mdPadVia" value="8mil"/>
-<param name="mdViaVia" value="8mil"/>
-<param name="mdSmdPad" value="8mil"/>
-<param name="mdSmdVia" value="8mil"/>
-<param name="mdSmdSmd" value="8mil"/>
-<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mtCopper" value="0.018mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.018mm"/>
+<param name="mtIsolate" value="1.55mm 0.71mm 0.36mm 0.2mm 0.2mm 0.2mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="0.125mm"/>
+<param name="mdWirePad" value="0.125mm"/>
+<param name="mdWireVia" value="0.125mm"/>
+<param name="mdPadPad" value="0.125mm"/>
+<param name="mdPadVia" value="0.125mm"/>
+<param name="mdViaVia" value="0.125mm"/>
+<param name="mdSmdPad" value="0mil"/>
+<param name="mdSmdVia" value="0mil"/>
+<param name="mdSmdSmd" value="0mil"/>
+<param name="mdViaViaSameLayer" value="0.2mm"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="8mil"/>
-<param name="mdDrill" value="8mil"/>
+<param name="mdCopperDimension" value="0.2mm"/>
+<param name="mdDrill" value="0.2mm"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="7mil"/>
-<param name="msDrill" value="15mil"/>
-<param name="msMicroVia" value="9.99mm"/>
-<param name="msBlindViaRatio" value="0.5"/>
+<param name="msWidth" value="0.125mm"/>
+<param name="msDrill" value="0.2mm"/>
+<param name="msMicroVia" value="0.2mm"/>
+<param name="msBlindViaRatio" value="1"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
 <param name="rvPadBottom" value="0.25"/>
@@ -6355,20 +6392,20 @@ design rules under a new name.</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="12mil"/>
-<param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="10mil"/>
-<param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="12mil"/>
-<param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="10mil"/>
-<param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="10mil"/>
-<param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="4mil"/>
-<param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="4mil"/>
-<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="rlMinPadTop" value="0.125mm"/>
+<param name="rlMaxPadTop" value="0.75mm"/>
+<param name="rlMinPadInner" value="0.125mm"/>
+<param name="rlMaxPadInner" value="0.75mm"/>
+<param name="rlMinPadBottom" value="0.125mm"/>
+<param name="rlMaxPadBottom" value="0.75mm"/>
+<param name="rlMinViaOuter" value="0.125mm"/>
+<param name="rlMaxViaOuter" value="0.75mm"/>
+<param name="rlMinViaInner" value="0.125mm"/>
+<param name="rlMaxViaInner" value="0.75mm"/>
+<param name="rlMinMicroViaOuter" value="0.125mm"/>
+<param name="rlMaxMicroViaOuter" value="0.75mm"/>
+<param name="rlMinMicroViaInner" value="0.125mm"/>
+<param name="rlMaxMicroViaInner" value="0.75mm"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
 <param name="psFirst" value="-1"/>
@@ -6376,20 +6413,20 @@ design rules under a new name.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="2mil"/>
+<param name="mlMaxStopFrame" value="2mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="20mil"/>
+<param name="mlViaStopLimit" value="0.45mm"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
-<param name="slThermalIsolate" value="10mil"/>
-<param name="slThermalsForVias" value="0"/>
+<param name="slThermalIsolate" value="0.2mm"/>
+<param name="slThermalsForVias" value="1"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkGrid" value="0"/>
-<param name="checkAngle" value="1"/>
+<param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="useDiameter" value="13"/>
@@ -11526,6 +11563,132 @@ design rules under a new name.</description>
 <approved hash="8,1,0ecc40cf0fef6259"/>
 <approved hash="8,1,d29ad19bc0275eca"/>
 <approved hash="8,16,55bda05329f0e362"/>
+<approved hash="18,29,026a568a21697589"/>
+<approved hash="18,29,a2d1f7f18b72de52"/>
+<approved hash="18,29,91e266649f2568a3"/>
+<approved hash="18,29,e6326e2495851d93"/>
+<approved hash="18,29,fe22684c9f2d0943"/>
+<approved hash="18,29,fed269d881291623"/>
+<approved hash="18,29,e4b25318aba91c03"/>
+<approved hash="18,29,e9114445b8b515e1"/>
+<approved hash="18,29,31defc0e0c4ec19e"/>
+<approved hash="18,29,e5976bf796571837"/>
+<approved hash="18,29,1452b9ea5baaf612"/>
+<approved hash="18,29,228caf686338eedc"/>
+<approved hash="18,29,103eeb1413a5e88f"/>
+<approved hash="18,29,69def254092592af"/>
+<approved hash="18,29,60aeeac01321994f"/>
+<approved hash="18,29,56ab777f8b0eaada"/>
+<approved hash="18,29,02374353bc82fde6"/>
+<approved hash="18,29,646955d1ac109da8"/>
+<approved hash="18,29,3c2ced421a25cb4b"/>
+<approved hash="18,29,53ece36a1a2daaab"/>
+<approved hash="18,29,243ceb2a108ddf9b"/>
+<approved hash="18,29,26bcd6162ea1de0b"/>
+<approved hash="18,29,3cdcecd60421d42b"/>
+<approved hash="18,29,dae99439647a2aaa"/>
+<approved hash="18,29,ff65d1dd339e1d26"/>
+<approved hash="18,29,02262c72d081fed5"/>
+<approved hash="18,29,c9bbc75f0b0c05e8"/>
+<approved hash="18,29,0ea003c0fe63f303"/>
+<approved hash="18,29,7813e47d13218f4f"/>
+<approved hash="18,29,78e3e5e90d25902f"/>
+<approved hash="18,29,6003e21519899b9f"/>
+<approved hash="18,29,17d3ea551329eeaf"/>
+<approved hash="18,29,6283df2927a59a0f"/>
+<approved hash="18,29,45f53225c266b5b6"/>
+<approved hash="18,29,91bca5dc587f6c1f"/>
+<approved hash="18,29,56a76143ad109af4"/>
+<approved hash="18,29,607977c19582823a"/>
+<approved hash="18,29,9d3a8a6e769d61c9"/>
+<approved hash="18,29,362e9b406c21c14f"/>
+<approved hash="18,29,2cbea01458a5d40f"/>
+<approved hash="18,29,2e3e9d286689d59f"/>
+<approved hash="18,29,59ee95686c29a0af"/>
+<approved hash="18,29,36de9ad47225de2f"/>
+<approved hash="18,29,f6b0599c5111fe3d"/>
+<approved hash="18,29,370c5918906dfe79"/>
+<approved hash="18,29,18945738afa5e009"/>
+<approved hash="18,29,0fd04054bb81f405"/>
+<approved hash="18,29,3c4e6a1a96ebc0bf"/>
+<approved hash="18,29,e481d251221014c0"/>
+<approved hash="18,29,30c845a8b809cd69"/>
+<approved hash="18,29,c10d97b575f4234c"/>
+<approved hash="18,29,f7d381374d663b82"/>
+<approved hash="18,29,01f9945b6a1effbc"/>
+<approved hash="18,29,de778b0d7500207a"/>
+<approved hash="18,29,13b3a6614a24fff6"/>
+<approved hash="18,29,7ac5cf3f234296b8"/>
+<approved hash="18,29,ecbe5f14a7a4140e"/>
+<approved hash="18,29,f6de65d48d241e2e"/>
+<approved hash="18,29,99ee6a68932860ae"/>
+<approved hash="18,29,ee3e62289988159e"/>
+<approved hash="18,29,f62e64409320014e"/>
+<approved hash="18,29,d80071b893f93a41"/>
+<approved hash="18,29,25438c1770e6d9b2"/>
+<approved hash="18,29,fd8c345cc41d0dcd"/>
+<approved hash="18,29,29c5a3a55e04d464"/>
+<approved hash="18,29,eede673aab6b228f"/>
+<approved hash="18,29,00ed97416fddf871"/>
+<approved hash="18,29,2f7599615015e601"/>
+<approved hash="18,29,17a9802d7bf9ec7d"/>
+<approved hash="18,29,eec999e59169e645"/>
+<approved hash="18,29,12be62149aa5ea0f"/>
+<approved hash="18,29,103e5f28a489eb9f"/>
+<approved hash="18,29,082e5940ae21ff4f"/>
+<approved hash="18,29,67ee5768ae299eaf"/>
+<approved hash="18,29,08de58d4b025e02f"/>
+<approved hash="18,29,7ce5f1470f0282a0"/>
+<approved hash="18,29,a36bee11101c5d66"/>
+<approved hash="18,29,6eafc37d2f3882ea"/>
+<approved hash="18,29,07d9aa23465eeba4"/>
+<approved hash="18,29,1a98d4482408ead8"/>
+<approved hash="18,29,3f1491ac73ecdd54"/>
+<approved hash="18,29,c2576c0390f33ea7"/>
+<approved hash="18,29,09ca872e4b7ec59a"/>
+<approved hash="18,29,ced143b1be113371"/>
+<approved hash="18,29,0cdc99d67125e42f"/>
+<approved hash="18,29,63ec966a6f299aaf"/>
+<approved hash="18,29,16bca3165ba5ee0f"/>
+<approved hash="18,29,143c9e2a6589ef9f"/>
+<approved hash="18,29,0c2c98426f21fb4f"/>
+<approved hash="18,29,f96bd63f2ac00594"/>
+<approved hash="18,29,04282b90c9dfe667"/>
+<approved hash="18,29,f5edf98d04220842"/>
+<approved hash="18,29,21a46e749e3bd1eb"/>
+<approved hash="18,29,32f63d12f14dfea9"/>
+<approved hash="18,29,163fc5293eb5eda3"/>
+<approved hash="18,29,0e2fc341341df973"/>
+<approved hash="18,29,14bff8150099ec33"/>
+<approved hash="18,29,0edfc2d52a19e613"/>
+<approved hash="18,29,61efcd6934159893"/>
+<approved hash="18,29,5be55d01915697b2"/>
+<approved hash="18,29,9078b62c4adb6c8f"/>
+<approved hash="18,29,48b70e67fe20b8f0"/>
+<approved hash="18,29,9cfe999e64396159"/>
+<approved hash="18,29,6d3b4b83a9c48f7c"/>
+<approved hash="18,29,2fee9fe86429d42f"/>
+<approved hash="18,29,26be91286989de1f"/>
+<approved hash="18,29,20ae96c06f21d94f"/>
+<approved hash="18,29,29de8e547525d2af"/>
+<approved hash="18,29,503e97146fa5a88f"/>
+<approved hash="18,29,439c0dccf00dbe5d"/>
+<approved hash="18,29,32107fa88669cbd1"/>
+<approved hash="18,29,00d25d06a177fca3"/>
+<approved hash="18,29,544e692a96fbab9f"/>
+<approved hash="18,29,ee54a3b4581515f5"/>
+<approved hash="18,29,79ec866a7f2d80ab"/>
+<approved hash="18,29,162c88427f25e14b"/>
+<approved hash="18,29,16dc89d66121fe2b"/>
+<approved hash="18,29,0cbcb3164ba1f40b"/>
+<approved hash="18,29,0e3c8e2a758df59b"/>
+<approved hash="18,29,7b11fef532a5b741"/>
+<approved hash="18,29,6843ad935dd39803"/>
+<approved hash="18,29,bc0a3a6ac7ca41aa"/>
+<approved hash="18,29,4dcfe8770a37af8f"/>
+<approved hash="18,29,b08c15d8e9284c7c"/>
+<approved hash="18,29,293b61db163a5eda"/>
+<approved hash="18,29,8980c0a0bc21f501"/>
 </errors>
 </board>
 </drawing>
